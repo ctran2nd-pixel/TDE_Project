@@ -1,0 +1,32 @@
+# Python and Jupyter caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.venv/
+
+# Editor and operating-system metadata
+.DS_Store
+.vscode/
+.idea/
+
+# MESA executable and compiler products
+tutorial/star
+tutorial/make/*
+!tutorial/make/makefile
+tutorial/restart_photo
+
+# MESA runtime data
+tutorial/LOGS/
+tutorial/photos/
+tutorial/.mesa_temp_cache/
+tutorial/*.profile
+tutorial/MAMS*.mesa
+tutorial/partial_table_*.out
+tutorial/partial_table_*.err
+
+# Legacy single-directory scheduler launcher
+tutorial/mesarun.sh
+
+# Isolated pipeline outputs
+results/

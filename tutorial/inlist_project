@@ -1,0 +1,82 @@
+&star_job
+
+   create_pre_main_sequence_model = .true.
+
+   ! Specify the nuclear network
+   change_initial_net = .true.
+   new_net_name = 'mesa_49.net'
+
+   ! Output
+
+   write_profile_when_terminate = .TRUE.
+   filename_for_profile_when_terminate = 'MAMS.profile'
+
+   save_pulse_data_when_terminate = .TRUE.
+   save_pulse_data_filename = 'MAMS5p1Msun.mesa'
+
+/
+
+&controls
+
+   ! Starting parameters
+
+   initial_mass = 5.1
+   initial_y = 0.2703  ! Helium mass fraction
+   initial_z = 0.0142  ! Metal mass fraction, hydrogen = 1 - metal - helium
+
+
+   ! Convection
+
+   mixing_length_alpha = 2.0
+   MLT_option = 'Cox'
+
+   overshoot_f(:) = 0.0001
+   overshoot_f0(:) = 0.0005
+
+   ! Brunt-Vaisala smoothing
+
+   num_cells_for_smooth_brunt_B = 0
+
+   ! Control the time steps and output
+   min_timestep_limit = 1.0d-20  ! minimum timestep limit
+   ! varcontrol_target = 1d-3
+   mesh_delta_coeff = 1.0
+   ! dX_nuc_drop_min_X_limit = 1d-3
+
+   ! Output to files and terminal
+
+   ! photostep = 0
+   profile_interval = 0
+   history_interval = 0
+   terminal_interval = 10
+   write_header_frequency = 10
+
+   pulse_data_format = 'GYRE'
+   add_center_point_to_pulse_data = .TRUE.
+   add_double_points_to_pulse_data = .TRUE.
+   threshold_grad_mu_for_double_point = 10.
+
+   ! When to stop
+
+   xa_central_lower_limit_species(1) = 'h1'
+   xa_central_lower_limit(1) = 0.35
+
+/
+
+&eos
+  ! eos options
+  ! see eos/defaults/eos.defaults
+
+/ ! end of eos namelist
+
+
+&kap
+  ! kap options
+  ! see kap/defaults/kap.defaults
+  use_Zbase_for_Type1 = .true.
+  Zbase = 0.0142
+
+/ ! end of kap namelist
+
+&pgstar
+/
