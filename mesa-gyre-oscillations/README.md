@@ -1,0 +1,163 @@
+# MESA to GYRE stellar oscillations
+
+This repository turns a MESA pulsation model into a reproducible adiabatic
+GYRE calculation. It creates the GYRE input file, runs the solver, records the
+settings, and exports a plain-text mode table alongside the native HDF5
+summary and eigenfunction files.
+
+The default calculation matches the quadrupolar modes used in the TDE
+project:
+
+- harmonic degree: `l = 2`;
+- radial-order search: `n_pg = -20 ... 20`;
+- frequency scan: dimensionless angular frequency `0.1 ... 20`;
+- reported frequency column: cycles per day;
+- inverse-frequency grid with 2000 scan points;
+- adiabatic, nonrotating oscillations with a vacuum outer boundary.
+
+All of these choices are command-line options. A different star may require a
+different frequency range or grid.
+
+## 1. Prepare the stellar model
+
+The input must be a **MESA GYRE-format pulse file**, often given a `.mesa`
+extension. A normal MESA `profile*.data` file does not contain the same
+columns and cannot be substituted directly.
+
+To export the required file when a MESA run terminates, add the settings in
+[`examples/mesa_export_snippet.inlist`](examples/mesa_export_snippet.inlist)
+to the corresponding `&star_job` and `&controls` groups of the MESA inlist.
+The important setting is
+
+```fortran
+pulse_data_format = 'GYRE'
+```
+
+The collaborator can put the resulting file in `models/` or pass a path to a
+file stored elsewhere. Stellar models and generated results are ignored by
+Git by default.
+
+## 2. Install GYRE and the Python packages
+
+Install and compile GYRE by following the
+[official GYRE quick start](https://gyre.readthedocs.io/en/stable/user-guide/quick-start.html),
+then expose the installation directory:
+
+```bash
+export GYRE_DIR=/path/to/gyre
+```
+
+Create a small Python environment for the wrapper and notebook:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+The pipeline searches for the executable in this order:
+
+1. `--gyre-executable /explicit/path/to/gyre`;
+2. `$GYRE_DIR/bin/gyre`;
+3. `gyre` on `$PATH`.
+
+## 3. Run the calculation
+
+From the repository root:
+
+```bash
+python scripts/run_gyre/pipeline/run_gyre.py models/my_star.mesa \
+  --output-dir results/run_gyre/my_star
+```
+
+To inspect the generated configuration before launching GYRE:
+
+```bash
+python scripts/run_gyre/pipeline/run_gyre.py models/my_star.mesa \
+  --output-dir results/run_gyre/my_star \
+  --dry-run
+```
+
+Use `--help` to see every numerical option. For example, this scans several
+harmonic degrees in microhertz:
+
+```bash
+python scripts/run_gyre/pipeline/run_gyre.py models/my_star.mesa \
+  --l 0 1 2 \
+  --freq-min 10 --freq-max 5000 \
+  --freq-units UHZ --grid-type LINEAR \
+  --n-freq 4000 \
+  --output-dir results/run_gyre/my_star_multi_l
+```
+
+The pipeline refuses to replace an existing output directory unless
+`--overwrite` is supplied.
+
+Equivalent shortcuts are available through the `Makefile`:
+
+```bash
+make dry-run MODEL=models/my_star.mesa
+make run MODEL=models/my_star.mesa
+```
+
+## Outputs
+
+Each run directory contains:
+
+```text
+input_model.mesa       copied input model
+gyre.in                complete generated GYRE namelist
+gyre.log               solver output
+summary.h5             one row per mode
+detail.l*.n*.h5        radial eigenfunctions for individual modes
+modes.csv              easy-to-read mode catalogue
+run_metadata.json      paths, settings, checksum, and run status
+```
+
+The HDF5 outputs follow GYRE's
+[documented output format](https://gyre.readthedocs.io/en/stable/ref-guide/output-files/file-formats.html).
+The model is copied into the run directory so that `gyre.in` remains portable
+and the calculation can be reproduced later.
+
+## Notebook walkthrough
+
+Open the companion notebook from the repository root:
+
+```bash
+jupyter lab scripts/run_gyre/notebook/run_gyre.ipynb
+```
+
+The notebook validates a model, displays the generated namelist, optionally
+runs GYRE, loads the mode catalogue, and plots the radial and horizontal
+eigenfunctions of a selected mode. Its `RUN_GYRE` switch is `False` by
+default, so opening the notebook does not launch a calculation unexpectedly.
+
+## Repository layout
+
+```text
+examples/mesa_export_snippet.inlist
+models/                              collaborator inputs (ignored)
+results/run_gyre/                    generated runs (ignored)
+scripts/run_gyre/
+  pipeline/                          reusable Python implementation
+  notebook/run_gyre.ipynb            guided interactive workflow
+```
+
+## Common issues
+
+- **The model is rejected:** confirm that MESA wrote pulse data with
+  `pulse_data_format = 'GYRE'`; renaming a standard profile does not convert
+  it.
+- **No modes are found:** widen the frequency interval, increase `--n-freq`,
+  or change between `LINEAR` and `INVERSE` scanning.
+- **A run uses too many cores:** pass `--threads 1` (the default) or another
+  explicit OpenMP thread count.
+- **The frequency range is unclear:** inspect the star's dynamical frequency
+  and use a broad preliminary scan before increasing the grid resolution.
+- **Rotation or nonadiabatic physics is required:** the current wrapper is an
+  adiabatic, nonrotating baseline. Extend the generated `&rot` or
+  `&nad_output` configuration only after choosing the intended physics.
+
+This workflow is tested locally with GYRE 7.2.1 and Python 3.9. The generated
+namelist uses long-standing GYRE options and is intended to remain readable
+without the Python wrapper.

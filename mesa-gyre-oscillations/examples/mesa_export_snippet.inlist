@@ -1,0 +1,13 @@
+! Add these controls to the corresponding groups in a MESA inlist.
+! They write a GYRE-format pulse file when the MESA run terminates.
+
+&star_job
+   save_pulse_data_when_terminate = .true.
+   save_pulse_data_filename = 'my_star.mesa'
+/
+
+&controls
+   pulse_data_format = 'GYRE'
+   add_center_point_to_pulse_data = .true.
+   add_double_points_to_pulse_data = .true.
+/
