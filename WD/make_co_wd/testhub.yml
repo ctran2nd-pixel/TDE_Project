@@ -1,0 +1,5 @@
+    - inlist: inlist_zams_header
+    - inlist: inlist_zams_header
+    - inlist: inlist_to_end_he_core_burn_header
+    - inlist: inlist_co_core_header
+    - inlist: inlist_remove_env_header
