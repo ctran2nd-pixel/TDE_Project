@@ -9,7 +9,8 @@
       set_initial_age = .false.
       set_initial_model_number = .false.
 
-      ! pgstar_flag = .true.
+      ! Keep the fast case headless. Diagnostics remain available in LOGS.
+      pgstar_flag = .false.
 
       num_special_rate_factors = 2
       reaction_for_special_factor(1) = 'r_c12_ag_o16'
