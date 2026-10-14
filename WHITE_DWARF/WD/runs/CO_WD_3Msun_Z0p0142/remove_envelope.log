@@ -1,0 +1,8 @@
+MESA STAGE 4: Remove envelope
+===========================================================================
+Mass = 3 Msun
+Initial Z = 0.0142
+Header = inlist_remove_env_header
+Expected output = co_wd.mod
+===========================================================================
+

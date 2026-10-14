@@ -1,0 +1,11 @@
+      runtime_minutes:   0.01
+      model_number:         1346
+      star_age:     4.4675691404206502E+08
+      num_retries:            0
+      log_rel_run_E_err:        -9.8779151267018186
+      steps:            1
+      retries:            0
+      redos:            0
+      solver_calls_made:            1
+      solver_calls_failed:            0
+      solver_iterations:            4
