@@ -1,0 +1,2693 @@
+{
+  "bridge": {
+    "created_utc": "2026-10-11T16:01:32.944690+00:00",
+    "name": "tde_bridge",
+    "version": "1.0"
+  },
+  "schema_version": 1,
+  "scientific_scope": {
+    "does_not_use_display_frequency": true,
+    "uses_summary_field": "omega",
+    "warning": "This file-contract validation does not validate applying the collaborator's mass-only M-gamma calibration to this stellar structure."
+  },
+  "selection": {
+    "available_l2_mode_count": 176,
+    "detail_grid_size": 4648,
+    "harmonic_degree": 2,
+    "n_pg_max": null,
+    "n_pg_min": null,
+    "requires_f_mode_n_pg": 0,
+    "selected_mode_count": 176,
+    "selected_n_pg": [
+      -157,
+      -156,
+      -155,
+      -154,
+      -153,
+      -152,
+      -151,
+      -150,
+      -149,
+      -148,
+      -147,
+      -146,
+      -145,
+      -144,
+      -143,
+      -142,
+      -141,
+      -140,
+      -139,
+      -138,
+      -137,
+      -136,
+      -135,
+      -134,
+      -133,
+      -132,
+      -131,
+      -130,
+      -129,
+      -128,
+      -127,
+      -126,
+      -125,
+      -124,
+      -123,
+      -122,
+      -121,
+      -120,
+      -119,
+      -118,
+      -117,
+      -116,
+      -115,
+      -114,
+      -113,
+      -112,
+      -111,
+      -110,
+      -109,
+      -108,
+      -107,
+      -106,
+      -105,
+      -104,
+      -103,
+      -102,
+      -101,
+      -100,
+      -99,
+      -98,
+      -97,
+      -96,
+      -95,
+      -94,
+      -93,
+      -92,
+      -91,
+      -90,
+      -89,
+      -88,
+      -87,
+      -86,
+      -85,
+      -84,
+      -83,
+      -82,
+      -81,
+      -80,
+      -79,
+      -78,
+      -77,
+      -76,
+      -75,
+      -74,
+      -73,
+      -72,
+      -71,
+      -70,
+      -69,
+      -68,
+      -67,
+      -66,
+      -65,
+      -64,
+      -63,
+      -62,
+      -61,
+      -60,
+      -59,
+      -58,
+      -57,
+      -56,
+      -55,
+      -54,
+      -53,
+      -52,
+      -51,
+      -50,
+      -49,
+      -48,
+      -47,
+      -46,
+      -45,
+      -44,
+      -43,
+      -42,
+      -41,
+      -40,
+      -39,
+      -38,
+      -37,
+      -36,
+      -35,
+      -34,
+      -33,
+      -32,
+      -31,
+      -30,
+      -29,
+      -28,
+      -27,
+      -26,
+      -25,
+      -24,
+      -23,
+      -22,
+      -21,
+      -20,
+      -19,
+      -18,
+      -17,
+      -16,
+      -15,
+      -14,
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "summary_mode_count": 309
+  },
+  "software": {
+    "h5py": "3.16.0",
+    "numpy": "2.5.2",
+    "python": "3.13.9"
+  },
+  "source": {
+    "directory": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial",
+    "run_provenance": {
+      "gyre_input": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/gyre.in",
+      "gyre_input_sha256": "0f479326d9da472ae828912d57d01f1e8da58702dbc4bd264f9678e871489069",
+      "gyre_version": "9.1.1",
+      "run_metadata": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/run_metadata.json",
+      "run_metadata_parseable": true,
+      "run_metadata_sha256": "81a66b0587dc0e93a987672f8ad2943920badc2e0f5c115206ae43446a5365a1"
+    },
+    "summary": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/summary.h5",
+    "summary_sha256": "73b0ce43af4739a71ebb71b8c9a06c575477a2f1d48ad36a5ad8ca452e31b177"
+  },
+  "staged": {
+    "detail_mappings": [
+      {
+        "mode_id": "134",
+        "n_pg": -157,
+        "omega": {
+          "imag": 0.0,
+          "real": 262.01272526205656
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-157.h5",
+        "source_sha256": "d8589bccc9e95941b8f74701acad074e58196f8270b10cb256c18d9685e9facb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-157.h5",
+        "staged_sha256": "d8589bccc9e95941b8f74701acad074e58196f8270b10cb256c18d9685e9facb",
+        "summary_index": 133
+      },
+      {
+        "mode_id": "135",
+        "n_pg": -156,
+        "omega": {
+          "imag": 0.0,
+          "real": 262.52582175903495
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-156.h5",
+        "source_sha256": "c09c1ec93b7e70a7ac35ea1fd4b212632c2afce1803575f4ef154df4c7a94d6e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-156.h5",
+        "staged_sha256": "c09c1ec93b7e70a7ac35ea1fd4b212632c2afce1803575f4ef154df4c7a94d6e",
+        "summary_index": 134
+      },
+      {
+        "mode_id": "136",
+        "n_pg": -155,
+        "omega": {
+          "imag": 0.0,
+          "real": 262.82780852759515
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-155.h5",
+        "source_sha256": "5a03faa1ba971bb2bd0947edea02bc1f31bc5a411e3bf1d0b9ba4ecd6e10848d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-155.h5",
+        "staged_sha256": "5a03faa1ba971bb2bd0947edea02bc1f31bc5a411e3bf1d0b9ba4ecd6e10848d",
+        "summary_index": 135
+      },
+      {
+        "mode_id": "137",
+        "n_pg": -154,
+        "omega": {
+          "imag": 0.0,
+          "real": 263.5851606523525
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-154.h5",
+        "source_sha256": "bd20e7dd06dce96ebe57c5bb013425c4c7444a7620f0585d275504f37d08b640",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-154.h5",
+        "staged_sha256": "bd20e7dd06dce96ebe57c5bb013425c4c7444a7620f0585d275504f37d08b640",
+        "summary_index": 136
+      },
+      {
+        "mode_id": "138",
+        "n_pg": -153,
+        "omega": {
+          "imag": 0.0,
+          "real": 264.03204691180343
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-153.h5",
+        "source_sha256": "95437981dc563e5d1addc17a05f417b6e34b0dc4c891782f8137265cbe09eb1d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-153.h5",
+        "staged_sha256": "95437981dc563e5d1addc17a05f417b6e34b0dc4c891782f8137265cbe09eb1d",
+        "summary_index": 137
+      },
+      {
+        "mode_id": "139",
+        "n_pg": -152,
+        "omega": {
+          "imag": 0.0,
+          "real": 264.40841245288885
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-152.h5",
+        "source_sha256": "89bb950510d25f90a0249bb91fa0367df54f6243eca3637498346e98ff771376",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-152.h5",
+        "staged_sha256": "89bb950510d25f90a0249bb91fa0367df54f6243eca3637498346e98ff771376",
+        "summary_index": 138
+      },
+      {
+        "mode_id": "140",
+        "n_pg": -151,
+        "omega": {
+          "imag": 0.0,
+          "real": 265.1823549106916
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-151.h5",
+        "source_sha256": "ad2fc287a15f5aa0eb78f8bf933f661a9c4da12d381f37a9246dad4e44281c63",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-151.h5",
+        "staged_sha256": "ad2fc287a15f5aa0eb78f8bf933f661a9c4da12d381f37a9246dad4e44281c63",
+        "summary_index": 139
+      },
+      {
+        "mode_id": "141",
+        "n_pg": -150,
+        "omega": {
+          "imag": 0.0,
+          "real": 265.53825118054164
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-150.h5",
+        "source_sha256": "e5883ecd9b271633507dfdd862be34f490eef490506610a98aaf1dada3437fa8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-150.h5",
+        "staged_sha256": "e5883ecd9b271633507dfdd862be34f490eef490506610a98aaf1dada3437fa8",
+        "summary_index": 140
+      },
+      {
+        "mode_id": "142",
+        "n_pg": -149,
+        "omega": {
+          "imag": 0.0,
+          "real": 266.0171993303343
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-149.h5",
+        "source_sha256": "764bb9312f377aaf6b1902d5014e20b381771947d5dfb2b4c289c65f96e0b664",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-149.h5",
+        "staged_sha256": "764bb9312f377aaf6b1902d5014e20b381771947d5dfb2b4c289c65f96e0b664",
+        "summary_index": 141
+      },
+      {
+        "mode_id": "143",
+        "n_pg": -148,
+        "omega": {
+          "imag": 0.0,
+          "real": 266.7920319670734
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-148.h5",
+        "source_sha256": "3f139d8124ca5fa6b107c89f725b4a5b021f2588fc77e95b96fedf53cb2c786a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-148.h5",
+        "staged_sha256": "3f139d8124ca5fa6b107c89f725b4a5b021f2588fc77e95b96fedf53cb2c786a",
+        "summary_index": 142
+      },
+      {
+        "mode_id": "144",
+        "n_pg": -147,
+        "omega": {
+          "imag": 0.0,
+          "real": 267.050022727405
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-147.h5",
+        "source_sha256": "f10f73477201195eaed65d7c5403fdb33d52f0f775ae91efdd90788756ba1895",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-147.h5",
+        "staged_sha256": "f10f73477201195eaed65d7c5403fdb33d52f0f775ae91efdd90788756ba1895",
+        "summary_index": 143
+      },
+      {
+        "mode_id": "145",
+        "n_pg": -146,
+        "omega": {
+          "imag": 0.0,
+          "real": 267.63941918018963
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-146.h5",
+        "source_sha256": "2a3a7bbba85a10547a2501cc48fcbf966c31f0fb610154c58c94475b2d117ee4",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-146.h5",
+        "staged_sha256": "2a3a7bbba85a10547a2501cc48fcbf966c31f0fb610154c58c94475b2d117ee4",
+        "summary_index": 144
+      },
+      {
+        "mode_id": "146",
+        "n_pg": -145,
+        "omega": {
+          "imag": 0.0,
+          "real": 268.4012481524885
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-145.h5",
+        "source_sha256": "7070af15dd236cdbedd7b9e8822c3088ee518491ba33537d37c20329272dd698",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-145.h5",
+        "staged_sha256": "7070af15dd236cdbedd7b9e8822c3088ee518491ba33537d37c20329272dd698",
+        "summary_index": 145
+      },
+      {
+        "mode_id": "147",
+        "n_pg": -144,
+        "omega": {
+          "imag": 0.0,
+          "real": 268.5784122751398
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-144.h5",
+        "source_sha256": "07966f67671bb3987dbc0de01a914c56a4905e0f08fb204f384917a414d6ffbe",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-144.h5",
+        "staged_sha256": "07966f67671bb3987dbc0de01a914c56a4905e0f08fb204f384917a414d6ffbe",
+        "summary_index": 146
+      },
+      {
+        "mode_id": "148",
+        "n_pg": -143,
+        "omega": {
+          "imag": 0.0,
+          "real": 269.2873984568147
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-143.h5",
+        "source_sha256": "51aeaa19212b3778181babe9563494f8f3b403775e86e5eec4afd9289aa0901f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-143.h5",
+        "staged_sha256": "51aeaa19212b3778181babe9563494f8f3b403775e86e5eec4afd9289aa0901f",
+        "summary_index": 147
+      },
+      {
+        "mode_id": "149",
+        "n_pg": -142,
+        "omega": {
+          "imag": 0.0,
+          "real": 269.9739442198822
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-142.h5",
+        "source_sha256": "434a0ad8774cfbf0430a54b8e7bd258118d17d28853d7c4e8a0fcca33d9de1c9",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-142.h5",
+        "staged_sha256": "434a0ad8774cfbf0430a54b8e7bd258118d17d28853d7c4e8a0fcca33d9de1c9",
+        "summary_index": 148
+      },
+      {
+        "mode_id": "150",
+        "n_pg": -141,
+        "omega": {
+          "imag": 0.0,
+          "real": 270.1690041615093
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-141.h5",
+        "source_sha256": "5fda61fbd3333ab707749a8babcaa71c32f36ffc1b4a550fd7b057b1faf39b67",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-141.h5",
+        "staged_sha256": "5fda61fbd3333ab707749a8babcaa71c32f36ffc1b4a550fd7b057b1faf39b67",
+        "summary_index": 149
+      },
+      {
+        "mode_id": "151",
+        "n_pg": -140,
+        "omega": {
+          "imag": 0.0,
+          "real": 270.9525656890306
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-140.h5",
+        "source_sha256": "72437ba7458bf146a81edafc836a5ae330acb842dba8ae78841d84e26c1aaf5c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-140.h5",
+        "staged_sha256": "72437ba7458bf146a81edafc836a5ae330acb842dba8ae78841d84e26c1aaf5c",
+        "summary_index": 150
+      },
+      {
+        "mode_id": "152",
+        "n_pg": -139,
+        "omega": {
+          "imag": 0.0,
+          "real": 271.5000382802905
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-139.h5",
+        "source_sha256": "e0f49c585aa6aa570d2af2da0e5f43345f3c5ee795bbb92efa4793f6a217eae9",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-139.h5",
+        "staged_sha256": "e0f49c585aa6aa570d2af2da0e5f43345f3c5ee795bbb92efa4793f6a217eae9",
+        "summary_index": 151
+      },
+      {
+        "mode_id": "153",
+        "n_pg": -138,
+        "omega": {
+          "imag": 0.0,
+          "real": 271.82204573567367
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-138.h5",
+        "source_sha256": "82cc90801e3478342c9a517dc4ab676f819d817b305e8ddfc78206c73888f1e9",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-138.h5",
+        "staged_sha256": "82cc90801e3478342c9a517dc4ab676f819d817b305e8ddfc78206c73888f1e9",
+        "summary_index": 152
+      },
+      {
+        "mode_id": "154",
+        "n_pg": -137,
+        "omega": {
+          "imag": 0.0,
+          "real": 272.6317940057238
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-137.h5",
+        "source_sha256": "2a7d8c8ce675429a5e1788dc58df3196888e000b0b646a1afb9be7e2360f9740",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-137.h5",
+        "staged_sha256": "2a7d8c8ce675429a5e1788dc58df3196888e000b0b646a1afb9be7e2360f9740",
+        "summary_index": 153
+      },
+      {
+        "mode_id": "155",
+        "n_pg": -136,
+        "omega": {
+          "imag": 0.0,
+          "real": 273.01619465350046
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-136.h5",
+        "source_sha256": "c0b0a30ae15f4cea8c69d34daad978533d6d1eb4659731d1cf15aab74e8a33e3",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-136.h5",
+        "staged_sha256": "c0b0a30ae15f4cea8c69d34daad978533d6d1eb4659731d1cf15aab74e8a33e3",
+        "summary_index": 154
+      },
+      {
+        "mode_id": "156",
+        "n_pg": -135,
+        "omega": {
+          "imag": 0.0,
+          "real": 273.50867456639855
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-135.h5",
+        "source_sha256": "fec77db9af24c1d61f068755424283d6f4ecdc4ded63e71853ea602343c03c79",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-135.h5",
+        "staged_sha256": "fec77db9af24c1d61f068755424283d6f4ecdc4ded63e71853ea602343c03c79",
+        "summary_index": 155
+      },
+      {
+        "mode_id": "157",
+        "n_pg": -134,
+        "omega": {
+          "imag": 0.0,
+          "real": 274.32005237783693
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-134.h5",
+        "source_sha256": "06cda46f13ff6aee4cf711c8a59e4e30c021d37dd3e4274f2f758bfc92999186",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-134.h5",
+        "staged_sha256": "06cda46f13ff6aee4cf711c8a59e4e30c021d37dd3e4274f2f758bfc92999186",
+        "summary_index": 156
+      },
+      {
+        "mode_id": "158",
+        "n_pg": -133,
+        "omega": {
+          "imag": 0.0,
+          "real": 274.5423678811632
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-133.h5",
+        "source_sha256": "cc219fb845fd681691f2913924008c11cd259f52490a4d1e26e5b1b3d6e52124",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-133.h5",
+        "staged_sha256": "cc219fb845fd681691f2913924008c11cd259f52490a4d1e26e5b1b3d6e52124",
+        "summary_index": 157
+      },
+      {
+        "mode_id": "159",
+        "n_pg": -132,
+        "omega": {
+          "imag": 0.0,
+          "real": 275.2254354014865
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-132.h5",
+        "source_sha256": "8715299c48b8a6ad264b488cc0c349e09d1de9beb2659d020e9b1e1f49877cdb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-132.h5",
+        "staged_sha256": "8715299c48b8a6ad264b488cc0c349e09d1de9beb2659d020e9b1e1f49877cdb",
+        "summary_index": 158
+      },
+      {
+        "mode_id": "160",
+        "n_pg": -131,
+        "omega": {
+          "imag": 0.0,
+          "real": 275.9482421679371
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-131.h5",
+        "source_sha256": "88458b7eecc99647a80cb6c5e585cfea856379a1a531a9dc9f20d29fcc9abd15",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-131.h5",
+        "staged_sha256": "88458b7eecc99647a80cb6c5e585cfea856379a1a531a9dc9f20d29fcc9abd15",
+        "summary_index": 159
+      },
+      {
+        "mode_id": "161",
+        "n_pg": -130,
+        "omega": {
+          "imag": 0.0,
+          "real": 276.1441007104545
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-130.h5",
+        "source_sha256": "e3c37a853384c653860519374b6fb08f29baabe43e44489a7330cc042b9622ce",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-130.h5",
+        "staged_sha256": "e3c37a853384c653860519374b6fb08f29baabe43e44489a7330cc042b9622ce",
+        "summary_index": 160
+      },
+      {
+        "mode_id": "162",
+        "n_pg": -129,
+        "omega": {
+          "imag": 0.0,
+          "real": 276.95531425803745
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-129.h5",
+        "source_sha256": "491de977f98f6de2ab9ffa27db931d5baf2ce8c1c3fc959dc1847c2174827c7d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-129.h5",
+        "staged_sha256": "491de977f98f6de2ab9ffa27db931d5baf2ce8c1c3fc959dc1847c2174827c7d",
+        "summary_index": 161
+      },
+      {
+        "mode_id": "163",
+        "n_pg": -128,
+        "omega": {
+          "imag": 0.0,
+          "real": 277.48797599782466
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-128.h5",
+        "source_sha256": "0e6a0fc5cefd5c4f654fbdc197d07ebc9da51aaee4086c86089fe9ad72199140",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-128.h5",
+        "staged_sha256": "0e6a0fc5cefd5c4f654fbdc197d07ebc9da51aaee4086c86089fe9ad72199140",
+        "summary_index": 162
+      },
+      {
+        "mode_id": "164",
+        "n_pg": -127,
+        "omega": {
+          "imag": 0.0,
+          "real": 277.8604871626797
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-127.h5",
+        "source_sha256": "baca2c90c62b5459664cafe44634f431901855f2907d4c44a3ae79dd3828a69f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-127.h5",
+        "staged_sha256": "baca2c90c62b5459664cafe44634f431901855f2907d4c44a3ae79dd3828a69f",
+        "summary_index": 163
+      },
+      {
+        "mode_id": "165",
+        "n_pg": -126,
+        "omega": {
+          "imag": 0.0,
+          "real": 278.7035883851796
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-126.h5",
+        "source_sha256": "cbe278d114600a8e94a1efcb53b31b8f8993fdfce04c16cde6b1161b7e0f62d6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-126.h5",
+        "staged_sha256": "cbe278d114600a8e94a1efcb53b31b8f8993fdfce04c16cde6b1161b7e0f62d6",
+        "summary_index": 164
+      },
+      {
+        "mode_id": "166",
+        "n_pg": -125,
+        "omega": {
+          "imag": 0.0,
+          "real": 279.01067272755114
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-125.h5",
+        "source_sha256": "c601fa7d0f6c74af31562bf345a9ba758ef717cd2919b9c73af5ed92a786c63e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-125.h5",
+        "staged_sha256": "c601fa7d0f6c74af31562bf345a9ba758ef717cd2919b9c73af5ed92a786c63e",
+        "summary_index": 165
+      },
+      {
+        "mode_id": "167",
+        "n_pg": -124,
+        "omega": {
+          "imag": 0.0,
+          "real": 279.6266731799513
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-124.h5",
+        "source_sha256": "eee66cedfaee247d8e8dcc2b158b9514e5e898ab4e4c8de29e3393d8a2248547",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-124.h5",
+        "staged_sha256": "eee66cedfaee247d8e8dcc2b158b9514e5e898ab4e4c8de29e3393d8a2248547",
+        "summary_index": 166
+      },
+      {
+        "mode_id": "168",
+        "n_pg": -123,
+        "omega": {
+          "imag": 0.0,
+          "real": 280.41288256524865
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-123.h5",
+        "source_sha256": "f0739c34c8e37920d744063dced6793c40d61cc7fa7668acd5631c93a7fada35",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-123.h5",
+        "staged_sha256": "f0739c34c8e37920d744063dced6793c40d61cc7fa7668acd5631c93a7fada35",
+        "summary_index": 167
+      },
+      {
+        "mode_id": "169",
+        "n_pg": -122,
+        "omega": {
+          "imag": 0.0,
+          "real": 280.59455260203794
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-122.h5",
+        "source_sha256": "a3ea52fa31e3489ad18fc1ae1197992b46d8645bfa72eda8bfcd951d9cdc2777",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-122.h5",
+        "staged_sha256": "a3ea52fa31e3489ad18fc1ae1197992b46d8645bfa72eda8bfcd951d9cdc2777",
+        "summary_index": 168
+      },
+      {
+        "mode_id": "170",
+        "n_pg": -121,
+        "omega": {
+          "imag": 0.0,
+          "real": 281.4119690101041
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-121.h5",
+        "source_sha256": "9622960ffddb84470d7e217156326d6d8b9de018d8e8dd8cf7ae7ea24da4f239",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-121.h5",
+        "staged_sha256": "9622960ffddb84470d7e217156326d6d8b9de018d8e8dd8cf7ae7ea24da4f239",
+        "summary_index": 169
+      },
+      {
+        "mode_id": "171",
+        "n_pg": -120,
+        "omega": {
+          "imag": 0.0,
+          "real": 281.97182362401327
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-120.h5",
+        "source_sha256": "bd6496d503d712f354195be92d194b90ce848281836f4bf4ff0c1cd45b726e2b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-120.h5",
+        "staged_sha256": "bd6496d503d712f354195be92d194b90ce848281836f4bf4ff0c1cd45b726e2b",
+        "summary_index": 170
+      },
+      {
+        "mode_id": "172",
+        "n_pg": -119,
+        "omega": {
+          "imag": 0.0,
+          "real": 282.34605535753775
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-119.h5",
+        "source_sha256": "512861bd1bf80e51fef0a60e9adf924927fdf5be19cf9c461ffb33720ff66cf2",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-119.h5",
+        "staged_sha256": "512861bd1bf80e51fef0a60e9adf924927fdf5be19cf9c461ffb33720ff66cf2",
+        "summary_index": 171
+      },
+      {
+        "mode_id": "173",
+        "n_pg": -118,
+        "omega": {
+          "imag": 0.0,
+          "real": 283.219482721586
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-118.h5",
+        "source_sha256": "3e457667f7311cdce152268ab4963b6f4c26c8ce2e049f3faf2aa370d94f2748",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-118.h5",
+        "staged_sha256": "3e457667f7311cdce152268ab4963b6f4c26c8ce2e049f3faf2aa370d94f2748",
+        "summary_index": 172
+      },
+      {
+        "mode_id": "174",
+        "n_pg": -117,
+        "omega": {
+          "imag": 0.0,
+          "real": 283.49998112856895
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-117.h5",
+        "source_sha256": "1be9a2376d55223f7085e2a72c76f9849ce7e32be044936faa67615b423312a8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-117.h5",
+        "staged_sha256": "1be9a2376d55223f7085e2a72c76f9849ce7e32be044936faa67615b423312a8",
+        "summary_index": 173
+      },
+      {
+        "mode_id": "175",
+        "n_pg": -116,
+        "omega": {
+          "imag": 0.0,
+          "real": 284.17179491204536
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-116.h5",
+        "source_sha256": "d9b2a62002af139283df30eb235674e85d8bfe7b9bab3bc384d59726d824df22",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-116.h5",
+        "staged_sha256": "d9b2a62002af139283df30eb235674e85d8bfe7b9bab3bc384d59726d824df22",
+        "summary_index": 174
+      },
+      {
+        "mode_id": "176",
+        "n_pg": -115,
+        "omega": {
+          "imag": 0.0,
+          "real": 284.9253661182566
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-115.h5",
+        "source_sha256": "c08f7aa25d98256ee0a37703ada38059883a51bad87771404c44ceff01e3dfd6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-115.h5",
+        "staged_sha256": "c08f7aa25d98256ee0a37703ada38059883a51bad87771404c44ceff01e3dfd6",
+        "summary_index": 175
+      },
+      {
+        "mode_id": "177",
+        "n_pg": -114,
+        "omega": {
+          "imag": 0.0,
+          "real": 285.1439619248067
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-114.h5",
+        "source_sha256": "504f7d2410cb4daaa80d0f090b80226f59d4ffcfe3e2fb33005211547cf3407c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-114.h5",
+        "staged_sha256": "504f7d2410cb4daaa80d0f090b80226f59d4ffcfe3e2fb33005211547cf3407c",
+        "summary_index": 176
+      },
+      {
+        "mode_id": "178",
+        "n_pg": -113,
+        "omega": {
+          "imag": 0.0,
+          "real": 286.017584461667
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-113.h5",
+        "source_sha256": "45a9d812fd67f40140cbbcad7f12554fc89c0672d9bf8582ef55eb45cd9f4c8d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-113.h5",
+        "staged_sha256": "45a9d812fd67f40140cbbcad7f12554fc89c0672d9bf8582ef55eb45cd9f4c8d",
+        "summary_index": 177
+      },
+      {
+        "mode_id": "179",
+        "n_pg": -112,
+        "omega": {
+          "imag": 0.0,
+          "real": 286.4670336487905
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-112.h5",
+        "source_sha256": "eac6a9a306791fe65e581d49051cb17ad2788bb7d54453b4406834a17c67704e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-112.h5",
+        "staged_sha256": "eac6a9a306791fe65e581d49051cb17ad2788bb7d54453b4406834a17c67704e",
+        "summary_index": 178
+      },
+      {
+        "mode_id": "180",
+        "n_pg": -111,
+        "omega": {
+          "imag": 0.0,
+          "real": 286.97713061966294
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-111.h5",
+        "source_sha256": "6c7654fb42ff6270f5bc949a018a5114b8791e09504d8706bbcd55332dbbaf7b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-111.h5",
+        "staged_sha256": "6c7654fb42ff6270f5bc949a018a5114b8791e09504d8706bbcd55332dbbaf7b",
+        "summary_index": 179
+      },
+      {
+        "mode_id": "181",
+        "n_pg": -110,
+        "omega": {
+          "imag": 0.0,
+          "real": 287.8421404447381
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-110.h5",
+        "source_sha256": "5b20877944246dc2b633d396f16a86f1c91054043af51ed5e62049e9521a1caf",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-110.h5",
+        "staged_sha256": "5b20877944246dc2b633d396f16a86f1c91054043af51ed5e62049e9521a1caf",
+        "summary_index": 180
+      },
+      {
+        "mode_id": "182",
+        "n_pg": -109,
+        "omega": {
+          "imag": 0.0,
+          "real": 288.02966218660094
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-109.h5",
+        "source_sha256": "08d57e149b1aaacf99d3cbc672d824a1ed10b50e57ce87a45c7dcfd760b5a13d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-109.h5",
+        "staged_sha256": "08d57e149b1aaacf99d3cbc672d824a1ed10b50e57ce87a45c7dcfd760b5a13d",
+        "summary_index": 181
+      },
+      {
+        "mode_id": "183",
+        "n_pg": -108,
+        "omega": {
+          "imag": 0.0,
+          "real": 288.86552256504933
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-108.h5",
+        "source_sha256": "9ecff5fee8e75c31c0bf51f7193d2f3f4246a94494a4193bd64333a24ccc6dab",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-108.h5",
+        "staged_sha256": "9ecff5fee8e75c31c0bf51f7193d2f3f4246a94494a4193bd64333a24ccc6dab",
+        "summary_index": 182
+      },
+      {
+        "mode_id": "184",
+        "n_pg": -107,
+        "omega": {
+          "imag": 0.0,
+          "real": 289.4411783339064
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-107.h5",
+        "source_sha256": "9a7081f99e0c04dbdd242197a53c7bc1447195c12a0e27da395b86ecfbeb94bd",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-107.h5",
+        "staged_sha256": "9a7081f99e0c04dbdd242197a53c7bc1447195c12a0e27da395b86ecfbeb94bd",
+        "summary_index": 183
+      },
+      {
+        "mode_id": "185",
+        "n_pg": -106,
+        "omega": {
+          "imag": 0.0,
+          "real": 289.84374930500866
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-106.h5",
+        "source_sha256": "35a01739ed20fdc483926d794c1ba9cbf01cbeb4dda2f043558a09987868272a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-106.h5",
+        "staged_sha256": "35a01739ed20fdc483926d794c1ba9cbf01cbeb4dda2f043558a09987868272a",
+        "summary_index": 184
+      },
+      {
+        "mode_id": "186",
+        "n_pg": -105,
+        "omega": {
+          "imag": 0.0,
+          "real": 290.7445703326686
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-105.h5",
+        "source_sha256": "178ff7d133480f355a484f9796b485b84f318c446909fc0a68139bcc58ec2a74",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-105.h5",
+        "staged_sha256": "178ff7d133480f355a484f9796b485b84f318c446909fc0a68139bcc58ec2a74",
+        "summary_index": 185
+      },
+      {
+        "mode_id": "187",
+        "n_pg": -104,
+        "omega": {
+          "imag": 0.0,
+          "real": 290.98557853402525
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-104.h5",
+        "source_sha256": "69e7e358c5177e4ee693d0cb45e6ef2f8e22cd3bab1467387cd92fc0802cb17d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-104.h5",
+        "staged_sha256": "69e7e358c5177e4ee693d0cb45e6ef2f8e22cd3bab1467387cd92fc0802cb17d",
+        "summary_index": 186
+      },
+      {
+        "mode_id": "188",
+        "n_pg": -103,
+        "omega": {
+          "imag": 0.0,
+          "real": 291.7569636576366
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-103.h5",
+        "source_sha256": "fe885d3ada8bf7fb42d447948290f4af1b39ddb4fa1edbeb3a98450055a9b73d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-103.h5",
+        "staged_sha256": "fe885d3ada8bf7fb42d447948290f4af1b39ddb4fa1edbeb3a98450055a9b73d",
+        "summary_index": 187
+      },
+      {
+        "mode_id": "189",
+        "n_pg": -102,
+        "omega": {
+          "imag": 0.0,
+          "real": 292.41958330186486
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-102.h5",
+        "source_sha256": "587b1d1fd6d7583ddcea9267ba90051451b1f08bcc3a05756d1be7edc05bc8e8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-102.h5",
+        "staged_sha256": "587b1d1fd6d7583ddcea9267ba90051451b1f08bcc3a05756d1be7edc05bc8e8",
+        "summary_index": 188
+      },
+      {
+        "mode_id": "190",
+        "n_pg": -101,
+        "omega": {
+          "imag": 0.0,
+          "real": 292.7594527744655
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-101.h5",
+        "source_sha256": "633aef2988bc919d454ca2b7eabea78316b714f5d659bb5685ba037510dd1d8a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-101.h5",
+        "staged_sha256": "633aef2988bc919d454ca2b7eabea78316b714f5d659bb5685ba037510dd1d8a",
+        "summary_index": 189
+      },
+      {
+        "mode_id": "191",
+        "n_pg": -100,
+        "omega": {
+          "imag": 0.0,
+          "real": 293.6833906296191
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-100.h5",
+        "source_sha256": "ce8a524a3fe757ff570e4396f939ff2124d22cdb029f20c1baeb5c593061a922",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-100.h5",
+        "staged_sha256": "ce8a524a3fe757ff570e4396f939ff2124d22cdb029f20c1baeb5c593061a922",
+        "summary_index": 190
+      },
+      {
+        "mode_id": "192",
+        "n_pg": -99,
+        "omega": {
+          "imag": 0.0,
+          "real": 293.96280212622077
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-99.h5",
+        "source_sha256": "b0f5b401289cf07fa56b33f456efea541620113df70143ffe51212f4886225e4",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-99.h5",
+        "staged_sha256": "b0f5b401289cf07fa56b33f456efea541620113df70143ffe51212f4886225e4",
+        "summary_index": 191
+      },
+      {
+        "mode_id": "193",
+        "n_pg": -98,
+        "omega": {
+          "imag": 0.0,
+          "real": 294.7086454024569
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-98.h5",
+        "source_sha256": "9a9023fbfc972515f7f9581f03de549da54f388a87a93599f6a99b50f0ff3a21",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-98.h5",
+        "staged_sha256": "9a9023fbfc972515f7f9581f03de549da54f388a87a93599f6a99b50f0ff3a21",
+        "summary_index": 192
+      },
+      {
+        "mode_id": "194",
+        "n_pg": -97,
+        "omega": {
+          "imag": 0.0,
+          "real": 295.40307448608445
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-97.h5",
+        "source_sha256": "3cecd83e993a1404186f94d32550713751e1aff0f3d6f9f2d2dafb84a20ff72b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-97.h5",
+        "staged_sha256": "3cecd83e993a1404186f94d32550713751e1aff0f3d6f9f2d2dafb84a20ff72b",
+        "summary_index": 193
+      },
+      {
+        "mode_id": "195",
+        "n_pg": -96,
+        "omega": {
+          "imag": 0.0,
+          "real": 295.7305356739674
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-96.h5",
+        "source_sha256": "0d338085cdc7888ae2f112890170f07cd35f97306c2f8fcdfb3b5db16831988d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-96.h5",
+        "staged_sha256": "0d338085cdc7888ae2f112890170f07cd35f97306c2f8fcdfb3b5db16831988d",
+        "summary_index": 194
+      },
+      {
+        "mode_id": "196",
+        "n_pg": -95,
+        "omega": {
+          "imag": 0.0,
+          "real": 296.6687899040267
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-95.h5",
+        "source_sha256": "bd8ff852667a643847b40c0ec42e84ae536162254c8fad963022ee16cdc299ac",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-95.h5",
+        "staged_sha256": "bd8ff852667a643847b40c0ec42e84ae536162254c8fad963022ee16cdc299ac",
+        "summary_index": 195
+      },
+      {
+        "mode_id": "197",
+        "n_pg": -94,
+        "omega": {
+          "imag": 0.0,
+          "real": 296.9503820518231
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-94.h5",
+        "source_sha256": "c5c78bfe6edc22294736b1e1540929d32c56e6d8e5e3abea7b1aa148804e58dd",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-94.h5",
+        "staged_sha256": "c5c78bfe6edc22294736b1e1540929d32c56e6d8e5e3abea7b1aa148804e58dd",
+        "summary_index": 196
+      },
+      {
+        "mode_id": "198",
+        "n_pg": -93,
+        "omega": {
+          "imag": 0.0,
+          "real": 297.71601586598445
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-93.h5",
+        "source_sha256": "7f59ca340b888197f02796d3374ecca4dff50e85680c82e201b938eed57d6478",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-93.h5",
+        "staged_sha256": "7f59ca340b888197f02796d3374ecca4dff50e85680c82e201b938eed57d6478",
+        "summary_index": 197
+      },
+      {
+        "mode_id": "199",
+        "n_pg": -92,
+        "omega": {
+          "imag": 0.0,
+          "real": 298.3940496083715
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-92.h5",
+        "source_sha256": "debc0b7dd5d16d1c3d26afde592bc95b3d8fdafc90a9e040ac58185b5c22c9e2",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-92.h5",
+        "staged_sha256": "debc0b7dd5d16d1c3d26afde592bc95b3d8fdafc90a9e040ac58185b5c22c9e2",
+        "summary_index": 198
+      },
+      {
+        "mode_id": "200",
+        "n_pg": -91,
+        "omega": {
+          "imag": 0.0,
+          "real": 298.75721992906693
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-91.h5",
+        "source_sha256": "f57cfd53049c74c980d9482d963c838a0907d2819b27f15611a2ddd8f7993fe6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-91.h5",
+        "staged_sha256": "f57cfd53049c74c980d9482d963c838a0907d2819b27f15611a2ddd8f7993fe6",
+        "summary_index": 199
+      },
+      {
+        "mode_id": "201",
+        "n_pg": -90,
+        "omega": {
+          "imag": 0.0,
+          "real": 299.70930407626736
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-90.h5",
+        "source_sha256": "119d1eb0b7267187b0814be471919a306b83027ce692d110d91a4d6d2a51518a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-90.h5",
+        "staged_sha256": "119d1eb0b7267187b0814be471919a306b83027ce692d110d91a4d6d2a51518a",
+        "summary_index": 200
+      },
+      {
+        "mode_id": "202",
+        "n_pg": -89,
+        "omega": {
+          "imag": 0.0,
+          "real": 299.9493924755003
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-89.h5",
+        "source_sha256": "b24e25d4ef9586b92cc2ee77906e805fb1fdb17b0bbfa96eb9b5d4811c855562",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-89.h5",
+        "staged_sha256": "b24e25d4ef9586b92cc2ee77906e805fb1fdb17b0bbfa96eb9b5d4811c855562",
+        "summary_index": 201
+      },
+      {
+        "mode_id": "203",
+        "n_pg": -88,
+        "omega": {
+          "imag": 0.0,
+          "real": 300.7885301166452
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-88.h5",
+        "source_sha256": "cb2efa96cdef62d95d6884799943371f1e3f628e8029da119c59cb9b61810383",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-88.h5",
+        "staged_sha256": "cb2efa96cdef62d95d6884799943371f1e3f628e8029da119c59cb9b61810383",
+        "summary_index": 202
+      },
+      {
+        "mode_id": "204",
+        "n_pg": -87,
+        "omega": {
+          "imag": 0.0,
+          "real": 301.38940530637745
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-87.h5",
+        "source_sha256": "e8893844f401d6eb4609eeb460a74c5a15cfe1cd772b768e72e005def981aa1f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-87.h5",
+        "staged_sha256": "e8893844f401d6eb4609eeb460a74c5a15cfe1cd772b768e72e005def981aa1f",
+        "summary_index": 203
+      },
+      {
+        "mode_id": "205",
+        "n_pg": -86,
+        "omega": {
+          "imag": 0.0,
+          "real": 301.84607077391126
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-86.h5",
+        "source_sha256": "b7112a9e77f704c27f2aa5ffd90d0322078318b4bf7fd94795236bcbffc79ea6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-86.h5",
+        "staged_sha256": "b7112a9e77f704c27f2aa5ffd90d0322078318b4bf7fd94795236bcbffc79ea6",
+        "summary_index": 204
+      },
+      {
+        "mode_id": "206",
+        "n_pg": -85,
+        "omega": {
+          "imag": 0.0,
+          "real": 302.78280075323516
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-85.h5",
+        "source_sha256": "157c38710e657c2622eddab17c22aef7f2226dffb56c005ad2a07ff4151fef7a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-85.h5",
+        "staged_sha256": "157c38710e657c2622eddab17c22aef7f2226dffb56c005ad2a07ff4151fef7a",
+        "summary_index": 205
+      },
+      {
+        "mode_id": "207",
+        "n_pg": -84,
+        "omega": {
+          "imag": 0.0,
+          "real": 302.9802824616774
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-84.h5",
+        "source_sha256": "aec183d5273e291c6927de9c3b89d5e9a48884146a6a13b471f9cf7335b0cd7e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-84.h5",
+        "staged_sha256": "aec183d5273e291c6927de9c3b89d5e9a48884146a6a13b471f9cf7335b0cd7e",
+        "summary_index": 206
+      },
+      {
+        "mode_id": "208",
+        "n_pg": -83,
+        "omega": {
+          "imag": 0.0,
+          "real": 303.91854837208854
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-83.h5",
+        "source_sha256": "4c818504de5c1e8f70a0822db365a6ec85ad2f4c57c2833dac79725922bb0729",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-83.h5",
+        "staged_sha256": "4c818504de5c1e8f70a0822db365a6ec85ad2f4c57c2833dac79725922bb0729",
+        "summary_index": 207
+      },
+      {
+        "mode_id": "209",
+        "n_pg": -82,
+        "omega": {
+          "imag": 0.0,
+          "real": 304.38880105791293
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-82.h5",
+        "source_sha256": "fe1bfa27c49faa99a515050be88aa7ff61783f0a8849e21e4a4218b5de775c38",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-82.h5",
+        "staged_sha256": "fe1bfa27c49faa99a515050be88aa7ff61783f0a8849e21e4a4218b5de775c38",
+        "summary_index": 208
+      },
+      {
+        "mode_id": "210",
+        "n_pg": -81,
+        "omega": {
+          "imag": 0.0,
+          "real": 305.0000734462566
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-81.h5",
+        "source_sha256": "a63de630c9f5643e051f4cd71746326a5ca340891bd76f8417bc5fa928fb6fae",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-81.h5",
+        "staged_sha256": "a63de630c9f5643e051f4cd71746326a5ca340891bd76f8417bc5fa928fb6fae",
+        "summary_index": 209
+      },
+      {
+        "mode_id": "211",
+        "n_pg": -80,
+        "omega": {
+          "imag": 0.0,
+          "real": 305.83493060079866
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-80.h5",
+        "source_sha256": "5a31b8a43ea56630a9becd3842aba8cc2d5d8d5367b6e16970fc39ff9b4e7588",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-80.h5",
+        "staged_sha256": "5a31b8a43ea56630a9becd3842aba8cc2d5d8d5367b6e16970fc39ff9b4e7588",
+        "summary_index": 210
+      },
+      {
+        "mode_id": "212",
+        "n_pg": -79,
+        "omega": {
+          "imag": 0.0,
+          "real": 306.1030642636394
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-79.h5",
+        "source_sha256": "62bc2da900dd1350fe982a9010b62c9da151dc3f051fd097f092cbceffa18c8a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-79.h5",
+        "staged_sha256": "62bc2da900dd1350fe982a9010b62c9da151dc3f051fd097f092cbceffa18c8a",
+        "summary_index": 211
+      },
+      {
+        "mode_id": "213",
+        "n_pg": -78,
+        "omega": {
+          "imag": 0.0,
+          "real": 307.1023005615763
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-78.h5",
+        "source_sha256": "8d27e4757ae18102a53d788348a60ed02fba32c82fc71de5a6dc1e1a79a633cf",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-78.h5",
+        "staged_sha256": "8d27e4757ae18102a53d788348a60ed02fba32c82fc71de5a6dc1e1a79a633cf",
+        "summary_index": 212
+      },
+      {
+        "mode_id": "214",
+        "n_pg": -77,
+        "omega": {
+          "imag": 0.0,
+          "real": 307.4004376978853
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-77.h5",
+        "source_sha256": "7be800e97c0e9fb4907b867b2e199b7822f1451974e6928b70cf289597929876",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-77.h5",
+        "staged_sha256": "7be800e97c0e9fb4907b867b2e199b7822f1451974e6928b70cf289597929876",
+        "summary_index": 213
+      },
+      {
+        "mode_id": "215",
+        "n_pg": -76,
+        "omega": {
+          "imag": 0.0,
+          "real": 308.2147901617921
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-76.h5",
+        "source_sha256": "bd75eae31730b35498e3fc541656c742f0b70cc893bf46040bae10be01946f9a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-76.h5",
+        "staged_sha256": "bd75eae31730b35498e3fc541656c742f0b70cc893bf46040bae10be01946f9a",
+        "summary_index": 214
+      },
+      {
+        "mode_id": "216",
+        "n_pg": -75,
+        "omega": {
+          "imag": 0.0,
+          "real": 308.85221622861434
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-75.h5",
+        "source_sha256": "adb61088e10d862763d74911eaa9ba2aa42926fed515e3b0f298a966ab4563c6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-75.h5",
+        "staged_sha256": "adb61088e10d862763d74911eaa9ba2aa42926fed515e3b0f298a966ab4563c6",
+        "summary_index": 215
+      },
+      {
+        "mode_id": "217",
+        "n_pg": -74,
+        "omega": {
+          "imag": 0.0,
+          "real": 309.3227012266581
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-74.h5",
+        "source_sha256": "4e5c07913d3db8356873e076e5e97c7487aa1c85f84932fabef4711f21fcca70",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-74.h5",
+        "staged_sha256": "4e5c07913d3db8356873e076e5e97c7487aa1c85f84932fabef4711f21fcca70",
+        "summary_index": 216
+      },
+      {
+        "mode_id": "218",
+        "n_pg": -73,
+        "omega": {
+          "imag": 0.0,
+          "real": 310.2757758570169
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-73.h5",
+        "source_sha256": "267c31d7e99f1adb43fa55a0fa48994254fe187376a8cd90ddbbc097a86262c1",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-73.h5",
+        "staged_sha256": "267c31d7e99f1adb43fa55a0fa48994254fe187376a8cd90ddbbc097a86262c1",
+        "summary_index": 217
+      },
+      {
+        "mode_id": "219",
+        "n_pg": -72,
+        "omega": {
+          "imag": 0.0,
+          "real": 310.48931543501374
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-72.h5",
+        "source_sha256": "7657456eed70a9f1ff19dc93e95fa840bf564a1855828da327deebc22f965576",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-72.h5",
+        "staged_sha256": "7657456eed70a9f1ff19dc93e95fa840bf564a1855828da327deebc22f965576",
+        "summary_index": 218
+      },
+      {
+        "mode_id": "220",
+        "n_pg": -71,
+        "omega": {
+          "imag": 0.0,
+          "real": 311.4892708459212
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-71.h5",
+        "source_sha256": "1fde8ea655e04760679df74502086718629af08f11527ac44403dbd1fd7e3a6e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-71.h5",
+        "staged_sha256": "1fde8ea655e04760679df74502086718629af08f11527ac44403dbd1fd7e3a6e",
+        "summary_index": 219
+      },
+      {
+        "mode_id": "221",
+        "n_pg": -70,
+        "omega": {
+          "imag": 0.0,
+          "real": 311.86761041412507
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-70.h5",
+        "source_sha256": "9e2132565f3c09ab966c1b6fd962de970b651bcf417e6b23d065406a91a9e71c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-70.h5",
+        "staged_sha256": "9e2132565f3c09ab966c1b6fd962de970b651bcf417e6b23d065406a91a9e71c",
+        "summary_index": 220
+      },
+      {
+        "mode_id": "222",
+        "n_pg": -69,
+        "omega": {
+          "imag": 0.0,
+          "real": 312.61972538254884
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-69.h5",
+        "source_sha256": "a418991579d7c9adfe2541c3510091b4c6d9010d206e3003e993ac211371aec8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-69.h5",
+        "staged_sha256": "a418991579d7c9adfe2541c3510091b4c6d9010d206e3003e993ac211371aec8",
+        "summary_index": 221
+      },
+      {
+        "mode_id": "223",
+        "n_pg": -68,
+        "omega": {
+          "imag": 0.0,
+          "real": 313.32747498897555
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-68.h5",
+        "source_sha256": "1698679d6a01efc184810e7511d16726e0fa79ba5e42a72ed47ff1f8f55728f8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-68.h5",
+        "staged_sha256": "1698679d6a01efc184810e7511d16726e0fa79ba5e42a72ed47ff1f8f55728f8",
+        "summary_index": 222
+      },
+      {
+        "mode_id": "224",
+        "n_pg": -67,
+        "omega": {
+          "imag": 0.0,
+          "real": 313.76629113670367
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-67.h5",
+        "source_sha256": "ffe81b53c820f778c8d65f1b3ea92bef0fd9d60ccc12e9d272cf25b82612feff",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-67.h5",
+        "staged_sha256": "ffe81b53c820f778c8d65f1b3ea92bef0fd9d60ccc12e9d272cf25b82612feff",
+        "summary_index": 223
+      },
+      {
+        "mode_id": "225",
+        "n_pg": -66,
+        "omega": {
+          "imag": 0.0,
+          "real": 314.7499693196167
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-66.h5",
+        "source_sha256": "73f95658725cdc2f82d6fb05b28b9c44aa2ae2874785367eaf3ee432390a0a7d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-66.h5",
+        "staged_sha256": "73f95658725cdc2f82d6fb05b28b9c44aa2ae2874785367eaf3ee432390a0a7d",
+        "summary_index": 224
+      },
+      {
+        "mode_id": "226",
+        "n_pg": -65,
+        "omega": {
+          "imag": 0.0,
+          "real": 314.9628440737031
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-65.h5",
+        "source_sha256": "6cecb5d072e09538552fa0a455cf1540a477a832d500bb7470b188a5f63dc43f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-65.h5",
+        "staged_sha256": "6cecb5d072e09538552fa0a455cf1540a477a832d500bb7470b188a5f63dc43f",
+        "summary_index": 225
+      },
+      {
+        "mode_id": "227",
+        "n_pg": -64,
+        "omega": {
+          "imag": 0.0,
+          "real": 315.9815432387996
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-64.h5",
+        "source_sha256": "bfc696c2733e7106cd0c83ca02afd4fb9cee74322b91d32131381bae9a9e356d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-64.h5",
+        "staged_sha256": "bfc696c2733e7106cd0c83ca02afd4fb9cee74322b91d32131381bae9a9e356d",
+        "summary_index": 226
+      },
+      {
+        "mode_id": "228",
+        "n_pg": -63,
+        "omega": {
+          "imag": 0.0,
+          "real": 316.3518267939384
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-63.h5",
+        "source_sha256": "dcf04a2ed66ce4e5831049ee7b911acb40686e803b21a88dd7448c0496b0310d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-63.h5",
+        "staged_sha256": "dcf04a2ed66ce4e5831049ee7b911acb40686e803b21a88dd7448c0496b0310d",
+        "summary_index": 227
+      },
+      {
+        "mode_id": "229",
+        "n_pg": -62,
+        "omega": {
+          "imag": 0.0,
+          "real": 317.1550035944258
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-62.h5",
+        "source_sha256": "a60ff71494a1c63aec7b2c6b64f95abecc5119c5643062442dd507a7c9093a45",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-62.h5",
+        "staged_sha256": "a60ff71494a1c63aec7b2c6b64f95abecc5119c5643062442dd507a7c9093a45",
+        "summary_index": 228
+      },
+      {
+        "mode_id": "230",
+        "n_pg": -61,
+        "omega": {
+          "imag": 0.0,
+          "real": 317.81589022596654
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-61.h5",
+        "source_sha256": "12da06ac56b1ed4cf1b7d5296a9dbcbbe03a2f16457c554d11b1d7b980e24c3e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-61.h5",
+        "staged_sha256": "12da06ac56b1ed4cf1b7d5296a9dbcbbe03a2f16457c554d11b1d7b980e24c3e",
+        "summary_index": 229
+      },
+      {
+        "mode_id": "231",
+        "n_pg": -60,
+        "omega": {
+          "imag": 0.0,
+          "real": 318.3288353638105
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-60.h5",
+        "source_sha256": "25f3573cad57b72e2313bc9509000d3e6e355a56ecdd936c2d1b1e637ba4217f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-60.h5",
+        "staged_sha256": "25f3573cad57b72e2313bc9509000d3e6e355a56ecdd936c2d1b1e637ba4217f",
+        "summary_index": 230
+      },
+      {
+        "mode_id": "232",
+        "n_pg": -59,
+        "omega": {
+          "imag": 0.0,
+          "real": 319.26652993679477
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-59.h5",
+        "source_sha256": "98f12f99c3e2ac5eb375654607b25ece1306b8a40c0f1b4943c97819e67d4b02",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-59.h5",
+        "staged_sha256": "98f12f99c3e2ac5eb375654607b25ece1306b8a40c0f1b4943c97819e67d4b02",
+        "summary_index": 231
+      },
+      {
+        "mode_id": "233",
+        "n_pg": -58,
+        "omega": {
+          "imag": 0.0,
+          "real": 319.5247022766955
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-58.h5",
+        "source_sha256": "c733c28ccdd81590ad1aedaca16152fdfe6288ded07cdb748d0b08d61de24b48",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-58.h5",
+        "staged_sha256": "c733c28ccdd81590ad1aedaca16152fdfe6288ded07cdb748d0b08d61de24b48",
+        "summary_index": 232
+      },
+      {
+        "mode_id": "234",
+        "n_pg": -57,
+        "omega": {
+          "imag": 0.0,
+          "real": 320.60021092542206
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-57.h5",
+        "source_sha256": "a127981313263506bc96a3e2d0c2a2f6732acbd4573f742bc58adcd47892c0e5",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-57.h5",
+        "staged_sha256": "a127981313263506bc96a3e2d0c2a2f6732acbd4573f742bc58adcd47892c0e5",
+        "summary_index": 233
+      },
+      {
+        "mode_id": "235",
+        "n_pg": -56,
+        "omega": {
+          "imag": 0.0,
+          "real": 320.86056816599034
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-56.h5",
+        "source_sha256": "4b18de4c42faaab8ff2468021e404271a6c48d02867016ed1a11becbc3a7003b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-56.h5",
+        "staged_sha256": "4b18de4c42faaab8ff2468021e404271a6c48d02867016ed1a11becbc3a7003b",
+        "summary_index": 234
+      },
+      {
+        "mode_id": "236",
+        "n_pg": -55,
+        "omega": {
+          "imag": 0.0,
+          "real": 321.8201860067216
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-55.h5",
+        "source_sha256": "12918ef0945255d8ca3bd164a47345c6066a032e93a830eaf0e90d8dad33ba8e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-55.h5",
+        "staged_sha256": "12918ef0945255d8ca3bd164a47345c6066a032e93a830eaf0e90d8dad33ba8e",
+        "summary_index": 235
+      },
+      {
+        "mode_id": "237",
+        "n_pg": -54,
+        "omega": {
+          "imag": 0.0,
+          "real": 322.3138524018773
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-54.h5",
+        "source_sha256": "d420901ed2fb5492f2a77c1bd6b8ea96df00590a6edd6ace59290492eb6f9eb0",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-54.h5",
+        "staged_sha256": "d420901ed2fb5492f2a77c1bd6b8ea96df00590a6edd6ace59290492eb6f9eb0",
+        "summary_index": 236
+      },
+      {
+        "mode_id": "238",
+        "n_pg": -53,
+        "omega": {
+          "imag": 0.0,
+          "real": 323.01982425027256
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-53.h5",
+        "source_sha256": "592c12306877c19d455e3e0f21bcb5f916eb151ac2e7b611c7b5bbc8daa0811f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-53.h5",
+        "staged_sha256": "592c12306877c19d455e3e0f21bcb5f916eb151ac2e7b611c7b5bbc8daa0811f",
+        "summary_index": 237
+      },
+      {
+        "mode_id": "239",
+        "n_pg": -52,
+        "omega": {
+          "imag": 0.0,
+          "real": 323.784130350924
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-52.h5",
+        "source_sha256": "70ff67ce1fc0190d6bbbbb0562b80bf52bbcb760378cd1496725557e1adc7cb0",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-52.h5",
+        "staged_sha256": "70ff67ce1fc0190d6bbbbb0562b80bf52bbcb760378cd1496725557e1adc7cb0",
+        "summary_index": 238
+      },
+      {
+        "mode_id": "240",
+        "n_pg": -51,
+        "omega": {
+          "imag": 0.0,
+          "real": 324.24302935962913
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-51.h5",
+        "source_sha256": "5beada0bd2072af7903783784927c85843c12520311d2fc2ad12bf151b6c9007",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-51.h5",
+        "staged_sha256": "5beada0bd2072af7903783784927c85843c12520311d2fc2ad12bf151b6c9007",
+        "summary_index": 239
+      },
+      {
+        "mode_id": "241",
+        "n_pg": -50,
+        "omega": {
+          "imag": 0.0,
+          "real": 325.2377685086211
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-50.h5",
+        "source_sha256": "e331249616b27e4241045384b3160ff4813de8b22dc2c303f9e1c168ec0733f0",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-50.h5",
+        "staged_sha256": "e331249616b27e4241045384b3160ff4813de8b22dc2c303f9e1c168ec0733f0",
+        "summary_index": 240
+      },
+      {
+        "mode_id": "242",
+        "n_pg": -49,
+        "omega": {
+          "imag": 0.0,
+          "real": 325.4923023018782
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-49.h5",
+        "source_sha256": "50a75b615e086f612e0a92e65f0c3a2b1434b22a25da9bf98191a6db91803846",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-49.h5",
+        "staged_sha256": "50a75b615e086f612e0a92e65f0c3a2b1434b22a25da9bf98191a6db91803846",
+        "summary_index": 241
+      },
+      {
+        "mode_id": "243",
+        "n_pg": -48,
+        "omega": {
+          "imag": 0.0,
+          "real": 326.58803201435506
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-48.h5",
+        "source_sha256": "11720c747d0813d2d34e01282404ba791479fc5c0c45c1b26c95540826cf470d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-48.h5",
+        "staged_sha256": "11720c747d0813d2d34e01282404ba791479fc5c0c45c1b26c95540826cf470d",
+        "summary_index": 242
+      },
+      {
+        "mode_id": "244",
+        "n_pg": -47,
+        "omega": {
+          "imag": 0.0,
+          "real": 326.843405488224
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-47.h5",
+        "source_sha256": "264437fe472b7b2f4e27cf80e357ef7f1217cb8212030430416ebe73a6c0b0b0",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-47.h5",
+        "staged_sha256": "264437fe472b7b2f4e27cf80e357ef7f1217cb8212030430416ebe73a6c0b0b0",
+        "summary_index": 243
+      },
+      {
+        "mode_id": "245",
+        "n_pg": -46,
+        "omega": {
+          "imag": 0.0,
+          "real": 327.85481231122964
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-46.h5",
+        "source_sha256": "470f46c7b01ab2a3e95b79f43c47b4a14750303dd9172fef3c62f5f53c7ce50a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-46.h5",
+        "staged_sha256": "470f46c7b01ab2a3e95b79f43c47b4a14750303dd9172fef3c62f5f53c7ce50a",
+        "summary_index": 244
+      },
+      {
+        "mode_id": "246",
+        "n_pg": -45,
+        "omega": {
+          "imag": 0.0,
+          "real": 328.29952647652914
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-45.h5",
+        "source_sha256": "fbb8ed797cd2f07ef41d9abca8b7d6b3b104d67f3731ec690e432e911eaeae58",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-45.h5",
+        "staged_sha256": "fbb8ed797cd2f07ef41d9abca8b7d6b3b104d67f3731ec690e432e911eaeae58",
+        "summary_index": 245
+      },
+      {
+        "mode_id": "247",
+        "n_pg": -44,
+        "omega": {
+          "imag": 0.0,
+          "real": 329.11139063205025
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-44.h5",
+        "source_sha256": "63b4aca75e6087f328818692d4c8a984d031dfaf2e3dce884b00c0f9749b83f7",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-44.h5",
+        "staged_sha256": "63b4aca75e6087f328818692d4c8a984d031dfaf2e3dce884b00c0f9749b83f7",
+        "summary_index": 246
+      },
+      {
+        "mode_id": "248",
+        "n_pg": -43,
+        "omega": {
+          "imag": 0.0,
+          "real": 329.7734969110241
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-43.h5",
+        "source_sha256": "521e53b3587099d29d214e2ff513ae8473e9b70fc2160b932f02879e1b5c6898",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-43.h5",
+        "staged_sha256": "521e53b3587099d29d214e2ff513ae8473e9b70fc2160b932f02879e1b5c6898",
+        "summary_index": 247
+      },
+      {
+        "mode_id": "249",
+        "n_pg": -42,
+        "omega": {
+          "imag": 0.0,
+          "real": 330.3589616308838
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-42.h5",
+        "source_sha256": "991e3eb16e7ee21694289ba5f8f25cdfe9fd4b273373a87c2415ca5683116653",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-42.h5",
+        "staged_sha256": "991e3eb16e7ee21694289ba5f8f25cdfe9fd4b273373a87c2415ca5683116653",
+        "summary_index": 248
+      },
+      {
+        "mode_id": "250",
+        "n_pg": -41,
+        "omega": {
+          "imag": 0.0,
+          "real": 331.24570193492224
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-41.h5",
+        "source_sha256": "145dd3c17085b11a34618e59730ad2f8cc93162db3ac4e176c3dfcab7364693d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-41.h5",
+        "staged_sha256": "145dd3c17085b11a34618e59730ad2f8cc93162db3ac4e176c3dfcab7364693d",
+        "summary_index": 249
+      },
+      {
+        "mode_id": "251",
+        "n_pg": -40,
+        "omega": {
+          "imag": 0.0,
+          "real": 331.6342029005045
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-40.h5",
+        "source_sha256": "ae57c973fff0acccf6184252578ca4c781927585ad66898b781800d3eec82e5a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-40.h5",
+        "staged_sha256": "ae57c973fff0acccf6184252578ca4c781927585ad66898b781800d3eec82e5a",
+        "summary_index": 250
+      },
+      {
+        "mode_id": "252",
+        "n_pg": -39,
+        "omega": {
+          "imag": 0.0,
+          "real": 332.69705871033455
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-39.h5",
+        "source_sha256": "c985d26877875c82f3a41755901aa972b474c2b292f7cb53f7b6bc356229e55f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-39.h5",
+        "staged_sha256": "c985d26877875c82f3a41755901aa972b474c2b292f7cb53f7b6bc356229e55f",
+        "summary_index": 251
+      },
+      {
+        "mode_id": "253",
+        "n_pg": -38,
+        "omega": {
+          "imag": 0.0,
+          "real": 332.9456557907812
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-38.h5",
+        "source_sha256": "6f5eb0598d89d35fbd8361c080242d2ca8e16afb82cd424f3396f167f22d1c1c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-38.h5",
+        "staged_sha256": "6f5eb0598d89d35fbd8361c080242d2ca8e16afb82cd424f3396f167f22d1c1c",
+        "summary_index": 252
+      },
+      {
+        "mode_id": "254",
+        "n_pg": -37,
+        "omega": {
+          "imag": 0.0,
+          "real": 334.06732036225253
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-37.h5",
+        "source_sha256": "fa69f67504c4f15c4fcf05c679a82ae2af53440df820c438d49b64bcb3f0ca70",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-37.h5",
+        "staged_sha256": "fa69f67504c4f15c4fcf05c679a82ae2af53440df820c438d49b64bcb3f0ca70",
+        "summary_index": 253
+      },
+      {
+        "mode_id": "255",
+        "n_pg": -36,
+        "omega": {
+          "imag": 0.0,
+          "real": 334.32807451815745
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-36.h5",
+        "source_sha256": "94bd528f3b30dabdec6a83a56dca2cc655d5fdf1c395bfd3d658f8af40fe8e3e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-36.h5",
+        "staged_sha256": "94bd528f3b30dabdec6a83a56dca2cc655d5fdf1c395bfd3d658f8af40fe8e3e",
+        "summary_index": 254
+      },
+      {
+        "mode_id": "256",
+        "n_pg": -35,
+        "omega": {
+          "imag": 0.0,
+          "real": 335.3863491852278
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-35.h5",
+        "source_sha256": "9fa50d0e9c0dcaafdb927b8b04cd96f3979f6b9386d55e2e57f9b05b53b56ece",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-35.h5",
+        "staged_sha256": "9fa50d0e9c0dcaafdb927b8b04cd96f3979f6b9386d55e2e57f9b05b53b56ece",
+        "summary_index": 255
+      },
+      {
+        "mode_id": "257",
+        "n_pg": -34,
+        "omega": {
+          "imag": 0.0,
+          "real": 335.78700470259724
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-34.h5",
+        "source_sha256": "100e52bf85ec6364301da77288a80de5aba6051e3f243cc1c0cb123add28d118",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-34.h5",
+        "staged_sha256": "100e52bf85ec6364301da77288a80de5aba6051e3f243cc1c0cb123add28d118",
+        "summary_index": 256
+      },
+      {
+        "mode_id": "258",
+        "n_pg": -33,
+        "omega": {
+          "imag": 0.0,
+          "real": 336.6999407141524
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-33.h5",
+        "source_sha256": "d9a18e67defe77bbeafdc38d05eeddfbac5e20b68dd51d5a378025f1ff9bb165",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-33.h5",
+        "staged_sha256": "d9a18e67defe77bbeafdc38d05eeddfbac5e20b68dd51d5a378025f1ff9bb165",
+        "summary_index": 257
+      },
+      {
+        "mode_id": "259",
+        "n_pg": -32,
+        "omega": {
+          "imag": 0.0,
+          "real": 337.26397812776577
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-32.h5",
+        "source_sha256": "7f228671dfc2fb2eae719e7499e8618ea92e1988c2ad5273cb8536ee182281bc",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-32.h5",
+        "staged_sha256": "7f228671dfc2fb2eae719e7499e8618ea92e1988c2ad5273cb8536ee182281bc",
+        "summary_index": 258
+      },
+      {
+        "mode_id": "260",
+        "n_pg": -31,
+        "omega": {
+          "imag": 0.0,
+          "real": 337.99963795688694
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-31.h5",
+        "source_sha256": "6b57b8084832ad815759c16b0804432592ef871a17ad375c47b42aa1ed90ff56",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-31.h5",
+        "staged_sha256": "6b57b8084832ad815759c16b0804432592ef871a17ad375c47b42aa1ed90ff56",
+        "summary_index": 259
+      },
+      {
+        "mode_id": "261",
+        "n_pg": -30,
+        "omega": {
+          "imag": 0.0,
+          "real": 338.7444665269215
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-30.h5",
+        "source_sha256": "0b9a93c6fd05996c14cafc1139baa39a355074e5ffd85a2b7faacc6ae97b0354",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-30.h5",
+        "staged_sha256": "0b9a93c6fd05996c14cafc1139baa39a355074e5ffd85a2b7faacc6ae97b0354",
+        "summary_index": 260
+      },
+      {
+        "mode_id": "262",
+        "n_pg": -29,
+        "omega": {
+          "imag": 0.0,
+          "real": 339.3246359559785
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-29.h5",
+        "source_sha256": "ec6edae256c82424dd2c64dcc1af009e6821ef58d8a67792c6a9e24bcd2f8f3e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-29.h5",
+        "staged_sha256": "ec6edae256c82424dd2c64dcc1af009e6821ef58d8a67792c6a9e24bcd2f8f3e",
+        "summary_index": 261
+      },
+      {
+        "mode_id": "263",
+        "n_pg": -28,
+        "omega": {
+          "imag": 0.0,
+          "real": 340.22572523531466
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-28.h5",
+        "source_sha256": "84bd12d693c66b5395161f9215605b7f151e72ecc53102de17fe1c41e95408f0",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-28.h5",
+        "staged_sha256": "84bd12d693c66b5395161f9215605b7f151e72ecc53102de17fe1c41e95408f0",
+        "summary_index": 262
+      },
+      {
+        "mode_id": "264",
+        "n_pg": -27,
+        "omega": {
+          "imag": 0.0,
+          "real": 340.6705293396696
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-27.h5",
+        "source_sha256": "76a5b4ba65556e145c6853d2f7136b4234b4ec2c00319c95f16dabed8a105d8b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-27.h5",
+        "staged_sha256": "76a5b4ba65556e145c6853d2f7136b4234b4ec2c00319c95f16dabed8a105d8b",
+        "summary_index": 263
+      },
+      {
+        "mode_id": "265",
+        "n_pg": -26,
+        "omega": {
+          "imag": 0.0,
+          "real": 341.69821774772146
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-26.h5",
+        "source_sha256": "6c3514040c7788ef1a9a70e0e1dd439127d735492d80e6f8d9b42bbd27bc7b4a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-26.h5",
+        "staged_sha256": "6c3514040c7788ef1a9a70e0e1dd439127d735492d80e6f8d9b42bbd27bc7b4a",
+        "summary_index": 264
+      },
+      {
+        "mode_id": "266",
+        "n_pg": -25,
+        "omega": {
+          "imag": 0.0,
+          "real": 342.0121197133652
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-25.h5",
+        "source_sha256": "ff5b328e59e8faedb6c9167b9547bb073df644844c57456852c74f86c3a3ffbd",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-25.h5",
+        "staged_sha256": "ff5b328e59e8faedb6c9167b9547bb073df644844c57456852c74f86c3a3ffbd",
+        "summary_index": 265
+      },
+      {
+        "mode_id": "267",
+        "n_pg": -24,
+        "omega": {
+          "imag": 0.0,
+          "real": 343.15166077060974
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-24.h5",
+        "source_sha256": "05fe6a9478b3c0d1e280b512b6134fcd5c1e89ac568d760a362f1719ccd337c8",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-24.h5",
+        "staged_sha256": "05fe6a9478b3c0d1e280b512b6134fcd5c1e89ac568d760a362f1719ccd337c8",
+        "summary_index": 266
+      },
+      {
+        "mode_id": "268",
+        "n_pg": -23,
+        "omega": {
+          "imag": 0.0,
+          "real": 343.39431787987934
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-23.h5",
+        "source_sha256": "7fe200e153dbfec72136575fb4dee52b4c2e1e97813959eb7baa40369892e72c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-23.h5",
+        "staged_sha256": "7fe200e153dbfec72136575fb4dee52b4c2e1e97813959eb7baa40369892e72c",
+        "summary_index": 267
+      },
+      {
+        "mode_id": "269",
+        "n_pg": -22,
+        "omega": {
+          "imag": 0.0,
+          "real": 344.58468816674736
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-22.h5",
+        "source_sha256": "1279c31150d95d98a5b275b7e06dd3fd9862d3fa722112b5cdccc1feaa2e7207",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-22.h5",
+        "staged_sha256": "1279c31150d95d98a5b275b7e06dd3fd9862d3fa722112b5cdccc1feaa2e7207",
+        "summary_index": 268
+      },
+      {
+        "mode_id": "270",
+        "n_pg": -21,
+        "omega": {
+          "imag": 0.0,
+          "real": 344.8237769373096
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-21.h5",
+        "source_sha256": "808aba70a3da607114c7dce6c4be9c96a7ed90ca20f0b34d12b1fb31dba7fb1c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-21.h5",
+        "staged_sha256": "808aba70a3da607114c7dce6c4be9c96a7ed90ca20f0b34d12b1fb31dba7fb1c",
+        "summary_index": 269
+      },
+      {
+        "mode_id": "271",
+        "n_pg": -20,
+        "omega": {
+          "imag": 0.0,
+          "real": 345.9812158574697
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-20.h5",
+        "source_sha256": "ff4dde57aa3a377a457f144513e124bb1913ced9ba2ecfbb8472a40214cfb4bb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-20.h5",
+        "staged_sha256": "ff4dde57aa3a377a457f144513e124bb1913ced9ba2ecfbb8472a40214cfb4bb",
+        "summary_index": 270
+      },
+      {
+        "mode_id": "272",
+        "n_pg": -19,
+        "omega": {
+          "imag": 0.0,
+          "real": 346.27950490752215
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-19.h5",
+        "source_sha256": "5aed9bd56b01b5b13240c9c817d2f7e7d93cf79fd369000efdbc81b48ed8711a",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-19.h5",
+        "staged_sha256": "5aed9bd56b01b5b13240c9c817d2f7e7d93cf79fd369000efdbc81b48ed8711a",
+        "summary_index": 271
+      },
+      {
+        "mode_id": "273",
+        "n_pg": -18,
+        "omega": {
+          "imag": 0.0,
+          "real": 347.37345980966677
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-18.h5",
+        "source_sha256": "15eb015a8e18e5b57af1a05e45a710689e034d9308faad78e39f6a7e6c26631d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-18.h5",
+        "staged_sha256": "15eb015a8e18e5b57af1a05e45a710689e034d9308faad78e39f6a7e6c26631d",
+        "summary_index": 272
+      },
+      {
+        "mode_id": "274",
+        "n_pg": -17,
+        "omega": {
+          "imag": 0.0,
+          "real": 347.75738306099566
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-17.h5",
+        "source_sha256": "4bb0e2a6c648c023a111bcc7468c367f943f08793d0b836c5a73b8ea7063f131",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-17.h5",
+        "staged_sha256": "4bb0e2a6c648c023a111bcc7468c367f943f08793d0b836c5a73b8ea7063f131",
+        "summary_index": 273
+      },
+      {
+        "mode_id": "275",
+        "n_pg": -16,
+        "omega": {
+          "imag": 0.0,
+          "real": 348.7838969386146
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-16.h5",
+        "source_sha256": "b063b5a87efcefeb0c7441a9c91021686f16344cc166bde21f4bbab816d166fb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-16.h5",
+        "staged_sha256": "b063b5a87efcefeb0c7441a9c91021686f16344cc166bde21f4bbab816d166fb",
+        "summary_index": 274
+      },
+      {
+        "mode_id": "276",
+        "n_pg": -15,
+        "omega": {
+          "imag": 0.0,
+          "real": 349.24209744956283
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-15.h5",
+        "source_sha256": "cbef72a3c9e9bc34fe81e81c90b5cca9a4057df5a6b6c0a76ff4bb6572ab5968",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-15.h5",
+        "staged_sha256": "cbef72a3c9e9bc34fe81e81c90b5cca9a4057df5a6b6c0a76ff4bb6572ab5968",
+        "summary_index": 275
+      },
+      {
+        "mode_id": "277",
+        "n_pg": -14,
+        "omega": {
+          "imag": 0.0,
+          "real": 350.180385001963
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-14.h5",
+        "source_sha256": "ad1c80e74e1a97a8a5ea8f95faff17ef64c5ad40014382e24d3645ef03b9a2f5",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-14.h5",
+        "staged_sha256": "ad1c80e74e1a97a8a5ea8f95faff17ef64c5ad40014382e24d3645ef03b9a2f5",
+        "summary_index": 276
+      },
+      {
+        "mode_id": "278",
+        "n_pg": -13,
+        "omega": {
+          "imag": 0.0,
+          "real": 350.72780310096795
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-13.h5",
+        "source_sha256": "6d2ef27c87e159f4c8dfb6aabc65d75e24e919d9f4b28849be0a4c9d31a25e65",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-13.h5",
+        "staged_sha256": "6d2ef27c87e159f4c8dfb6aabc65d75e24e919d9f4b28849be0a4c9d31a25e65",
+        "summary_index": 277
+      },
+      {
+        "mode_id": "279",
+        "n_pg": -12,
+        "omega": {
+          "imag": 0.0,
+          "real": 351.5930211440909
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-12.h5",
+        "source_sha256": "6a4977eb97ef32f9621060b3f28f5040a2b7df58a3417eb5addc7e93091414ac",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-12.h5",
+        "staged_sha256": "6a4977eb97ef32f9621060b3f28f5040a2b7df58a3417eb5addc7e93091414ac",
+        "summary_index": 278
+      },
+      {
+        "mode_id": "280",
+        "n_pg": -11,
+        "omega": {
+          "imag": 0.0,
+          "real": 352.21741837611756
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-11.h5",
+        "source_sha256": "63cc440a2d7cbb7d6d462a772e035ad0a7ba0b1f47aa34e1550402085d12ec4c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-11.h5",
+        "staged_sha256": "63cc440a2d7cbb7d6d462a772e035ad0a7ba0b1f47aa34e1550402085d12ec4c",
+        "summary_index": 279
+      },
+      {
+        "mode_id": "281",
+        "n_pg": -10,
+        "omega": {
+          "imag": 0.0,
+          "real": 353.03827659346916
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-10.h5",
+        "source_sha256": "8627c0b327786df90bf9d9377fb76545c0de7fa66f3e8922d4669b32953a19a1",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-10.h5",
+        "staged_sha256": "8627c0b327786df90bf9d9377fb76545c0de7fa66f3e8922d4669b32953a19a1",
+        "summary_index": 280
+      },
+      {
+        "mode_id": "282",
+        "n_pg": -9,
+        "omega": {
+          "imag": 0.0,
+          "real": 353.70811953392763
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-9.h5",
+        "source_sha256": "40f7ab5e22568405f8442bf6096b623e6ca0c795b08b41134b901d47afeb3cff",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-9.h5",
+        "staged_sha256": "40f7ab5e22568405f8442bf6096b623e6ca0c795b08b41134b901d47afeb3cff",
+        "summary_index": 281
+      },
+      {
+        "mode_id": "283",
+        "n_pg": -8,
+        "omega": {
+          "imag": 0.0,
+          "real": 354.4614031333759
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-8.h5",
+        "source_sha256": "1e17bc2ca42996bf082f861735fc258cd6f218e616c181e354e651f91476a87f",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-8.h5",
+        "staged_sha256": "1e17bc2ca42996bf082f861735fc258cd6f218e616c181e354e651f91476a87f",
+        "summary_index": 282
+      },
+      {
+        "mode_id": "284",
+        "n_pg": -7,
+        "omega": {
+          "imag": 0.0,
+          "real": 355.1981994756835
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-7.h5",
+        "source_sha256": "eafe7b5e2a3933a0228e112c45c57e57c78a9d082142cdb5c4e0d834a1ff9407",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-7.h5",
+        "staged_sha256": "eafe7b5e2a3933a0228e112c45c57e57c78a9d082142cdb5c4e0d834a1ff9407",
+        "summary_index": 283
+      },
+      {
+        "mode_id": "285",
+        "n_pg": -6,
+        "omega": {
+          "imag": 0.0,
+          "real": 355.8983832382833
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-6.h5",
+        "source_sha256": "bb2ddc40f638efa8b7d48b6d373b6fce6cb6978f0b335cb1df7707d745771902",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-6.h5",
+        "staged_sha256": "bb2ddc40f638efa8b7d48b6d373b6fce6cb6978f0b335cb1df7707d745771902",
+        "summary_index": 284
+      },
+      {
+        "mode_id": "286",
+        "n_pg": -5,
+        "omega": {
+          "imag": 0.0,
+          "real": 356.6907693949447
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-5.h5",
+        "source_sha256": "de3c02e4b367e7131835caae140b06949dc68bd15b2f2db9b69ced9d0815fd1d",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-5.h5",
+        "staged_sha256": "de3c02e4b367e7131835caae140b06949dc68bd15b2f2db9b69ced9d0815fd1d",
+        "summary_index": 285
+      },
+      {
+        "mode_id": "287",
+        "n_pg": -4,
+        "omega": {
+          "imag": 0.0,
+          "real": 357.37504172695765
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-4.h5",
+        "source_sha256": "6028a663fc0aa848b56552f6b2dae2c98eff708620c2b9a1d657f8e072e4f2cb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-4.h5",
+        "staged_sha256": "6028a663fc0aa848b56552f6b2dae2c98eff708620c2b9a1d657f8e072e4f2cb",
+        "summary_index": 286
+      },
+      {
+        "mode_id": "288",
+        "n_pg": -3,
+        "omega": {
+          "imag": 0.0,
+          "real": 358.1836306113903
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-3.h5",
+        "source_sha256": "18fba9c80be8b0a55084a3e8b3042b6fce0cf8ecd64c60a7501298699f675276",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-3.h5",
+        "staged_sha256": "18fba9c80be8b0a55084a3e8b3042b6fce0cf8ecd64c60a7501298699f675276",
+        "summary_index": 287
+      },
+      {
+        "mode_id": "289",
+        "n_pg": -2,
+        "omega": {
+          "imag": 0.0,
+          "real": 358.83301874527837
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-2.h5",
+        "source_sha256": "75907d383ccf05723d817cc1d795e869c1851195e8ddb3a1922e226ccb6b7f1c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-2.h5",
+        "staged_sha256": "75907d383ccf05723d817cc1d795e869c1851195e8ddb3a1922e226ccb6b7f1c",
+        "summary_index": 288
+      },
+      {
+        "mode_id": "290",
+        "n_pg": -1,
+        "omega": {
+          "imag": 0.0,
+          "real": 359.6753495052868
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n-1.h5",
+        "source_sha256": "5961423f50ed5189c341ec5a1f81affa5787a2cf3eb0bc5bb8833f8a00ab6a5e",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n-1.h5",
+        "staged_sha256": "5961423f50ed5189c341ec5a1f81affa5787a2cf3eb0bc5bb8833f8a00ab6a5e",
+        "summary_index": 289
+      },
+      {
+        "mode_id": "291",
+        "n_pg": 0,
+        "omega": {
+          "imag": 0.0,
+          "real": 360.30398690407173
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+0.h5",
+        "source_sha256": "ce25a1958d26de3355aef9d847b4478a46bea5e900da9192516e548ce0a6d901",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+0.h5",
+        "staged_sha256": "ce25a1958d26de3355aef9d847b4478a46bea5e900da9192516e548ce0a6d901",
+        "summary_index": 290
+      },
+      {
+        "mode_id": "292",
+        "n_pg": 1,
+        "omega": {
+          "imag": 0.0,
+          "real": 361.1701598318902
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+1.h5",
+        "source_sha256": "d757e5e8b72f9404666ca51dfa2f447023ffb8838f59eee7c7e66a417a8ea537",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+1.h5",
+        "staged_sha256": "d757e5e8b72f9404666ca51dfa2f447023ffb8838f59eee7c7e66a417a8ea537",
+        "summary_index": 291
+      },
+      {
+        "mode_id": "293",
+        "n_pg": 2,
+        "omega": {
+          "imag": 0.0,
+          "real": 361.8103820180225
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+2.h5",
+        "source_sha256": "99535c1965a1c68bc4d991e8ee7dd5b50550e6502942b225ec10a7f5e8fd8c93",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+2.h5",
+        "staged_sha256": "99535c1965a1c68bc4d991e8ee7dd5b50550e6502942b225ec10a7f5e8fd8c93",
+        "summary_index": 292
+      },
+      {
+        "mode_id": "294",
+        "n_pg": 3,
+        "omega": {
+          "imag": 0.0,
+          "real": 362.66592814597
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+3.h5",
+        "source_sha256": "7ea8e92fbaefb2ec1931c26553bb57ddc61d95e1a679b04b64690eb9ecc8a054",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+3.h5",
+        "staged_sha256": "7ea8e92fbaefb2ec1931c26553bb57ddc61d95e1a679b04b64690eb9ecc8a054",
+        "summary_index": 293
+      },
+      {
+        "mode_id": "295",
+        "n_pg": 4,
+        "omega": {
+          "imag": 0.0,
+          "real": 363.30061239234584
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+4.h5",
+        "source_sha256": "22cbee5cf2da92a8131d08ad1297f4d681f5d0e843affe41b00116bc807b41cd",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+4.h5",
+        "staged_sha256": "22cbee5cf2da92a8131d08ad1297f4d681f5d0e843affe41b00116bc807b41cd",
+        "summary_index": 294
+      },
+      {
+        "mode_id": "296",
+        "n_pg": 5,
+        "omega": {
+          "imag": 0.0,
+          "real": 364.1600266417031
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+5.h5",
+        "source_sha256": "85a666bea4eaa2ba74d0136680676e422f164668cf13de1035e7425d607ac0ed",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+5.h5",
+        "staged_sha256": "85a666bea4eaa2ba74d0136680676e422f164668cf13de1035e7425d607ac0ed",
+        "summary_index": 295
+      },
+      {
+        "mode_id": "297",
+        "n_pg": 6,
+        "omega": {
+          "imag": 0.0,
+          "real": 364.8020713726909
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+6.h5",
+        "source_sha256": "b6424a789d2de4df47038f2a03f32d1210c4266b57f011e0271089f5ef0cfc7c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+6.h5",
+        "staged_sha256": "b6424a789d2de4df47038f2a03f32d1210c4266b57f011e0271089f5ef0cfc7c",
+        "summary_index": 296
+      },
+      {
+        "mode_id": "298",
+        "n_pg": 7,
+        "omega": {
+          "imag": 0.0,
+          "real": 365.6571501471572
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+7.h5",
+        "source_sha256": "3b65e5a353aa9ab7c9fb19eaee5b150bd10f334ccc469241b47f65cae2dad552",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+7.h5",
+        "staged_sha256": "3b65e5a353aa9ab7c9fb19eaee5b150bd10f334ccc469241b47f65cae2dad552",
+        "summary_index": 297
+      },
+      {
+        "mode_id": "299",
+        "n_pg": 8,
+        "omega": {
+          "imag": 0.0,
+          "real": 366.3484985417763
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+8.h5",
+        "source_sha256": "dc088b902cc99d5d84036bd4b308ba63a9af903288d86ee001f235f6c972febd",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+8.h5",
+        "staged_sha256": "dc088b902cc99d5d84036bd4b308ba63a9af903288d86ee001f235f6c972febd",
+        "summary_index": 298
+      },
+      {
+        "mode_id": "300",
+        "n_pg": 9,
+        "omega": {
+          "imag": 0.0,
+          "real": 367.1549748304012
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+9.h5",
+        "source_sha256": "dec867e0f8620c2e5de9ef10839755edb5b5e3500e1635f475e0520d90814cbf",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+9.h5",
+        "staged_sha256": "dec867e0f8620c2e5de9ef10839755edb5b5e3500e1635f475e0520d90814cbf",
+        "summary_index": 299
+      },
+      {
+        "mode_id": "301",
+        "n_pg": 10,
+        "omega": {
+          "imag": 0.0,
+          "real": 367.8813975438916
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+10.h5",
+        "source_sha256": "dbaa096a134ddaf054ed17055aabcf3da3cfab52b3963e751d02ee826d0734fb",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+10.h5",
+        "staged_sha256": "dbaa096a134ddaf054ed17055aabcf3da3cfab52b3963e751d02ee826d0734fb",
+        "summary_index": 300
+      },
+      {
+        "mode_id": "302",
+        "n_pg": 11,
+        "omega": {
+          "imag": 0.0,
+          "real": 368.6510652543102
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+11.h5",
+        "source_sha256": "731ff629ee91104241c55b48f0e8771668f99bb2aa2a76b0746959973a520605",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+11.h5",
+        "staged_sha256": "731ff629ee91104241c55b48f0e8771668f99bb2aa2a76b0746959973a520605",
+        "summary_index": 301
+      },
+      {
+        "mode_id": "303",
+        "n_pg": 12,
+        "omega": {
+          "imag": 0.0,
+          "real": 369.4130775022475
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+12.h5",
+        "source_sha256": "d1d7fd4764cca667fc9f31f2c0a32c12216d516c5c3e4cf9846a4188d70ea506",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+12.h5",
+        "staged_sha256": "d1d7fd4764cca667fc9f31f2c0a32c12216d516c5c3e4cf9846a4188d70ea506",
+        "summary_index": 302
+      },
+      {
+        "mode_id": "304",
+        "n_pg": 13,
+        "omega": {
+          "imag": 0.0,
+          "real": 370.1499130445988
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+13.h5",
+        "source_sha256": "469235bb173753206a8af7575375b132d7c48ddb84f47a98cacefe1b58d6e06c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+13.h5",
+        "staged_sha256": "469235bb173753206a8af7575375b132d7c48ddb84f47a98cacefe1b58d6e06c",
+        "summary_index": 303
+      },
+      {
+        "mode_id": "305",
+        "n_pg": 14,
+        "omega": {
+          "imag": 0.0,
+          "real": 370.99747283457464
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+14.h5",
+        "source_sha256": "89986ec3d781c5f4a1171bfd498c701e9f2b166e8d49046fc159529e321057f6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+14.h5",
+        "staged_sha256": "89986ec3d781c5f4a1171bfd498c701e9f2b166e8d49046fc159529e321057f6",
+        "summary_index": 304
+      },
+      {
+        "mode_id": "306",
+        "n_pg": 15,
+        "omega": {
+          "imag": 0.0,
+          "real": 371.65026424046033
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+15.h5",
+        "source_sha256": "b350889df07a2ace5b3765afc59b29e509c167252d9b42e8a8ea6428e3450c76",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+15.h5",
+        "staged_sha256": "b350889df07a2ace5b3765afc59b29e509c167252d9b42e8a8ea6428e3450c76",
+        "summary_index": 305
+      },
+      {
+        "mode_id": "307",
+        "n_pg": 16,
+        "omega": {
+          "imag": 0.0,
+          "real": 372.5697602618555
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+16.h5",
+        "source_sha256": "adbce13d12b86d12f2daaba54257b33e1996db7080d79655e95e37e9ddd895b6",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+16.h5",
+        "staged_sha256": "adbce13d12b86d12f2daaba54257b33e1996db7080d79655e95e37e9ddd895b6",
+        "summary_index": 306
+      },
+      {
+        "mode_id": "308",
+        "n_pg": 17,
+        "omega": {
+          "imag": 0.0,
+          "real": 373.1491672573007
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+17.h5",
+        "source_sha256": "e54a53d2fc8ee048507404756755f3e5012f7f5c02b6059379b64806a54ddc0c",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+17.h5",
+        "staged_sha256": "e54a53d2fc8ee048507404756755f3e5012f7f5c02b6059379b64806a54ddc0c",
+        "summary_index": 307
+      },
+      {
+        "mode_id": "309",
+        "n_pg": 18,
+        "omega": {
+          "imag": 0.0,
+          "real": 374.13739209567524
+        },
+        "source_detail": "/Users/mchau/mesa_tutorial/mesa-gyre-oscillations/results/run_gyre/rgb_clean/rgb_3m_z0p0142_40r/nonradial/detail.l2.n+18.h5",
+        "source_sha256": "80f53505fc06c2dc520676af7826131d8b8c3238cca3d997d1e14ee9d31f083b",
+        "source_style": "legacy",
+        "staged_detail": "detail.l2.n+18.h5",
+        "staged_sha256": "80f53505fc06c2dc520676af7826131d8b8c3238cca3d997d1e14ee9d31f083b",
+        "summary_index": 308
+      }
+    ],
+    "summary": "summary.h5",
+    "summary_sha256": "7ed74fccd718a8084c369149d337b7ed122e759d97848bfad956ff7dcb95c6c4"
+  },
+  "transfer": {
+    "mode": "copy",
+    "portable": true
+  }
+}

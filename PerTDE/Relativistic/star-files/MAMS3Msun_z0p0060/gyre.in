@@ -1,0 +1,51 @@
+&constants
+/
+
+&model
+  model_type = 'EVOL'
+  file = 'input_model.mesa'
+  file_format = 'MESA'
+/
+
+&mode
+  l = 2
+  n_pg_min = -20
+  n_pg_max = 20
+/
+
+&osc
+  outer_bound = 'VACUUM'
+/
+
+&rot
+/
+
+&num
+  diff_scheme = 'COLLOC_GL4'
+  n_iter_max = 200
+/
+
+&scan
+  grid_type = 'INVERSE'
+  freq_min = 0.01
+  freq_max = 40
+  n_freq = 100000
+  freq_units = 'NONE'
+/
+
+&grid
+  w_osc = 10.0
+  w_exp = 2.0
+  w_ctr = 10.0
+/
+
+&ad_output
+  summary_file = 'summary.h5'
+  summary_item_list = 'l,n_pg,n_p,n_g,omega,freq,E_norm,R_star,M_star'
+  detail_template = 'detail.l%l.n%n.h5'
+  detail_item_list = 'l,n_pg,omega,x,xi_r,xi_h,c_1,As,V_2,Gamma_1,rho,M_r'
+  freq_units = 'CYC_PER_DAY'
+/
+
+&nad_output
+/
