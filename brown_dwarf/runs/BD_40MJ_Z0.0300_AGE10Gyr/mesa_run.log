@@ -1,0 +1,1355 @@
+ reading user weak rate file /Users/mchau/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r24.08.1
+ read inlist_make_brown_dwarf
+ create initial model
+                         create initial model iteration           1
+      log10(L/Lsun)=  -2.84494213E+00
+               Mass=   2.22004627E+30
+             Radius=   7.23630988E+10
+ 
+      log10(L/Lsun)=  -2.94060548E+00
+               Mass=   2.04421772E+30
+             Radius=   7.04953767E+10
+ 
+      log10(L/Lsun)=  -2.94242500E+00
+               Mass=   2.04560782E+30
+             Radius=   7.03143444E+10
+ 
+                         create initial model iteration           2
+      log10(L/Lsun)=  -2.86779295E+00
+               Mass=   2.21756993E+30
+             Radius=   7.04674417E+10
+ 
+      log10(L/Lsun)=  -2.80563358E+00
+               Mass=   2.40725972E+30
+             Radius=   7.40350959E+10
+ 
+      log10(L/Lsun)=  -2.86988408E+00
+               Mass=   2.21875451E+30
+             Radius=   7.02956735E+10
+ 
+                         create initial model iteration           3
+      log10(L/Lsun)=  -2.85902629E+00
+               Mass=   2.31467858E+30
+             Radius=   7.05069542E+10
+ 
+      log10(L/Lsun)=  -2.91992206E+00
+               Mass=   2.51103149E+30
+             Radius=   7.44035433E+10
+ 
+      log10(L/Lsun)=  -2.86087911E+00
+               Mass=   2.31571437E+30
+             Radius=   7.03400344E+10
+ 
+                         create initial model iteration           4
+      log10(L/Lsun)=  -2.97612110E+00
+               Mass=   2.40339420E+30
+             Radius=   7.04665906E+10
+ 
+      log10(L/Lsun)=  -2.89367908E+00
+               Mass=   2.60569021E+30
+             Radius=   7.43851682E+10
+ 
+      log10(L/Lsun)=  -2.97878646E+00
+               Mass=   2.40427958E+30
+             Radius=   7.03018615E+10
+ 
+                         create initial model iteration           5
+      log10(L/Lsun)=  -2.81421157E+00
+               Mass=   2.49157155E+30
+             Radius=   7.05398005E+10
+ 
+      log10(L/Lsun)=  -2.71381319E+00
+               Mass=   2.69984391E+30
+             Radius=   7.44904274E+10
+ 
+      log10(L/Lsun)=  -2.81592748E+00
+               Mass=   2.49230709E+30
+             Radius=   7.03767122E+10
+ 
+                         create initial model iteration           6
+      log10(L/Lsun)=  -2.81815629E+00
+               Mass=   2.79366754E+30
+             Radius=   7.44550736E+10
+ 
+      log10(L/Lsun)=  -2.79355867E+00
+               Mass=   2.57927937E+30
+             Radius=   7.04916237E+10
+ 
+      log10(L/Lsun)=  -2.94246919E+00
+               Mass=   2.57989460E+30
+             Radius=   7.03297862E+10
+ 
+                         create initial model iteration           7
+      log10(L/Lsun)=  -2.76768430E+00
+               Mass=   2.88810190E+30
+             Radius=   7.45092585E+10
+ 
+      log10(L/Lsun)=  -2.75971387E+00
+               Mass=   2.66736704E+30
+             Radius=   7.05411236E+10
+ 
+      log10(L/Lsun)=  -2.76141816E+00
+               Mass=   2.66788210E+30
+             Radius=   7.03762370E+10
+ 
+                         create initial model iteration           8
+      log10(L/Lsun)=  -2.85034316E+00
+               Mass=   2.75869124E+30
+             Radius=   7.05855212E+10
+ 
+      log10(L/Lsun)=  -2.73163497E+00
+               Mass=   2.98620329E+30
+             Radius=   7.44429063E+10
+ 
+      log10(L/Lsun)=  -2.85207276E+00
+               Mass=   2.75914810E+30
+             Radius=   7.04175843E+10
+ 
+                         create initial model iteration           9
+      log10(L/Lsun)=  -2.67362080E+00
+               Mass=   3.09154503E+30
+             Radius=   7.45156248E+10
+ 
+      log10(L/Lsun)=  -2.81695418E+00
+               Mass=   2.85640842E+30
+             Radius=   7.05475463E+10
+ 
+      log10(L/Lsun)=  -2.69727772E+00
+               Mass=   2.85684372E+30
+             Radius=   7.03752505E+10
+ 
+                         create initial model iteration          10
+      log10(L/Lsun)=  -2.65136163E+00
+               Mass=   2.95690721E+30
+             Radius=   7.05714573E+10
+ 
+      log10(L/Lsun)=  -2.51555771E+00
+               Mass=   3.19999144E+30
+             Radius=   7.45386790E+10
+ 
+      log10(L/Lsun)=  -2.65319384E+00
+               Mass=   2.95734510E+30
+             Radius=   7.03960730E+10
+ 
+                         create initial model iteration          11
+      log10(L/Lsun)=  -2.79696273E+00
+               Mass=   3.31424787E+30
+             Radius=   7.21716356E+10
+ 
+      log10(L/Lsun)=  -2.60256107E+00
+               Mass=   3.06263955E+30
+             Radius=   7.05726205E+10
+ 
+      log10(L/Lsun)=  -2.70718013E+00
+               Mass=   3.06311847E+30
+             Radius=   7.03931115E+10
+ 
+                         create initial model iteration          12
+      log10(L/Lsun)=  -2.80798232E+00
+               Mass=   3.32822443E+30
+             Radius=   7.06540722E+10
+ 
+      log10(L/Lsun)=  -2.84172384E+00
+               Mass=   3.60377847E+30
+             Radius=   7.47026694E+10
+ 
+      log10(L/Lsun)=  -2.81018488E+00
+               Mass=   3.32874717E+30
+             Radius=   7.04717112E+10
+ 
+                         create initial model iteration          13
+      log10(L/Lsun)=  -2.79338335E+00
+               Mass=   3.45068184E+30
+             Radius=   7.05378708E+10
+ 
+      log10(L/Lsun)=  -2.80469906E+00
+               Mass=   3.73681954E+30
+             Radius=   7.46556784E+10
+ 
+      log10(L/Lsun)=  -2.79575556E+00
+               Mass=   3.45138304E+30
+             Radius=   7.03492981E+10
+ 
+                         create initial model iteration          14
+      log10(L/Lsun)=  -2.88748306E+00
+               Mass=   3.58146438E+30
+             Radius=   7.05660748E+10
+ 
+      log10(L/Lsun)=  -2.74432406E+00
+               Mass=   3.87922605E+30
+             Radius=   7.37758968E+10
+ 
+      log10(L/Lsun)=  -2.88981220E+00
+               Mass=   3.58239154E+30
+             Radius=   7.03708658E+10
+ 
+                         create initial model iteration          15
+      log10(L/Lsun)=  -2.82066797E+00
+               Mass=   3.76074119E+30
+             Radius=   7.10287528E+10
+ 
+      log10(L/Lsun)=  -2.71822062E+00
+               Mass=   4.07540190E+30
+             Radius=   7.40683702E+10
+ 
+      log10(L/Lsun)=  -2.82319501E+00
+               Mass=   3.76195758E+30
+             Radius=   7.08252292E+10
+ 
+                         create initial model iteration          16
+      log10(L/Lsun)=  -2.75814055E+00
+               Mass=   3.97019932E+30
+             Radius=   7.07808221E+10
+ 
+      log10(L/Lsun)=  -2.66630051E+00
+               Mass=   4.30543290E+30
+             Radius=   7.46171769E+10
+ 
+      log10(L/Lsun)=  -2.76080570E+00
+               Mass=   3.97183316E+30
+             Radius=   7.05717693E+10
+ 
+                         create initial model iteration          17
+      log10(L/Lsun)=  -2.73246743E+00
+               Mass=   4.15849545E+30
+             Radius=   7.07141330E+10
+ 
+      log10(L/Lsun)=  -2.59230004E+00
+               Mass=   4.51288608E+30
+             Radius=   7.47414285E+10
+ 
+      log10(L/Lsun)=  -2.73526012E+00
+               Mass=   4.16066187E+30
+             Radius=   7.04974403E+10
+ 
+                         create initial model iteration          18
+      log10(L/Lsun)=  -2.67778545E+00
+               Mass=   4.35967184E+30
+             Radius=   7.06811882E+10
+ 
+      log10(L/Lsun)=  -2.49966143E+00
+               Mass=   4.73531129E+30
+             Radius=   7.46988524E+10
+ 
+      log10(L/Lsun)=  -2.68061687E+00
+               Mass=   4.36249156E+30
+             Radius=   7.04569464E+10
+ 
+                         create initial model iteration          19
+      log10(L/Lsun)=  -2.59576566E+00
+               Mass=   4.58485242E+30
+             Radius=   7.06570016E+10
+ 
+      log10(L/Lsun)=  -2.62116416E+00
+               Mass=   4.98539009E+30
+             Radius=   7.36612634E+10
+ 
+      log10(L/Lsun)=  -2.69450869E+00
+               Mass=   4.58848439E+30
+             Radius=   6.99781631E+10
+ 
+                         create initial model iteration          20
+      log10(L/Lsun)=  -2.50927829E+00
+               Mass=   5.51493916E+30
+             Radius=   7.53060570E+10
+ 
+      log10(L/Lsun)=  -2.38919907E+00
+               Mass=   6.02551822E+30
+             Radius=   7.91424800E+10
+ 
+      log10(L/Lsun)=  -2.51222843E+00
+               Mass=   5.52042312E+30
+             Radius=   7.50496244E+10
+ 
+                         create initial model iteration          21
+      log10(L/Lsun)=  -2.45611056E+00
+               Mass=   5.88074729E+30
+             Radius=   7.52588894E+10
+ 
+      log10(L/Lsun)=  -2.20555962E+00
+               Mass=   6.43829561E+30
+             Radius=   7.88279182E+10
+ 
+      log10(L/Lsun)=  -2.40847770E+00
+               Mass=   5.88767085E+30
+             Radius=   7.49311152E+10
+ 
+                         create initial model iteration          22
+      log10(L/Lsun)=  -2.24772479E+00
+               Mass=   6.41504283E+30
+             Radius=   7.57894054E+10
+ 
+      log10(L/Lsun)=  -2.33090829E+00
+               Mass=   7.04345884E+30
+             Radius=   7.85586195E+10
+ 
+      log10(L/Lsun)=  -2.25096745E+00
+               Mass=   6.42388648E+30
+             Radius=   7.55228923E+10
+ 
+                         create initial model iteration          23
+      log10(L/Lsun)=  -2.35178877E+00
+               Mass=   7.02766499E+30
+             Radius=   7.54948747E+10
+ 
+      log10(L/Lsun)=  -2.20640354E+00
+               Mass=   7.74089817E+30
+             Radius=   7.87909703E+10
+ 
+      log10(L/Lsun)=  -2.35465899E+00
+               Mass=   7.03880169E+30
+             Radius=   7.52316968E+10
+ 
+                         create initial model iteration          24
+      log10(L/Lsun)=  -2.27551116E+00
+               Mass=   7.62818539E+30
+             Radius=   7.52408247E+10
+ 
+      log10(L/Lsun)=  -2.04554004E+00
+               Mass=   8.42763247E+30
+             Radius=   7.85694390E+10
+ 
+      log10(L/Lsun)=  -2.24940323E+00
+               Mass=   7.64173846E+30
+             Radius=   7.50342204E+10
+ 
+                         create initial model iteration          25
+      log10(L/Lsun)=  -2.14559276E+00
+               Mass=   8.17461514E+30
+             Radius=   7.45602439E+10
+ 
+      log10(L/Lsun)=  -1.83265737E+00
+               Mass=   9.05427271E+30
+             Radius=   7.78627664E+10
+ 
+      log10(L/Lsun)=  -2.14848507E+00
+               Mass=   8.19061020E+30
+             Radius=   7.43059375E+10
+ 
+                         create initial model iteration          26
+      log10(L/Lsun)=  -1.91423590E+00
+               Mass=   8.89200493E+30
+             Radius=   7.43117635E+10
+ 
+      log10(L/Lsun)=  -1.53625312E+00
+               Mass=   9.87970604E+30
+             Radius=   7.75511990E+10
+ 
+      log10(L/Lsun)=  -1.91740156E+00
+               Mass=   8.91105547E+30
+             Radius=   7.40625230E+10
+ 
+                         create initial model iteration          27
+      log10(L/Lsun)=  -1.67709657E+00
+               Mass=   9.68831146E+30
+             Radius=   7.39858412E+10
+ 
+      log10(L/Lsun)=  -1.40338772E+00
+               Mass=   1.07986676E+31
+             Radius=   7.70867262E+10
+ 
+      log10(L/Lsun)=  -1.68028807E+00
+               Mass=   9.71076406E+30
+             Radius=   7.37438369E+10
+ 
+                         create initial model iteration          28
+      log10(L/Lsun)=  -1.44149121E+00
+               Mass=   1.05755723E+31
+             Radius=   7.36463866E+10
+ 
+      log10(L/Lsun)=  -1.39254531E+00
+               Mass=   1.18230067E+31
+             Radius=   7.66057444E+10
+ 
+      log10(L/Lsun)=  -1.44345129E+00
+               Mass=   1.06017279E+31
+             Radius=   7.34141228E+10
+ 
+                         create initial model iteration          29
+      log10(L/Lsun)=  -1.38153431E+00
+               Mass=   1.29492154E+31
+             Radius=   7.61819649E+10
+ 
+      log10(L/Lsun)=  -1.43102151E+00
+               Mass=   1.15503346E+31
+             Radius=   7.31929847E+10
+ 
+      log10(L/Lsun)=  -1.72960665E+00
+               Mass=   1.15805659E+31
+             Radius=   7.27952524E+10
+ 
+                         create initial model iteration          30
+      log10(L/Lsun)=  -1.34910743E+00
+               Mass=   1.48927174E+31
+             Radius=   7.71535068E+10
+ 
+      log10(L/Lsun)=  -1.39955752E+00
+               Mass=   1.32354861E+31
+             Radius=   7.40391488E+10
+ 
+      log10(L/Lsun)=  -1.40128483E+00
+               Mass=   1.32724212E+31
+             Radius=   7.38259320E+10
+ 
+                         create initial model iteration          31
+      log10(L/Lsun)=  -1.39251981E+00
+               Mass=   1.43358375E+31
+             Radius=   7.34573207E+10
+ 
+      log10(L/Lsun)=  -1.34088159E+00
+               Mass=   1.61519500E+31
+             Radius=   7.66544649E+10
+ 
+      log10(L/Lsun)=  -1.39414323E+00
+               Mass=   1.43775294E+31
+             Radius=   7.32546502E+10
+ 
+                         create initial model iteration          32
+      log10(L/Lsun)=  -1.33379878E+00
+               Mass=   1.74321075E+31
+             Radius=   7.61242988E+10
+ 
+      log10(L/Lsun)=  -1.38652761E+00
+               Mass=   1.54574767E+31
+             Radius=   7.28557117E+10
+ 
+      log10(L/Lsun)=  -1.38804445E+00
+               Mass=   1.55037221E+31
+             Radius=   7.26637746E+10
+ 
+                         create initial model iteration          33
+      log10(L/Lsun)=  -1.38147623E+00
+               Mass=   1.65950996E+31
+             Radius=   7.22329788E+10
+ 
+      log10(L/Lsun)=  -1.32758519E+00
+               Mass=   1.87211695E+31
+             Radius=   7.55727865E+10
+ 
+      log10(L/Lsun)=  -1.38288318E+00
+               Mass=   1.66458188E+31
+             Radius=   7.20512339E+10
+ 
+                         create initial model iteration          34
+      log10(L/Lsun)=  -1.32232603E+00
+               Mass=   2.00200215E+31
+             Radius=   7.49827817E+10
+ 
+      log10(L/Lsun)=  -1.37718683E+00
+               Mass=   1.77414052E+31
+             Radius=   7.15948879E+10
+ 
+      log10(L/Lsun)=  -1.37848970E+00
+               Mass=   1.77966303E+31
+             Radius=   7.14222162E+10
+ 
+                         create initial model iteration          35
+      log10(L/Lsun)=  -1.31774798E+00
+               Mass=   2.13252954E+31
+             Radius=   7.43730201E+10
+ 
+      log10(L/Lsun)=  -1.37354452E+00
+               Mass=   1.89020638E+31
+             Radius=   7.09365416E+10
+ 
+      log10(L/Lsun)=  -1.37475210E+00
+               Mass=   1.89619350E+31
+             Radius=   7.07721916E+10
+ 
+                         create initial model iteration          36
+      log10(L/Lsun)=  -1.31387038E+00
+               Mass=   2.26336513E+31
+             Radius=   7.37419421E+10
+ 
+      log10(L/Lsun)=  -1.37042797E+00
+               Mass=   2.00716399E+31
+             Radius=   7.02678251E+10
+ 
+      log10(L/Lsun)=  -1.37154028E+00
+               Mass=   2.01358661E+31
+             Radius=   7.01115761E+10
+ 
+                         create initial model iteration          37
+      log10(L/Lsun)=  -1.31077893E+00
+               Mass=   2.39461648E+31
+             Radius=   7.30863765E+10
+ 
+      log10(L/Lsun)=  -1.36787975E+00
+               Mass=   2.12482329E+31
+             Radius=   6.95877266E+10
+ 
+      log10(L/Lsun)=  -1.36891597E+00
+               Mass=   2.13170620E+31
+             Radius=   6.94385500E+10
+ 
+                         create initial model iteration          38
+      log10(L/Lsun)=  -1.30844242E+00
+               Mass=   2.52620498E+31
+             Radius=   7.24152602E+10
+ 
+      log10(L/Lsun)=  -1.36591947E+00
+               Mass=   2.24341517E+31
+             Radius=   6.88969300E+10
+ 
+      log10(L/Lsun)=  -1.36689432E+00
+               Mass=   2.25075161E+31
+             Radius=   6.87545565E+10
+ 
+                         create initial model iteration          39
+      log10(L/Lsun)=  -1.36460463E+00
+               Mass=   2.36258480E+31
+             Radius=   6.81975303E+10
+ 
+      log10(L/Lsun)=  -1.30691951E+00
+               Mass=   2.65809535E+31
+             Radius=   7.17252704E+10
+ 
+      log10(L/Lsun)=  -1.36553365E+00
+               Mass=   2.37035599E+31
+             Radius=   6.80615852E+10
+ 
+                         create initial model iteration          40
+      log10(L/Lsun)=  -1.30622232E+00
+               Mass=   2.79048110E+31
+             Radius=   7.10168938E+10
+ 
+      log10(L/Lsun)=  -1.36399934E+00
+               Mass=   2.48234285E+31
+             Radius=   6.74890494E+10
+ 
+      log10(L/Lsun)=  -1.36488957E+00
+               Mass=   2.49057068E+31
+             Radius=   6.73588285E+10
+ 
+                         create initial model iteration          41
+      log10(L/Lsun)=  -1.36423000E+00
+               Mass=   2.60290177E+31
+             Radius=   6.67714823E+10
+ 
+      log10(L/Lsun)=  -1.30643851E+00
+               Mass=   2.92358675E+31
+             Radius=   7.02929515E+10
+ 
+      log10(L/Lsun)=  -1.36510035E+00
+               Mass=   2.61159024E+31
+             Radius=   6.66467189E+10
+ 
+                         create initial model iteration          42
+      log10(L/Lsun)=  -1.36520121E+00
+               Mass=   2.72408697E+31
+             Radius=   6.60459056E+10
+ 
+      log10(L/Lsun)=  -1.30743498E+00
+               Mass=   3.05733552E+31
+             Radius=   6.95544109E+10
+ 
+      log10(L/Lsun)=  -1.36605882E+00
+               Mass=   2.73322594E+31
+             Radius=   6.59263709E+10
+ 
+                         create initial model iteration          43
+      log10(L/Lsun)=  -1.36689040E+00
+               Mass=   2.84574007E+31
+             Radius=   6.53130158E+10
+ 
+      log10(L/Lsun)=  -1.30912398E+00
+               Mass=   3.19142337E+31
+             Radius=   6.88044393E+10
+ 
+      log10(L/Lsun)=  -1.36772255E+00
+               Mass=   2.85532018E+31
+             Radius=   6.51983889E+10
+ 
+                         create initial model iteration          44
+      log10(L/Lsun)=  -1.36938149E+00
+               Mass=   2.96778213E+31
+             Radius=   6.45738591E+10
+ 
+      log10(L/Lsun)=  -1.31155172E+00
+               Mass=   3.32583488E+31
+             Radius=   6.80440196E+10
+ 
+      log10(L/Lsun)=  -1.37020189E+00
+               Mass=   2.97781429E+31
+             Radius=   6.44637199E+10
+ 
+                         create initial model iteration          45
+      log10(L/Lsun)=  -1.37248053E+00
+               Mass=   3.09044696E+31
+             Radius=   6.38268917E+10
+ 
+      log10(L/Lsun)=  -1.31464273E+00
+               Mass=   3.46094392E+31
+             Radius=   6.72722072E+10
+ 
+      log10(L/Lsun)=  -1.37329556E+00
+               Mass=   3.10097725E+31
+             Radius=   6.37207523E+10
+ 
+                         create initial model iteration          46
+      log10(L/Lsun)=  -1.37615500E+00
+               Mass=   3.21405649E+31
+             Radius=   6.30708861E+10
+ 
+      log10(L/Lsun)=  -1.31827724E+00
+               Mass=   3.59640558E+31
+             Radius=   6.64918334E+10
+ 
+      log10(L/Lsun)=  -1.37696299E+00
+               Mass=   3.22509591E+31
+             Radius=   6.29686638E+10
+ 
+                         create initial model iteration          47
+      log10(L/Lsun)=  -1.32251557E+00
+               Mass=   3.73178061E+31
+             Radius=   6.57035579E+10
+ 
+      log10(L/Lsun)=  -1.38048420E+00
+               Mass=   3.33792084E+31
+             Radius=   6.23100893E+10
+ 
+      log10(L/Lsun)=  -1.38125261E+00
+               Mass=   3.34937163E+31
+             Radius=   6.22120523E+10
+ 
+                         create initial model iteration          48
+      log10(L/Lsun)=  -1.38526985E+00
+               Mass=   3.46150787E+31
+             Radius=   6.15471212E+10
+ 
+      log10(L/Lsun)=  -1.32730891E+00
+               Mass=   3.86716649E+31
+             Radius=   6.49080645E+10
+ 
+      log10(L/Lsun)=  -1.38602912E+00
+               Mass=   3.47336784E+31
+             Radius=   6.14529029E+10
+ 
+                         create initial model iteration          49
+      log10(L/Lsun)=  -1.39046619E+00
+               Mass=   3.58510225E+31
+             Radius=   6.07806126E+10
+ 
+      log10(L/Lsun)=  -1.33251338E+00
+               Mass=   4.00278399E+31
+             Radius=   6.41061087E+10
+ 
+      log10(L/Lsun)=  -1.39120418E+00
+               Mass=   3.59741942E+31
+             Radius=   6.06897066E+10
+ 
+                         create initial model iteration          50
+      log10(L/Lsun)=  -1.33821596E+00
+               Mass=   4.13856768E+31
+             Radius=   6.32992375E+10
+ 
+      log10(L/Lsun)=  -1.39620136E+00
+               Mass=   3.70907192E+31
+             Radius=   6.00097737E+10
+ 
+      log10(L/Lsun)=  -1.39691602E+00
+               Mass=   3.72187642E+31
+             Radius=   5.99219254E+10
+ 
+                         create initial model iteration          51
+      log10(L/Lsun)=  -1.34432536E+00
+               Mass=   4.27457772E+31
+             Radius=   6.24869170E+10
+ 
+      log10(L/Lsun)=  -1.40229158E+00
+               Mass=   3.83344319E+31
+             Radius=   5.92341375E+10
+ 
+      log10(L/Lsun)=  -1.40299901E+00
+               Mass=   3.84674058E+31
+             Radius=   5.91492681E+10
+ 
+                         create initial model iteration          52
+      log10(L/Lsun)=  -1.40877641E+00
+               Mass=   3.95796507E+31
+             Radius=   5.84551935E+10
+ 
+      log10(L/Lsun)=  -1.35078746E+00
+               Mass=   4.41060031E+31
+             Radius=   6.16697588E+10
+ 
+      log10(L/Lsun)=  -1.40944464E+00
+               Mass=   3.97173273E+31
+             Radius=   5.83733347E+10
+ 
+                         create initial model iteration          53
+      log10(L/Lsun)=  -1.35771226E+00
+               Mass=   4.54648612E+31
+             Radius=   6.08492887E+10
+ 
+      log10(L/Lsun)=  -1.41566128E+00
+               Mass=   4.08231728E+31
+             Radius=   5.76745336E+10
+ 
+      log10(L/Lsun)=  -1.41632201E+00
+               Mass=   4.09652337E+31
+             Radius=   5.75955998E+10
+ 
+                         create initial model iteration          54
+      log10(L/Lsun)=  -1.36489415E+00
+               Mass=   4.68217960E+31
+             Radius=   6.00266790E+10
+ 
+      log10(L/Lsun)=  -1.42281434E+00
+               Mass=   4.20638639E+31
+             Radius=   5.68930786E+10
+ 
+      log10(L/Lsun)=  -1.42344971E+00
+               Mass=   4.22105773E+31
+             Radius=   5.68168201E+10
+ 
+                         create initial model iteration          55
+      log10(L/Lsun)=  -1.37248868E+00
+               Mass=   4.81758211E+31
+             Radius=   5.92029177E+10
+ 
+      log10(L/Lsun)=  -1.43039058E+00
+               Mass=   4.33053975E+31
+             Radius=   5.61100824E+10
+ 
+      log10(L/Lsun)=  -1.43100996E+00
+               Mass=   4.34572245E+31
+             Radius=   5.60362562E+10
+ 
+                         create initial model iteration          56
+      log10(L/Lsun)=  -1.38034274E+00
+               Mass=   4.95240467E+31
+             Radius=   5.83773733E+10
+ 
+      log10(L/Lsun)=  -1.43820232E+00
+               Mass=   4.45468232E+31
+             Radius=   5.53251734E+10
+ 
+      log10(L/Lsun)=  -1.43881701E+00
+               Mass=   4.47036188E+31
+             Radius=   5.52538689E+10
+ 
+                         create initial model iteration          57
+      log10(L/Lsun)=  -1.38858791E+00
+               Mass=   5.08659662E+31
+             Radius=   5.75503814E+10
+ 
+      log10(L/Lsun)=  -1.44642248E+00
+               Mass=   4.57849125E+31
+             Radius=   5.45399378E+10
+ 
+      log10(L/Lsun)=  -1.44700140E+00
+               Mass=   4.59463517E+31
+             Radius=   5.44710498E+10
+ 
+                         create initial model iteration          58
+      log10(L/Lsun)=  -1.39706663E+00
+               Mass=   5.22042949E+31
+             Radius=   5.67226778E+10
+ 
+      log10(L/Lsun)=  -1.45483150E+00
+               Mass=   4.70182032E+31
+             Radius=   5.37557593E+10
+ 
+      log10(L/Lsun)=  -1.45540782E+00
+               Mass=   4.71842536E+31
+             Radius=   5.36892484E+10
+ 
+                         create initial model iteration          59
+      log10(L/Lsun)=  -1.46361651E+00
+               Mass=   4.82463345E+31
+             Radius=   5.29731289E+10
+ 
+      log10(L/Lsun)=  -1.40590453E+00
+               Mass=   5.35401296E+31
+             Radius=   5.58952554E+10
+ 
+      log10(L/Lsun)=  -1.46416030E+00
+               Mass=   4.84171069E+31
+             Radius=   5.29087955E+10
+ 
+                         create initial model iteration          60
+      log10(L/Lsun)=  -1.47257588E+00
+               Mass=   4.94705904E+31
+             Radius=   5.21921789E+10
+ 
+      log10(L/Lsun)=  -1.41492113E+00
+               Mass=   5.48715408E+31
+             Radius=   5.50693473E+10
+ 
+      log10(L/Lsun)=  -1.47309042E+00
+               Mass=   4.96463632E+31
+             Radius=   5.21299308E+10
+ 
+                         create initial model iteration          61
+      log10(L/Lsun)=  -1.42430732E+00
+               Mass=   5.61946525E+31
+             Radius=   5.42453499E+10
+ 
+      log10(L/Lsun)=  -1.48188088E+00
+               Mass=   5.06898414E+31
+             Radius=   5.14128361E+10
+ 
+      log10(L/Lsun)=  -1.48239282E+00
+               Mass=   5.08705095E+31
+             Radius=   5.13526442E+10
+ 
+                         create initial model iteration          62
+      log10(L/Lsun)=  -1.43388261E+00
+               Mass=   5.75087749E+31
+             Radius=   5.34239651E+10
+ 
+      log10(L/Lsun)=  -1.49138998E+00
+               Mass=   5.19020711E+31
+             Radius=   5.06363507E+10
+ 
+      log10(L/Lsun)=  -1.49187101E+00
+               Mass=   5.20873012E+31
+             Radius=   5.05782076E+10
+ 
+                         create initial model iteration          63
+      log10(L/Lsun)=  -1.50112988E+00
+               Mass=   5.31030740E+31
+             Radius=   4.98642363E+10
+ 
+      log10(L/Lsun)=  -1.44371506E+00
+               Mass=   5.88130188E+31
+             Radius=   5.26062942E+10
+ 
+      log10(L/Lsun)=  -1.50161423E+00
+               Mass=   5.32923441E+31
+             Radius=   4.98081283E+10
+ 
+                         create initial model iteration          64
+      log10(L/Lsun)=  -1.45377655E+00
+               Mass=   6.01060788E+31
+             Radius=   5.17943986E+10
+ 
+      log10(L/Lsun)=  -1.51111918E+00
+               Mass=   5.42907458E+31
+             Radius=   4.90981987E+10
+ 
+      log10(L/Lsun)=  -1.51157749E+00
+               Mass=   5.44839090E+31
+             Radius=   4.90439738E+10
+ 
+                         create initial model iteration          65
+      log10(L/Lsun)=  -1.46397306E+00
+               Mass=   6.13883994E+31
+             Radius=   5.09894169E+10
+ 
+      log10(L/Lsun)=  -1.52124672E+00
+               Mass=   5.54683963E+31
+             Radius=   4.83386226E+10
+ 
+      log10(L/Lsun)=  -1.52168074E+00
+               Mass=   5.56659123E+31
+             Radius=   4.82860580E+10
+ 
+                         create initial model iteration          66
+      log10(L/Lsun)=  -1.47440071E+00
+               Mass=   6.26594929E+31
+             Radius=   5.01906043E+10
+ 
+      log10(L/Lsun)=  -1.53159013E+00
+               Mass=   5.66386313E+31
+             Radius=   4.75845078E+10
+ 
+      log10(L/Lsun)=  -1.53203209E+00
+               Mass=   5.68410139E+31
+             Radius=   4.75335476E+10
+ 
+                         create initial model iteration          67
+      log10(L/Lsun)=  -1.48505603E+00
+               Mass=   6.39181106E+31
+             Radius=   4.93967615E+10
+ 
+      log10(L/Lsun)=  -1.54218036E+00
+               Mass=   5.77999564E+31
+             Radius=   4.68351204E+10
+ 
+      log10(L/Lsun)=  -1.54259755E+00
+               Mass=   5.80071726E+31
+             Radius=   4.67857531E+10
+ 
+                         create initial model iteration          68
+      log10(L/Lsun)=  -1.49587980E+00
+               Mass=   6.51624735E+31
+             Radius=   4.86086638E+10
+ 
+      log10(L/Lsun)=  -1.55293179E+00
+               Mass=   5.89479375E+31
+             Radius=   4.60917195E+10
+ 
+      log10(L/Lsun)=  -1.55332680E+00
+               Mass=   5.91591589E+31
+             Radius=   4.60439427E+10
+ 
+                         create initial model iteration          69
+      log10(L/Lsun)=  -1.50684824E+00
+               Mass=   6.63923115E+31
+             Radius=   4.78292499E+10
+ 
+      log10(L/Lsun)=  -1.56381619E+00
+               Mass=   6.00809008E+31
+             Radius=   4.53568642E+10
+ 
+      log10(L/Lsun)=  -1.56422073E+00
+               Mass=   6.02959141E+31
+             Radius=   4.53106532E+10
+ 
+                         create initial model iteration          70
+      log10(L/Lsun)=  -1.51801136E+00
+               Mass=   6.76032799E+31
+             Radius=   4.70593820E+10
+ 
+      log10(L/Lsun)=  -1.57491441E+00
+               Mass=   6.11986773E+31
+             Radius=   4.46308873E+10
+ 
+      log10(L/Lsun)=  -1.57529862E+00
+               Mass=   6.14176382E+31
+             Radius=   4.45861032E+10
+ 
+                         create initial model iteration          71
+      log10(L/Lsun)=  -1.52928483E+00
+               Mass=   6.87939308E+31
+             Radius=   4.62989729E+10
+ 
+      log10(L/Lsun)=  -1.58611810E+00
+               Mass=   6.23028580E+31
+             Radius=   4.39137248E+10
+ 
+      log10(L/Lsun)=  -1.58648225E+00
+               Mass=   6.25259743E+31
+             Radius=   4.38702840E+10
+ 
+                         create initial model iteration          72
+      log10(L/Lsun)=  -1.54067485E+00
+               Mass=   6.99653049E+31
+             Radius=   4.55476060E+10
+ 
+      log10(L/Lsun)=  -1.59742897E+00
+               Mass=   6.33927614E+31
+             Radius=   4.32054549E+10
+ 
+      log10(L/Lsun)=  -1.59777422E+00
+               Mass=   6.36199724E+31
+             Radius=   4.31633258E+10
+ 
+                         create initial model iteration          73
+      log10(L/Lsun)=  -1.55217076E+00
+               Mass=   7.11187015E+31
+             Radius=   4.48057847E+10
+ 
+      log10(L/Lsun)=  -1.60883557E+00
+               Mass=   6.44656540E+31
+             Radius=   4.25070074E+10
+ 
+      log10(L/Lsun)=  -1.60917633E+00
+               Mass=   6.46965582E+31
+             Radius=   4.24661400E+10
+ 
+                         create initial model iteration          74
+      log10(L/Lsun)=  -1.56377652E+00
+               Mass=   7.22554616E+31
+             Radius=   4.40753903E+10
+ 
+      log10(L/Lsun)=  -1.62036728E+00
+               Mass=   6.55210664E+31
+             Radius=   4.18198304E+10
+ 
+      log10(L/Lsun)=  -1.62070646E+00
+               Mass=   6.57558520E+31
+             Radius=   4.17801661E+10
+ 
+                         create initial model iteration          75
+      log10(L/Lsun)=  -1.63196363E+00
+               Mass=   6.65584988E+31
+             Radius=   4.11440214E+10
+ 
+      log10(L/Lsun)=  -1.57545376E+00
+               Mass=   7.33696045E+31
+             Radius=   4.33571776E+10
+ 
+      log10(L/Lsun)=  -1.63228515E+00
+               Mass=   6.67973749E+31
+             Radius=   4.11054933E+10
+ 
+                         create initial model iteration          76
+      log10(L/Lsun)=  -1.64359639E+00
+               Mass=   6.75759392E+31
+             Radius=   4.04801642E+10
+ 
+      log10(L/Lsun)=  -1.58717087E+00
+               Mass=   7.44550183E+31
+             Radius=   4.26518599E+10
+ 
+      log10(L/Lsun)=  -1.64390100E+00
+               Mass=   6.78185339E+31
+             Radius=   4.04427669E+10
+ 
+                         create initial model iteration          77
+      log10(L/Lsun)=  -1.65523045E+00
+               Mass=   6.85698050E+31
+             Radius=   3.98300821E+10
+ 
+      log10(L/Lsun)=  -1.59889735E+00
+               Mass=   7.55106374E+31
+             Radius=   4.19607675E+10
+ 
+      log10(L/Lsun)=  -1.65551971E+00
+               Mass=   6.88154882E+31
+             Radius=   3.97937985E+10
+ 
+                         create initial model iteration          78
+      log10(L/Lsun)=  -1.66681357E+00
+               Mass=   6.95361995E+31
+             Radius=   3.91961832E+10
+ 
+      log10(L/Lsun)=  -1.61057766E+00
+               Mass=   7.65394689E+31
+             Radius=   4.12859766E+10
+ 
+      log10(L/Lsun)=  -1.66708931E+00
+               Mass=   6.97844523E+31
+             Radius=   3.91609543E+10
+ 
+                         create initial model iteration          79
+      log10(L/Lsun)=  -1.67828063E+00
+               Mass=   7.04732944E+31
+             Radius=   3.85809790E+10
+ 
+      log10(L/Lsun)=  -1.62214109E+00
+               Mass=   7.75431675E+31
+             Radius=   4.06302556E+10
+ 
+      log10(L/Lsun)=  -1.67854504E+00
+               Mass=   7.07239757E+31
+             Radius=   3.85466758E+10
+ 
+                         create initial model iteration          80
+      log10(L/Lsun)=  -1.68956064E+00
+               Mass=   7.13810069E+31
+             Radius=   3.79868887E+10
+ 
+      log10(L/Lsun)=  -1.63351382E+00
+               Mass=   7.85170246E+31
+             Radius=   3.99969207E+10
+ 
+      log10(L/Lsun)=  -1.68983135E+00
+               Mass=   7.16346146E+31
+             Radius=   3.79534418E+10
+ 
+                         create initial model iteration          81
+      log10(L/Lsun)=  -1.70061885E+00
+               Mass=   7.22543672E+31
+             Radius=   3.74161650E+10
+ 
+      log10(L/Lsun)=  -1.64463757E+00
+               Mass=   7.94500284E+31
+             Radius=   3.93887081E+10
+ 
+      log10(L/Lsun)=  -1.70087769E+00
+               Mass=   7.25110977E+31
+             Radius=   3.73835060E+10
+ 
+                         create initial model iteration          82
+      log10(L/Lsun)=  -1.71132125E+00
+               Mass=   7.30849316E+31
+             Radius=   3.68733049E+10
+ 
+      log10(L/Lsun)=  -1.65541426E+00
+               Mass=   8.03340778E+31
+             Radius=   3.88100484E+10
+ 
+      log10(L/Lsun)=  -1.71156757E+00
+               Mass=   7.33446569E+31
+             Radius=   3.68413939E+10
+ 
+                         create initial model iteration          83
+      log10(L/Lsun)=  -1.72149716E+00
+               Mass=   7.38597233E+31
+             Radius=   3.63656996E+10
+ 
+      log10(L/Lsun)=  -1.66567859E+00
+               Mass=   8.11596873E+31
+             Radius=   3.82686134E+10
+ 
+      log10(L/Lsun)=  -1.72173194E+00
+               Mass=   7.41221655E+31
+             Radius=   3.63344887E+10
+ 
+                         create initial model iteration          84
+      log10(L/Lsun)=  -1.73087835E+00
+               Mass=   7.45606955E+31
+             Radius=   3.59050607E+10
+ 
+      log10(L/Lsun)=  -1.67514330E+00
+               Mass=   8.19086639E+31
+             Radius=   3.77769031E+10
+ 
+      log10(L/Lsun)=  -1.73110319E+00
+               Mass=   7.48254299E+31
+             Radius=   3.58744560E+10
+ 
+                         create initial model iteration          85
+      log10(L/Lsun)=  -1.73905140E+00
+               Mass=   7.51596684E+31
+             Radius=   3.55094281E+10
+ 
+      log10(L/Lsun)=  -1.68338673E+00
+               Mass=   8.25507603E+31
+             Radius=   3.73546648E+10
+ 
+      log10(L/Lsun)=  -1.73926757E+00
+               Mass=   7.54264932E+31
+             Radius=   3.54793503E+10
+ 
+                         create initial model iteration          86
+      log10(L/Lsun)=  -1.74541491E+00
+               Mass=   7.56127621E+31
+             Radius=   3.52054333E+10
+ 
+      log10(L/Lsun)=  -1.68980462E+00
+               Mass=   8.30359894E+31
+             Radius=   3.70302395E+10
+ 
+      log10(L/Lsun)=  -1.74562499E+00
+               Mass=   7.58811714E+31
+             Radius=   3.51757340E+10
+ 
+                         create initial model iteration          87
+      log10(L/Lsun)=  -1.74927423E+00
+               Mass=   7.58720767E+31
+             Radius=   3.50235475E+10
+ 
+      log10(L/Lsun)=  -1.69369421E+00
+               Mass=   8.33133216E+31
+             Radius=   3.68362479E+10
+ 
+      log10(L/Lsun)=  -1.74948023E+00
+               Mass=   7.61415589E+31
+             Radius=   3.49940925E+10
+ 
+                         create initial model iteration          88
+      log10(L/Lsun)=  -1.75061192E+00
+               Mass=   7.59447244E+31
+             Radius=   3.49620647E+10
+ 
+      log10(L/Lsun)=  -1.69504330E+00
+               Mass=   8.33904058E+31
+             Radius=   3.67706746E+10
+ 
+      log10(L/Lsun)=  -1.75081680E+00
+               Mass=   7.62144879E+31
+             Radius=   3.49326845E+10
+ 
+                         create initial model iteration          89
+      log10(L/Lsun)=  -1.75076554E+00
+               Mass=   7.59448732E+31
+             Radius=   3.49556436E+10
+ 
+      log10(L/Lsun)=  -1.69519812E+00
+               Mass=   8.33903275E+31
+             Radius=   3.67638373E+10
+ 
+      log10(L/Lsun)=  -1.75097036E+00
+               Mass=   7.62146411E+31
+             Radius=   3.49262713E+10
+ 
+ done build_initial_model
+
+                                        relax_num_steps          10
+
+         10   5.803196   2861.645 -13.752522 -13.752522   0.038194   0.038194   0.670000   0.001516   0.300000  -0.903331    518      0
+-5.0000E+00   5.803196  -0.297449 -99.000000 -15.149932 -99.000000   0.000000   0.300000   0.014071   0.030000   0.572246      3
+ 9.8000E-05   0.348075  -1.813742 -99.000000 -99.000000  -6.422058   0.000000   0.005170   0.003128   0.030000  0.000E+00        max_dt
+
+
+ finished doing relax num steps
+
+                             set_initial_number_retries           0
+ net name basic.net
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_Freedman11
+                                        OMP_NUM_THREADS          10
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Z_cntr   v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+         10   5.800554   2851.556 -13.772199 -13.772199   0.038194   0.038194   0.670000   0.001516   0.300000  -0.869694    518      0
+-4.2874E+00   5.800554  -0.295825 -99.000000 -15.169602 -99.000000   0.000000   0.300000   0.014071   0.030000   0.579125      6
+ 2.5959E-04   0.355718  -1.816629 -99.000000 -99.000000  -6.416633   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    4.5114568552220306D-13
+                       log_rel_run_E_err      -11.4202718840358504
+
+         20   5.798803   2849.721 -13.784342 -13.784342   0.038194   0.038194   0.670000   0.001516   0.300000  -0.840147    518      0
+-3.4956E+00   5.798803  -0.291566 -99.000000 -15.181738 -99.000000   0.000000   0.300000   0.014071   0.030000   0.584790      5
+ 1.8669E-03   0.363150  -1.809228 -99.000000 -99.000000  -6.422597   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.8629857349256354D-13
+                       log_rel_run_E_err      -11.1812485928719312
+
+         30   5.798643   2847.988 -13.785444 -13.785444   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836316    518      0
+-2.7037E+00   5.798643  -0.290509 -99.000000 -15.182839 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585479      4
+ 1.1819E-02   0.364202  -1.808173 -99.000000 -99.000000  -6.423004   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.4459366216317670D-13
+                       log_rel_run_E_err      -10.7786450655714887
+
+         40   5.798635   2845.037 -13.785497 -13.785497   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836121    518      0
+-1.9119E+00   5.798635  -0.290543 -99.000000 -15.182892 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585513      5
+ 7.3439E-02   0.364256  -1.810041 -99.000000 -99.000000  -6.420461   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5755599248765738D-13
+                       log_rel_run_E_err      -10.7145932378635003
+
+         50   5.798635   2838.224 -13.785498 -13.785498   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836115    518      0
+-1.1201E+00   5.798635  -0.290809 -99.000000 -15.182893 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585514      5
+ 4.5497E-01   0.364258  -1.814739 -99.000000 -99.000000  -6.414163   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.7206813081467238D-13
+                       log_rel_run_E_err      -10.6598995885983889
+
+save photos/x050 for model 50
+         60   5.798635   2826.110 -13.785496 -13.785496   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836115    518      0
+-3.2831E-01   5.798635  -0.291409 -99.000000 -15.182890 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585514      4
+ 2.8173E+00   0.364259  -1.823367 -99.000000 -99.000000  -6.402416   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5107454376784947D-13
+                       log_rel_run_E_err      -10.6108004407648924
+
+         70   5.798637   2810.459 -13.785475 -13.785475   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836111    518      0
+ 4.6351E-01   5.798637  -0.292373 -99.000000 -15.182869 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585514      2
+ 1.7444E+01   0.364262  -1.834944 -99.000000 -99.000000  -6.386304   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.6248550558371082D-13
+                       log_rel_run_E_err      -10.5667873560921812
+
+         80   5.798648   2810.462 -13.785285 -13.785285   0.038194   0.038194   0.670000   0.001516   0.300000  -0.836049    518      0
+ 1.2553E+00   5.798648  -0.292387 -99.000000 -15.182679 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585515      2
+ 1.0801E+02   0.364300  -1.834970 -99.000000 -99.000000  -6.386282   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.4331526952789325D-13
+                       log_rel_run_E_err      -10.5273141776076997
+
+         90   5.798721   2810.485 -13.784109 -13.784109   0.038194   0.038194   0.670000   0.001516   0.300000  -0.835662    518      0
+ 2.0471E+00   5.798721  -0.292474 -99.000000 -15.181503 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585524      2
+ 6.6878E+02   0.364538  -1.835129 -99.000000 -99.000000  -6.386148   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5340349093388613D-13
+                       log_rel_run_E_err      -10.4911631512300652
+
+        100   5.799169   2810.624 -13.776844 -13.776844   0.038194   0.038194   0.670000   0.001516   0.300000  -0.833269    518      0
+ 2.8389E+00   5.799169  -0.293008 -99.000000 -15.174237 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585580      2
+ 4.1409E+03   0.366006  -1.836111 -99.000000 -99.000000  -6.385315   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5193379079189266D-13
+                       log_rel_run_E_err      -10.4582550183429657
+
+save LOGS/profile1.data LOGS/profile1.data.GYRE for model 100
+save photos/x100 for model 100
+        110   5.801910   2811.474 -13.732463 -13.732463   0.038194   0.038194   0.670000   0.001516   0.300000  -0.818538    518      0
+ 3.6308E+00   5.801910  -0.296275 -99.000000 -15.129847 -99.000000   0.000000   0.300000   0.014071   0.030000   0.585922      2
+ 2.5639E+04   0.374990  -1.842120 -99.000000 -99.000000  -6.380214   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    1.5345328958318536D-15
+                       log_rel_run_E_err      -10.4358175632871255
+
+        120   5.817667   2816.313 -13.478288 -13.478288   0.038194   0.038194   0.670000   0.001516   0.300000  -0.731924    518      0
+ 4.4226E+00   5.817667  -0.315070 -99.000000 -14.875621 -99.000000   0.000000   0.300000   0.014071   0.030000   0.588003      3
+ 1.5875E+05   0.426880  -1.876722 -99.000000 -99.000000  -6.350613   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.3852347368415387D-13
+                       log_rel_run_E_err      -10.4222661940737158
+
+        130   5.886849   2836.100 -12.386125 -12.386125   0.038194   0.038194   0.670000   0.001516   0.300000  -0.312020    530      0
+ 5.2144E+00   5.886849  -0.397870 -99.000000 -13.783151 -99.000000   0.000000   0.300000   0.014071   0.030000   0.599279      3
+ 9.8295E+05   0.659174  -2.030161 -99.000000 -99.000000  -6.214112   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5158470403609074D-13
+                       log_rel_run_E_err      -10.4795743865156172
+
+        140   6.019764   2848.028 -10.381783 -10.381783   0.038194   0.038194   0.670000   0.001516   0.300000   0.703930    543      0
+ 5.8033E+00   6.019764  -0.560792 -99.000000 -11.777496 -99.000000   0.000000   0.300000   0.014071   0.030000   0.635467      3
+ 4.8517E+06   1.134313  -2.348714 -99.000000 -99.000000  -5.917874   0.000000   0.005170   0.003128   0.030000  0.000E+00    varcontrol
+                               rel_E_err    1.8696363385027931D-13
+                       log_rel_run_E_err      -10.6130635728334362
+
+        150   6.133196   2692.944  -8.705045  -8.705045   0.038194   0.038194   0.670000   0.001516   0.300000   1.891936    553      0
+ 6.3849E+00   6.133196  -0.725494 -99.000000 -10.097297 -99.000000   0.000000   0.300000   0.014071   0.030000   0.704204      5
+ 1.8802E+07   1.608423  -2.775384 -99.000000 -99.000000  -5.469877   0.000000   0.005170   0.003128   0.030000  0.000E+00    varcontrol
+                               rel_E_err    2.3936744065579042D-13
+                       log_rel_run_E_err      -10.7358413034392193
+
+save photos/x150 for model 150
+        160   6.194862   2303.150  -7.581977  -7.581977   0.038194   0.038194   0.670000   0.001516   0.300000   3.857904    561      0
+ 7.0771E+00   6.194862  -0.878945 -99.000000  -8.964998 -99.000000   0.000000   0.300000   0.014071   0.030000   0.869066      5
+ 8.1147E+07   2.067485  -3.353907 -99.000000 -99.000000  -4.923489   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.4096501676733378D-13
+                       log_rel_run_E_err      -10.8343054577282487
+
+        170   6.171087   1828.366  -7.410824  -7.410824   0.038194   0.038194   0.670000   0.001516   0.300000   6.551885    561      0
+ 7.5644E+00   6.171087  -0.974180 -99.000000  -8.779945 -99.000000   0.000000   0.300000   0.014071   0.030000   1.142869      4
+ 2.8786E+08   2.352989  -3.945414 -99.000000 -99.000000  -4.351125   0.000000   0.005170   0.003128   0.030000  0.000E+00        lgTeff
+                               rel_E_err    2.2819591736655122D-13
+                       log_rel_run_E_err      -10.8559618761697436
+
+        180   6.099657   1417.333  -7.800647  -7.800647   0.038194   0.038194   0.670000   0.001516   0.300000   9.952067    571      0
+ 7.6685E+00   6.099657  -1.027334 -99.000000  -9.154842 -99.000000   0.000000   0.300000   0.014071   0.030000   1.521258      3
+ 7.2804E+08   2.511319  -4.494086 -99.000000 -99.000000  -4.023717   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.3559704442196518D-13
+                       log_rel_run_E_err      -10.8378125323390293
+
+        190   6.053589   1103.363  -8.122175  -8.122175   0.038194   0.038194   0.670000   0.001516   0.300000  12.093528    579      0
+ 7.8667E+00   6.053589  -1.046298 -99.000000  -9.468418 -99.000000   0.000000   0.300000   0.014071   0.030000   1.765993      3
+ 1.3130E+09   2.567475  -4.967029 -99.000000 -99.000000  -4.188438   0.000000   0.005170   0.003128   0.030000  0.000E+00        lgTeff
+                               rel_E_err    2.1045142593974891D-13
+                       log_rel_run_E_err      -10.7951017388626340
+
+        200   5.990705    870.818  -8.541473  -8.541473   0.038194   0.038194   0.670000   0.001516   0.300000  15.023639    593      0
+ 8.3098E+00   5.990705  -1.060809 -99.000000  -9.879841 -99.000000   0.000000   0.300000   0.014071   0.030000   2.114106      4
+ 2.6941E+09   2.613237  -5.407215 -99.000000 -99.000000  -4.322569   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.1205391171005648D-13
+                       log_rel_run_E_err      -10.4525123365104697
+
+save LOGS/profile2.data LOGS/profile2.data.GYRE for model 200
+save photos/x200 for model 200
+        210   5.833698    701.343  -9.701545  -9.701545   0.038194   0.038194   0.670000   0.001516   0.300000  23.872010    600      0
+ 8.9960E+00   5.833698  -1.077001 -99.000000 -11.024577 -99.000000   0.000000   0.300000   0.014071   0.030000   3.189585      4
+ 7.7956E+09   2.678037  -5.815586 -99.000000 -99.000000  -4.312250   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.1909352907388112D-13
+                       log_rel_run_E_err      -10.2006259183811210
+
+
+stop because star_age >= max_age
+    0.1000000000E+11    0.1000000000E+11
+
+        212   5.788468    671.156 -10.070681 -10.070681   0.038194   0.038194   0.670000   0.001516   0.300000  27.133604    600      0
+ 9.0066E+00   5.788468  -1.081004 -99.000000 -11.388816 -99.000000   0.000000   0.300000   0.014071   0.030000   3.581742      3
+ 1.0000E+10   2.693427  -5.900019 -99.000000 -99.000000  -4.287830   0.000000   0.005170   0.003128   0.030000  0.000E+00        lgTeff
+                               rel_E_err    2.5073939519786738D-13
+                       log_rel_run_E_err      -10.2019913101014303
+
+save LOGS/profile3.data LOGS/profile3.data.GYRE for model 212
+
+                                    varcontrol dt limit          27
+                                  max increase dt limit         161
+                                        solver dt limit           2
+                                        lgTeff dt limit          30
+                                    lgRho_cntr dt limit           1
+
+ model saved to final.mod
+save photos/x212 for model 212
+termination code: max_age
+
+                 runtime (minutes), retries, steps        0.51         0       212
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Z_cntr   v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+        212   5.788468    671.156 -10.070681 -10.070681   0.038194   0.038194   0.670000   0.001516   0.300000  27.133604    600      0
+ 9.0066E+00   5.788468  -1.081004 -99.000000 -11.388816 -99.000000   0.000000   0.300000   0.014071   0.030000   3.581742      3
+ 1.0000E+10   2.693427  -5.900019 -99.000000 -99.000000  -4.287830   0.000000   0.005170   0.003128   0.030000  0.000E+00  max increase
+                               rel_E_err    2.5073939519786738D-13
+                       log_rel_run_E_err      -10.2019913101014303
+

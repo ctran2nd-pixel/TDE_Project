@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# Collaborator-provided stellar models and generated GYRE products.
+models/*
+!models/.gitkeep
+results/run_gyre/*
+!results/run_gyre/.gitkeep

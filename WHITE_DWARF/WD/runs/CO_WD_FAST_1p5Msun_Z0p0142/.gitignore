@@ -1,0 +1,13 @@
+/star
+/make/*
+!/make/makefile
+/LOGS/
+/LOGS_*/
+/photos/
+/png/
+/*.log
+/testhub.yml
+/restart_photo
+/co_wd.mod
+/final.mod
+/archive/

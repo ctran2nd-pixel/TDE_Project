@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+if [[ -z "${MESA_DIR:-}" ]]; then
+    echo "MESA_DIR is not set. Point it to a MESA r24.08.1 installation." >&2
+    exit 1
+fi
+
+if [[ ! -f "${MESA_DIR}/star/work_standard_makefile" ]]; then
+    echo "MESA_DIR does not look like a complete MESA installation: ${MESA_DIR}" >&2
+    exit 1
+fi
+
+if [[ ! -x ./star ]]; then
+    echo "The local star executable is missing. Run ./mk first." >&2
+    exit 1
+fi
+
+required_files=(
+    co_core.mod
+    inlist_common
+    inlist_remove_env
+    inlist_remove_env_header
+    inlist_settle
+    inlist_settle_header
+)
+
+for required_file in "${required_files[@]}"; do
+    if [[ ! -s "${required_file}" ]]; then
+        echo "Required input is missing or empty: ${required_file}" >&2
+        exit 1
+    fi
+done
+
+artifacts=(
+    co_wd.mod
+    final.mod
+    LOGS
+    LOGS_remove_env
+    LOGS_settle
+    remove_env.log
+    settle.log
+    restart_photo
+    testhub.yml
+)
+
+archive_needed=false
+for artifact in "${artifacts[@]}"; do
+    if [[ -e "${artifact}" ]]; then
+        archive_needed=true
+        break
+    fi
+done
+
+if [[ "${archive_needed}" == true ]]; then
+    archive_dir="archive/run_$(date +%Y%m%d_%H%M%S)"
+    mkdir -p "${archive_dir}"
+    for artifact in "${artifacts[@]}"; do
+        if [[ -e "${artifact}" ]]; then
+            mv "${artifact}" "${archive_dir}/"
+        fi
+    done
+    echo "Previous output moved to ${archive_dir}"
+fi
+
+run_stage() {
+    local stage_name="$1"
+    local header_file="$2"
+    local output_model="$3"
+    local logs_directory="$4"
+
+    echo
+    echo "Starting ${stage_name} with ${header_file}"
+    cp "${header_file}" inlist
+
+    if ! ./star 2>&1 | tee "${stage_name}.log"; then
+        echo "MESA failed during ${stage_name}; see ${stage_name}.log" >&2
+        exit 1
+    fi
+
+    if [[ ! -s "${output_model}" ]]; then
+        echo "MESA did not create ${output_model}; see ${stage_name}.log" >&2
+        exit 1
+    fi
+
+    if [[ -d LOGS ]]; then
+        mv LOGS "${logs_directory}"
+    fi
+
+    echo "Finished ${stage_name}; created ${output_model}"
+}
+
+run_stage remove_env inlist_remove_env_header co_wd.mod LOGS_remove_env
+run_stage settle inlist_settle_header final.mod LOGS_settle
+
+echo
+echo "White-dwarf run complete: final.mod"

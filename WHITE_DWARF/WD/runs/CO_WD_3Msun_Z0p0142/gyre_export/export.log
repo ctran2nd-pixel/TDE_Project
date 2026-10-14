@@ -1,0 +1,89 @@
+ reading user weak rate file /Users/mchau/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r24.08.1
+
+
+ The terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'lg_Tcntr' is log10 center temperature (K),
+      'lg_Dcntr' is log10 center density (g/cm^3),
+      'lg_Tmax' is log10 max temperature (K),
+      'Teff' is the surface temperature (K),
+      'lg_R' is log10 surface radius (Rsun),
+      'lg_L' is log10 surface luminosity (Lsun),
+      'lg_LH' is log10 total PP and CNO hydrogen burning power (Lsun),
+      'lg_L3a' is log10 total triple-alpha helium burning power (Lsun),
+      'lg_gsurf' is log10 surface gravity,
+      'lg_LNuc' is log10 nuclear power (Lsun),
+      'lg_LNeu' is log10 total neutrino power (Lsun),
+      'lg_Lphoto' is log10 total photodisintegration (Lsun),
+      'Mass' is the total stellar baryonic mass (Msun),
+      'lg_Mdot' is log10 magnitude of rate of change of mass (Msun/year),
+      'lg_Dsurf' is log10 surface density (g/cm^3),
+      'H_env' is the amount of mass where H is dominant,
+      'He_core' is the largest mass where He is dominant.
+      'CO_core' is the largest mass where CO is dominant.
+      'H_cntr' is the center H1 mass fraction,
+      'He_cntr' is the center He4 mass fraction,
+      'C_cntr' is the center C12 mass fraction,
+      'N_cntr' is the center N14 mass fraction,
+      'O_cntr' is the center O16 mass fraction,
+      'Ne_cntr' is the center Ne20 mass fraction,
+      'gam_cntr' is the center plasma interaction parameter,
+      'eta_cntr' is the center electron degeneracy parameter,
+      'zones' is the number of zones in the current model,
+      'iters' is the number of solver iterations for the current step,
+      'retry' is the number of step retries required during the run,
+      'dt_limit' is an indication of what limited the timestep.
+
+ All this and more are saved in the LOGS directory during the run.
+load saved model ../final.mod
+
+                    WARNING -- inlist initial_z ignored    2.0000000000000000D-02
+                          using saved initial_z instead    1.4200000000000001D-02
+
+                             set_initial_number_retries           0
+ net name co_burn_extras.net
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_fa05_gs98
+                                        OMP_NUM_THREADS          10
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+
+stop because model_number >= max_model_number
+     1346        1
+
+       1346   7.896378  4.457E+04  -0.994010  -0.993987   0.602526   0.000122   0.000000   0.000000   0.000000  57.799890    555      0
+ 5.4111E+00   7.767673  -1.819163 -10.248635   0.169716 -99.000000   0.602405   0.000000   0.611321   0.000000  12.520923      4
+ 4.4676E+08   6.540464  -0.087640  -5.271097 -99.000000  -5.539068   0.579464   0.370055   0.001373   0.002333  0.000E+00    initial dt
+
+save LOGS/profile1.data LOGS/profile1.data.GYRE for model 1346
+save profile.data profile.data.GYRE for model 1346
+
+                                  max increase dt limit           1
+
+save photos/x346 for model 1346
+termination code: max_model_number
+
+                 runtime (minutes), retries, steps        0.01         0      1346
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1346   7.896378  4.457E+04  -0.994010  -0.993987   0.602526   0.000122   0.000000   0.000000   0.000000  57.799890    555      0
+ 5.4111E+00   7.767673  -1.819163 -10.248635   0.169716 -99.000000   0.602405   0.000000   0.611321   0.000000  12.520923      4
+ 4.4676E+08   6.540464  -0.087640  -5.271097 -99.000000  -5.539068   0.579464   0.370055   0.001373   0.002333  0.000E+00  max increase
+

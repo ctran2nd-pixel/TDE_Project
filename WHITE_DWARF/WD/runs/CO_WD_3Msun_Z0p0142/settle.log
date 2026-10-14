@@ -1,0 +1,598 @@
+ reading user weak rate file /Users/mchau/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r24.08.1
+ read inlist_common
+ read inlist_settle
+load saved model co_wd.mod
+
+ set special rate factor for r_c12_ag_o16           1   1.0000000000000000     
+ set special rate factor for r_he4_he4_he4_to_c12          10   1.0000000000000000     
+create rate data for r_c12_ag_o16
+create rate data for r_o16_ga_c12
+create rate data for r_c12_to_he4_he4_he4
+create rate data for r_he4_he4_he4_to_c12
+write /Users/mchau/mesa/data/rates_data/cache/r_c12_ag_o16_0.bin
+write /Users/mchau/mesa/data/rates_data/cache/r_o16_ga_c12_0.bin
+write /Users/mchau/mesa/data/rates_data/cache/r_c12_to_he4_he4_he4_0.bin
+write /Users/mchau/mesa/data/rates_data/cache/r_he4_he4_he4_to_c12_0.bin
+ set special rate factor for r_c12_ag_o16           1   1.0000000000000000     
+ set special rate factor for r_he4_he4_he4_to_c12          10   1.0000000000000000     
+                             set_initial_number_retries           0
+ net name co_burn_extras.net
+                                      atm_option: T_tau
+                            set_cumulative_energy_error    0.0000000000000000D+00
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_fa05_gs98
+                                        OMP_NUM_THREADS          10
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+        950   8.356299  6.560E+04  -1.852619   5.325308   0.602526   0.001009   0.000000   0.000000   0.295299  23.064992   1058      0
+-1.8743E-01   8.037424  -0.418655   5.281573   1.779526 -99.000000   0.601518   0.000000   0.603275   0.014289   5.615311     10
+ 4.4337E+08   6.310001   3.385029   4.306670 -99.000000  -8.077319   0.574049   0.378100   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.4221661047824390D-13
+                       log_rel_run_E_err      -12.2521546787299460
+
+save LOGS/profile20.data for model 950
+save photos/x950 for model 950
+        960   8.347585  6.602E+04  -2.313083   5.036886   0.602526   0.001009   0.000000   0.000000   0.295299  23.063693   1050      0
+-2.0524E-01   8.036693  -0.532555   5.008903   1.726141 -99.000000   0.601518   0.000000   0.603276   0.014289   5.619020      8
+ 4.4337E+08   6.308669   3.168399   3.832074 -99.000000  -7.937022   0.574049   0.378100   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.2967452645749994D-13
+                       log_rel_run_E_err      -11.7467686458342460
+
+        970   8.335853  6.221E+04  -2.563667   4.753492   0.602526   0.001009   0.000000   0.000000   0.295299  23.063040   1018      0
+-8.1144E-02   8.036239  -0.578500   4.732166   1.701785 -99.000000   0.601518   0.000000   0.603276   0.014289   5.621344     10
+ 4.4337E+08   6.307848   2.973003   3.434002 -99.000000  -7.894046   0.574049   0.378100   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.3392997971481135D-13
+                       log_rel_run_E_err      -11.5234341973611834
+
+        980   8.321087  5.743E+04  -2.847414   4.475488   0.602526   0.001009   0.000000   0.000000   0.295299  23.062728    979      0
+ 4.2944E-02   8.035913  -0.551245   4.456598   1.681127 -99.000000   0.601518   0.000000   0.603276   0.014289   5.623041     10
+ 4.4337E+08   6.307262   2.888767   3.104545 -99.000000  -7.970132   0.574049   0.378100   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.1369248368283185D-13
+                       log_rel_run_E_err      -11.3741356879764091
+
+        990   8.311511  5.337E+04  -3.376721   4.198770   0.602526   0.001009   0.000000   0.000000   0.295299  23.062716    976      0
+ 1.6587E-01   8.035685  -0.410496   4.178992   1.674068 -99.000000   0.601518   0.000000   0.603276   0.014289   5.624258     10
+ 4.4337E+08   6.306859   3.042850   2.847319 -99.000000  -8.204126   0.574049   0.378100   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.1873156053471351D-13
+                       log_rel_run_E_err      -11.2671999341381124
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1000   8.311285  4.442E+04  -4.268973   3.922854   0.602526   0.001009   0.000000   0.000000   0.295299  23.063019    963      0
+ 3.6882E-01   8.035543  -0.125044   3.899414   1.670381 -99.000000   0.601518   0.000000   0.603277   0.014289   5.625057      5
+ 4.4337E+08   6.306620   3.294904   2.643359 -99.000000  -8.608796   0.574049   0.378099   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.2189026370870081D-13
+                       log_rel_run_E_err      -11.1794594411374977
+
+save LOGS/profile21.data for model 1000
+save photos/1000 for model 1000
+       1010   8.311206  3.366E+04  -5.037190   3.745651   0.602526   0.001009   0.000000   0.000000   0.295299  23.063418    914      0
+ 1.2175E-01   8.035495   0.187033   3.719055   1.667205 -99.000000   0.601518   0.000000   0.603277   0.014289   5.625373      6
+ 4.4337E+08   6.306548   3.437407   2.519459 -99.000000  -8.981360   0.574049   0.378099   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.1530308075576888D-13
+                       log_rel_run_E_err      -11.1094699434816562
+
+       1020   8.311188  2.631E+04  -5.485315   3.652519   0.602526   0.001009   0.000000   0.000000   0.295299  23.063716    912      0
+ 9.8085E-03   8.035485   0.434274   3.624050   1.665488 -99.000000   0.601518   0.000000   0.603277   0.014289   5.625472     10
+ 4.4337E+08   6.306539   3.503529   2.454943 -99.000000  -9.264644   0.574049   0.378099   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.2762858646112426D-13
+                       log_rel_run_E_err      -11.0443755806551795
+
+       1030   8.311187  2.029E+04  -5.768536   3.596433   0.602526   0.001012   0.000000   0.000000   0.295299  23.063935    937      0
+-1.9257E-01   8.035484   0.678577   3.566770   1.664544 -99.000000   0.601514   0.000000   0.603277   0.014289   5.625504     10
+ 4.4337E+08   6.306546   3.540889   2.416118 -99.000000  -9.617041   0.574049   0.378098   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.0515357356037187D-13
+                       log_rel_run_E_err      -10.9877746972646282
+
+       1040   8.311190  1.584E+04  -5.938574   3.564397   0.602526   0.001012   0.000000   0.000000   0.295299  23.064077    958      0
+-3.5374E-01   8.035487   0.903664   3.534030   1.664048 -99.000000   0.601514   0.000000   0.603277   0.014289   5.625513     10
+ 4.4337E+08   6.306555   3.560621   2.393926 -99.000000  -9.964846   0.574049   0.378098   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.1423749314116028D-13
+                       log_rel_run_E_err      -10.9386936431549664
+
+       1050   8.311197  1.169E+04  -6.138882   3.528958   0.602526   0.001012   0.000000   0.000000   0.295299  23.064250    944      0
+-3.6837E-01   8.035492   1.177323   3.497794   1.663545 -99.000000   0.601514   0.000000   0.603278   0.014289   5.625511     10
+ 4.4337E+08   6.306569   3.580129   2.369348 -99.000000 -10.395817   0.574049   0.378098   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.1839366239963461D-13
+                       log_rel_run_E_err      -10.8964177594135201
+
+save LOGS/profile22.data for model 1050
+save photos/x050 for model 1050
+       1060   8.311204   9343.274  -6.287119   3.504840   0.602526   0.001012   0.000000   0.000000   0.295299  23.064380    998      0
+-7.2557E-02   8.035497   1.379830   3.473126   1.663233 -99.000000   0.601514   0.000000   0.603278   0.014289   5.625503     10
+ 4.4337E+08   6.306582   3.596350   2.352549 -99.000000 -10.689042   0.574049   0.378098   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.1623703495464898D-13
+                       log_rel_run_E_err      -10.8573140471075629
+
+       1070   8.311277   8394.797  -7.115752   3.396623   0.602526   0.001012   0.000000   0.000000   0.295298  23.065164   1031      0
+ 7.1926E-01   8.035545   1.516170   3.362381   1.662205 -99.000000   0.601514   0.000000   0.603278   0.014289   5.625360     10
+ 4.4337E+08   6.306693   3.683074   2.276395 -99.000000 -10.742399   0.574049   0.378098   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.1929677840892027D-13
+                       log_rel_run_E_err      -10.8206676531361854
+
+       1080   8.312112   7965.585  -9.760770   3.368868   0.602526   0.001006   0.000000   0.000000   0.295301  23.070169   1068      0
+ 1.5094E+00   8.036089   1.675260   3.335088   1.665332 -99.000000   0.601521   0.000000   0.603282   0.014335   5.623177     10
+ 4.4337E+08   6.307819   3.910085   2.242963 -99.000000 -10.803692   0.574049   0.378094   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.3169454967458833D-13
+                       log_rel_run_E_err      -10.7896801802060711
+
+       1090   8.312412   8002.945  -8.352981   3.962278   0.602526   0.001004   0.000000   0.000000   0.295345  23.076302   1102      0
+ 1.2442E+00   8.036294   1.660606   3.939523   1.667076 -99.000000   0.601522   0.000000   0.603287   0.014348   5.622975     10
+ 4.4337E+08   6.308381   3.888906   2.670234 -99.000000 -10.799387   0.574049   0.378089   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.6118372581425779D-13
+                       log_rel_run_E_err      -10.7577416122118983
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1100   8.310924   8228.313  -6.573165   3.848033   0.602526   0.001006   0.000000   0.000000   0.295345  23.080071   1087      0
+ 1.4381E+00   8.035332   1.577375   3.810156   1.658671 -99.000000   0.601521   0.000000   0.603292   0.014348   5.628661     10
+ 4.4337E+08   6.306809   3.770687   2.769821 -99.000000 -10.771015   0.574049   0.378084   0.001373   0.002333  0.000E+00       Lnuc_He
+                               rel_E_err    1.3399683504015727D-13
+                       log_rel_run_E_err      -10.7259644603705961
+
+save LOGS/profile23.data for model 1100
+save photos/x100 for model 1100
+       1110   8.310978   8231.538  -6.348968   3.693735   0.602526   0.001006   0.000000   0.000000   0.295345  23.089602   1070      0
+ 1.8731E+00   8.035290   1.578101   3.644884   1.659243 -99.000000   0.601521   0.000000   0.603301   0.014348   5.630268     10
+ 4.4337E+08   6.307050   3.772820   2.720631 -99.000000 -10.772614   0.575876   0.378075   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.2234302383403793D-13
+                       log_rel_run_E_err      -10.6975503946929233
+
+                            solver rejected trial model
+                                        s% model_number        1116
+                                  s% solver_call_number         170
+                                                     nz        1079
+                                         s% num_retries           0
+                                                     dt    6.7588324745590773D+09
+                                          log dt/secyer    2.3307677150031498D+00
+
+ retry: max residual jumped -- give up in solver    1116
+       1120   8.310588   9112.317  -3.784197   3.647499   0.602526   0.001013   0.000000   0.000000   0.295345  23.118006   1084      1
+ 2.1089E+00   8.034812   1.444249   3.579046   1.658145 -99.000000   0.601513   0.000000   0.603328   0.014348   5.636943     10
+ 4.4337E+08   6.307144   3.681706   2.811328 -99.000000 -10.744003   0.576241   0.378048   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.2934230680310734D-13
+                       log_rel_run_E_err      -10.6709530389393681
+
+                            solver rejected trial model
+                                        s% model_number        1121
+                                  s% solver_call_number         176
+                                                     nz        1103
+                                         s% num_retries           1
+                                                     dt    4.8663593816825352D+09
+                                          log dt/secyer    2.1881002114344184D+00
+
+ retry: max residual jumped -- give up in solver    1121
+                            solver rejected trial model
+                                        s% model_number        1124
+                                  s% solver_call_number         180
+                                                     nz        1091
+                                         s% num_retries           2
+                                                     dt    1.9465437526730142D+09
+                                          log dt/secyer    1.7901602027623806D+00
+
+ retry: max residual jumped -- give up in solver    1124
+       1130   8.310558  1.341E+04  -3.253965   3.626947   0.602526   0.001013   0.000000   0.000000   0.295345  23.126675   1058      3
+ 1.2643E+00   8.034728   1.099477   3.553589   1.658290 -99.000000   0.601513   0.000000   0.603336   0.014348   5.638653     10
+ 4.4337E+08   6.307281   3.662982   2.818448 -99.000000 -10.234415   0.576766   0.378040   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.4426462199933468D-13
+                       log_rel_run_E_err      -10.6452544939288352
+
+       1140   8.310546  1.750E+04  -2.909771   3.612587   0.602526   0.001004   0.000000   0.000000   0.295345  23.133165   1060      3
+ 1.3202E+00   8.034672   0.861269   3.535879   1.658453 -99.000000   0.601522   0.000000   0.603342   0.014348   5.639894     10
+ 4.4337E+08   6.307396   3.649486   2.821855 -99.000000  -9.869988   0.576839   0.378034   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.2769099845237694D-13
+                       log_rel_run_E_err      -10.6227748024117297
+
+       1150   8.310543  2.235E+04  -2.612632   3.598966   0.602526   0.001004   0.000000   0.000000   0.295345  23.139511   1060      3
+ 1.4824E+00   8.034623   0.642742   3.519207   1.658656 -99.000000   0.601522   0.000000   0.603348   0.014348   5.641075     10
+ 4.4337E+08   6.307520   3.637145   2.823690 -99.000000  -9.532226   0.576865   0.378028   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.4002297272494640D-13
+                       log_rel_run_E_err      -10.6010536370849131
+
+save LOGS/profile24.data for model 1150
+save photos/x150 for model 1150
+       1160   8.310561  2.863E+04  -2.117811   3.574823   0.602526   0.001004   0.000000   0.000000   0.295345  23.151777   1055      3
+ 1.8039E+00   8.034545   0.416656   3.489844   1.659162 -99.000000   0.601522   0.000000   0.603360   0.014348   5.643278     10
+ 4.4337E+08   6.307784   3.615217   2.824549 -99.000000  -9.225003   0.576918   0.378016   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.2525310006861310D-13
+                       log_rel_run_E_err      -10.5796670008615745
+
+       1170   8.310649  3.683E+04  -1.367817   3.534305   0.602526   0.001004   0.000000   0.000000   0.295345  23.175128   1063      3
+ 2.1465E+00   8.034431   0.179204   3.441162   1.660398 -99.000000   0.601522   0.000000   0.603382   0.014348   5.647277     10
+ 4.4337E+08   6.308352   3.578049   2.819904 -99.000000  -8.959948   0.577103   0.377993   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.2614190151004508D-13
+                       log_rel_run_E_err      -10.5605901952668848
+
+       1180   8.310872  4.716E+04  -0.550408   3.481865   0.602526   0.001004   0.000000   0.000000   0.295345  23.209730   1084      3
+ 2.3122E+00   8.034318  -0.059362   3.379487   1.662727 -99.000000   0.601522   0.000000   0.603416   0.014348   5.652902     10
+ 4.4337E+08   6.309290   3.530107   2.803912 -99.000000  -8.633853   0.577732   0.377960   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.2374870630807300D-13
+                       log_rel_run_E_err      -10.5413891972827596
+
+       1190   8.311438  6.010E+04   0.437013   3.402166   0.602526   0.001004   0.000000   0.000000   0.295345  23.270363   1046      3
+ 2.5466E+00   8.034215  -0.305995   3.288462   1.668664 -99.000000   0.601522   0.000000   0.603476   0.014348   5.662253     10
+ 4.4338E+08   6.311097   3.458128   2.762499 -99.000000  -8.239314   0.578497   0.377900   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.3423076333340333D-13
+                       log_rel_run_E_err      -10.5242481717169198
+
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1200   8.312907  7.670E+04   1.787107   3.268598   0.602526   0.001006   0.000000   0.000000   0.295345  23.396174   1004      3
+ 2.8712E+00   8.034200  -0.576525   3.128831   1.713711 -99.000000   0.601520   0.000000   0.603601   0.014348   5.680576     10
+ 4.4338E+08   6.315182   3.340791   2.652727 -99.000000  -7.787437   0.579886   0.377775   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.2108322747589301D-13
+                       log_rel_run_E_err      -10.5086401771198403
+
+save LOGS/profile25.data for model 1200
+save photos/x200 for model 1200
+log_dt 3.041   age 4.434E+08   model 1206   iters    0   steps   60   retries   24   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    1
+ retry: num_diffusion_solver_steps hard limit    1206
+log_dt 2.740   age 4.434E+08   model 1206   iters    0   steps   56   retries   26   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    2
+                      residual_norm > tol_residual_norm        1206    1.5442951680322230D-04    1.0000000000000000D-08
+                        max_residual > tol_max_residual        1206    1.2911785628386468D-01    1.0000000000000001D-05
+            correction_norm > tol_correction_norm*coeff        1206    7.6953132259429530D-04    1.2000000000000004D-06    4.0000000000000008D-02
+          max_abs_correction > tol_max_correction*coeff        1206    6.3627309418444536D-02    1.2000000000000003D-04    4.0000000000000008D-02
+                            solver rejected trial model
+                                        s% model_number        1206
+                                  s% solver_call_number         264
+                                                     nz         991
+                                         s% num_retries           4
+                                                     dt    1.7345229402744598D+10
+                                          log dt/secyer    2.7400760809779636D+00
+
+ retry: avg+max corr+resid -- give up in solver    1206
+log_dt 2.439   age 4.434E+08   model 1206   iters    0   steps   58   retries   25   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    3
+                      residual_norm > tol_residual_norm        1206    7.9490431077751037D-05    1.0000000000000000D-08
+                        max_residual > tol_max_residual        1206    6.4284641467907244D-02    1.0000000000000001D-05
+            correction_norm > tol_correction_norm*coeff        1206    3.9581067764278793D-04    1.2000000000000004D-06    4.0000000000000008D-02
+          max_abs_correction > tol_max_correction*coeff        1206    3.2114590124873263D-02    1.2000000000000003D-04    4.0000000000000008D-02
+                            solver rejected trial model
+                                        s% model_number        1206
+                                  s% solver_call_number         265
+                                                     nz         991
+                                         s% num_retries           5
+                                                     dt    8.6726147013722992D+09
+                                          log dt/secyer    2.4390460853139824D+00
+
+ retry: avg+max corr+resid -- give up in solver    1206
+log_dt 2.138   age 4.434E+08   model 1206   iters    0   steps   39   retries   16   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    4
+                      residual_norm > tol_residual_norm        1206    4.2399575031273932D-05    1.0000000000000000D-08
+                        max_residual > tol_max_residual        1206    3.2041503085467583D-02    1.0000000000000001D-05
+            correction_norm > tol_correction_norm*coeff        1206    2.0195592453691537D-04    1.2000000000000004D-06    4.0000000000000008D-02
+          max_abs_correction > tol_max_correction*coeff        1206    1.6077322186995899D-02    1.2000000000000003D-04    4.0000000000000008D-02
+                            solver rejected trial model
+                                        s% model_number        1206
+                                  s% solver_call_number         266
+                                                     nz         991
+                                         s% num_retries           6
+                                                     dt    4.3363073506861496D+09
+                                          log dt/secyer    2.1380160896500011D+00
+
+ retry: avg+max corr+resid -- give up in solver    1206
+log_dt 1.837   age 4.434E+08   model 1206   iters    0   steps   42   retries   16   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    5
+                      residual_norm > tol_residual_norm        1206    2.4063310975018102D-05    1.0000000000000000D-08
+                        max_residual > tol_max_residual        1206    1.5956828267817868D-02    1.0000000000000001D-05
+            correction_norm > tol_correction_norm*coeff        1206    1.0300482376582425D-04    1.2000000000000004D-06    4.0000000000000008D-02
+          max_abs_correction > tol_max_correction*coeff        1206    8.0357473687966887D-03    1.2000000000000003D-04    4.0000000000000008D-02
+                            solver rejected trial model
+                                        s% model_number        1206
+                                  s% solver_call_number         267
+                                                     nz         991
+                                         s% num_retries           7
+                                                     dt    2.1681536753430748D+09
+                                          log dt/secyer    1.8369860939860201D+00
+
+ retry: avg+max corr+resid -- give up in solver    1206
+log_dt 1.536   age 4.434E+08   model 1206   iters    0   steps   31   retries   14   nzlo   63   nzhi  991   n  929   nz  991   diffusion_call_number    6
+log_dt 1.536   age 4.434E+08   model 1207   iters    0   steps    1   retries    0   nzlo   63   nzhi  990   n  928   nz  990   diffusion_call_number    7
+log_dt 1.536   age 4.434E+08   model 1208   iters    0   steps   11   retries    4   nzlo   63   nzhi  987   n  925   nz  987   diffusion_call_number    8
+log_dt 1.536   age 4.434E+08   model 1209   iters    0   steps   19   retries    7   nzlo   63   nzhi  985   n  923   nz  985   diffusion_call_number    9
+                        max_residual > tol_max_residual        1209    2.5437723708775789D-05    1.0000000000000001D-05
+                            solver rejected trial model
+                                        s% model_number        1209
+                                  s% solver_call_number         271
+                                                     nz         985
+                                         s% num_retries           8
+                                                     dt    1.0840768376715374D+09
+                                          log dt/secyer    1.5359560983220388D+00
+
+ retry: max resid -- give up in solver    1209
+log_dt 1.235   age 4.434E+08   model 1209   iters    0   steps    2   retries    1   nzlo   63   nzhi  985   n  923   nz  985   diffusion_call_number   10
+log_dt 1.235   age 4.434E+08   model 1210   iters    0   steps    1   retries    0   nzlo   63   nzhi  983   n  921   nz  983   diffusion_call_number   11
+       1210   8.314598  8.503E+04   2.637274   3.228176   0.602526   0.000990   0.000000   0.000000   0.295296  23.520843    983      9
+ 1.2349E+00   8.034352  -0.682903   2.965878   1.893877 -99.000000   0.601536   0.000000   0.603725   0.014346   5.697810     10
+ 4.4339E+08   6.319506   3.307190   2.522319 -99.000000  -7.640029   0.580710   0.377651   0.001373   0.002333  0.000E+00          hold
+                               rel_E_err    1.1442188157242526D-13
+                       log_rel_run_E_err       -9.9817463871720200
+
+log_dt 1.235   age 4.434E+08   model 1211   iters    0   steps    1   retries    0   nzlo   63   nzhi  980   n  918   nz  980   diffusion_call_number   12
+log_dt 1.235   age 4.434E+08   model 1212   iters    0   steps    1   retries    0   nzlo   63   nzhi  977   n  915   nz  977   diffusion_call_number   13
+log_dt 1.314   age 4.434E+08   model 1213   iters    0   steps    1   retries    0   nzlo   63   nzhi  975   n  913   nz  975   diffusion_call_number   14
+log_dt 1.393   age 4.434E+08   model 1214   iters    0   steps    1   retries    0   nzlo   63   nzhi  972   n  910   nz  972   diffusion_call_number   15
+log_dt 1.472   age 4.434E+08   model 1215   iters    0   steps    1   retries    0   nzlo   63   nzhi  969   n  907   nz  969   diffusion_call_number   16
+log_dt 1.552   age 4.434E+08   model 1216   iters    0   steps    1   retries    0   nzlo   63   nzhi  967   n  905   nz  967   diffusion_call_number   17
+log_dt 1.631   age 4.434E+08   model 1217   iters    0   steps    1   retries    0   nzlo   63   nzhi  967   n  905   nz  967   diffusion_call_number   18
+log_dt 1.710   age 4.434E+08   model 1218   iters    0   steps    1   retries    0   nzlo   63   nzhi  967   n  905   nz  967   diffusion_call_number   19
+log_dt 1.789   age 4.434E+08   model 1219   iters    0   steps    1   retries    0   nzlo   63   nzhi  966   n  904   nz  966   diffusion_call_number   20
+log_dt 1.868   age 4.434E+08   model 1220   iters    0   steps    1   retries    0   nzlo   63   nzhi  968   n  906   nz  968   diffusion_call_number   21
+       1220   8.314736  8.531E+04   2.687674   3.231363   0.602526   0.000990   0.000000   0.000000   0.295161  23.530254    968      9
+ 1.8684E+00   8.034366  -0.683881   2.950470   1.914088 -99.000000   0.601536   0.000000   0.603734   0.014341   5.699096      3
+ 4.4339E+08   6.319836   3.311001   2.510817 -99.000000  -7.637632   0.580830   0.377642   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    4.3473219196959997D-13
+                       log_rel_run_E_err       -9.9753730824346878
+
+log_dt 1.948   age 4.434E+08   model 1221   iters    0   steps    1   retries    0   nzlo   63   nzhi  965   n  903   nz  965   diffusion_call_number   22
+log_dt 2.027   age 4.434E+08   model 1222   iters    0   steps    1   retries    0   nzlo   63   nzhi  963   n  901   nz  963   diffusion_call_number   23
+log_dt 2.106   age 4.434E+08   model 1223   iters    0   steps    1   retries    0   nzlo   63   nzhi  963   n  901   nz  963   diffusion_call_number   24
+log_dt 2.185   age 4.434E+08   model 1224   iters    0   steps    1   retries    0   nzlo   63   nzhi  967   n  905   nz  967   diffusion_call_number   25
+log_dt 2.264   age 4.434E+08   model 1225   iters    0   steps    1   retries    0   nzlo   63   nzhi  967   n  905   nz  967   diffusion_call_number   26
+log_dt 2.343   age 4.434E+08   model 1226   iters    0   steps    1   retries    0   nzlo   63   nzhi  964   n  902   nz  964   diffusion_call_number   27
+log_dt 2.423   age 4.434E+08   model 1227   iters    0   steps    1   retries    0   nzlo   63   nzhi  961   n  899   nz  961   diffusion_call_number   28
+log_dt 2.502   age 4.434E+08   model 1228   iters    0   steps    1   retries    0   nzlo   63   nzhi  956   n  894   nz  956   diffusion_call_number   29
+log_dt 2.581   age 4.434E+08   model 1229   iters    0   steps    1   retries    0   nzlo   63   nzhi  954   n  892   nz  954   diffusion_call_number   30
+log_dt 2.660   age 4.434E+08   model 1230   iters    0   steps    1   retries    0   nzlo   63   nzhi  948   n  886   nz  948   diffusion_call_number   31
+       1230   8.315659  8.598E+04   2.971021   3.281536   0.602526   0.000966   0.000000   0.000000   0.294352  23.588011    948      9
+ 2.6602E+00   8.034503  -0.667847   2.847921   2.053889 -99.000000   0.601560   0.000000   0.603790   0.014310   5.706701      5
+ 4.4339E+08   6.321951   3.356532   2.434882 -99.000000  -7.657600   0.581089   0.377586   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.2904632711630741D-13
+                       log_rel_run_E_err       -9.9717039707113138
+
+log_dt 2.739   age 4.434E+08   model 1231   iters    0   steps    1   retries    0   nzlo   63   nzhi  952   n  890   nz  952   diffusion_call_number   32
+log_dt 2.819   age 4.434E+08   model 1232   iters    0   steps    1   retries    0   nzlo   63   nzhi  955   n  893   nz  955   diffusion_call_number   33
+log_dt 2.795   age 4.434E+08   model 1233   iters    0   steps    1   retries    0   nzlo   63   nzhi  951   n  889   nz  951   diffusion_call_number   34
+log_dt 2.794   age 4.434E+08   model 1234   iters    0   steps    1   retries    0   nzlo   63   nzhi  941   n  879   nz  941   diffusion_call_number   35
+log_dt 2.787   age 4.434E+08   model 1235   iters    0   steps    1   retries    0   nzlo   63   nzhi  945   n  883   nz  945   diffusion_call_number   36
+log_dt 2.778   age 4.434E+08   model 1236   iters    0   steps    1   retries    0   nzlo   63   nzhi  948   n  886   nz  948   diffusion_call_number   37
+log_dt 2.752   age 4.434E+08   model 1237   iters    0   steps    1   retries    0   nzlo   63   nzhi  956   n  894   nz  956   diffusion_call_number   38
+log_dt 2.713   age 4.434E+08   model 1238   iters    0   steps    1   retries    0   nzlo   63   nzhi  951   n  889   nz  951   diffusion_call_number   39
+log_dt 2.672   age 4.434E+08   model 1239   iters    0   steps    1   retries    0   nzlo   63   nzhi  951   n  889   nz  951   diffusion_call_number   40
+log_dt 2.630   age 4.434E+08   model 1240   iters    0   steps    1   retries    0   nzlo   62   nzhi  953   n  892   nz  953   diffusion_call_number   41
+       1240   8.318171  8.587E+04   3.349488   3.440230   0.602526   0.000835   0.000000   0.000000   0.292771  23.730800    953      9
+ 2.6300E+00   8.035015  -0.597538   2.549038   2.308477 -99.000000   0.601692   0.000000   0.603925   0.014250   5.724542      5
+ 4.4339E+08   6.327467   3.495079   2.218998 -99.000000  -7.747178   0.581493   0.377451   0.001373   0.002333  0.000E+00       dX/X h1
+                               rel_E_err    6.7101666149196748D-14
+                       log_rel_run_E_err       -9.9731318245260816
+
+log_dt 2.593   age 4.434E+08   model 1241   iters    0   steps    1   retries    0   nzlo   62   nzhi  955   n  894   nz  955   diffusion_call_number   42
+log_dt 2.563   age 4.434E+08   model 1242   iters    0   steps    1   retries    0   nzlo   62   nzhi  954   n  893   nz  954   diffusion_call_number   43
+log_dt 2.539   age 4.434E+08   model 1243   iters    0   steps    1   retries    0   nzlo   62   nzhi  949   n  888   nz  949   diffusion_call_number   44
+log_dt 2.520   age 4.434E+08   model 1244   iters    0   steps    1   retries    0   nzlo   62   nzhi  951   n  890   nz  951   diffusion_call_number   45
+log_dt 2.504   age 4.434E+08   model 1245   iters    0   steps    1   retries    0   nzlo   62   nzhi  951   n  890   nz  951   diffusion_call_number   46
+log_dt 2.492   age 4.434E+08   model 1246   iters    0   steps    1   retries    0   nzlo   62   nzhi  945   n  884   nz  945   diffusion_call_number   47
+log_dt 2.485   age 4.434E+08   model 1247   iters    0   steps    1   retries    0   nzlo   62   nzhi  941   n  880   nz  941   diffusion_call_number   48
+log_dt 2.479   age 4.434E+08   model 1248   iters    0   steps    1   retries    0   nzlo   62   nzhi  934   n  873   nz  934   diffusion_call_number   49
+log_dt 2.471   age 4.434E+08   model 1249   iters    0   steps    1   retries    0   nzlo   62   nzhi  943   n  882   nz  943   diffusion_call_number   50
+log_dt 2.462   age 4.434E+08   model 1250   iters    0   steps    1   retries    0   nzlo   62   nzhi  940   n  879   nz  940   diffusion_call_number   51
+       1250   8.319630  9.257E+04   3.416599   3.471925   0.602526   0.000711   0.000000   0.000000   0.291943  23.815537    940      9
+ 2.4615E+00   8.035286  -0.649810   2.364631   2.361573 -99.000000   0.601815   0.000000   0.604002   0.014219   5.735274      5
+ 4.4340E+08   6.330673   3.520995   2.090001 -99.000000  -7.655834   0.581740   0.377374   0.001373   0.002333  0.000E+00       dX/X h1
+                               rel_E_err    1.0386490904461968D-13
+                       log_rel_run_E_err       -9.9716056638849349
+
+save LOGS/profile26.data for model 1250
+save photos/x250 for model 1250
+log_dt 2.455   age 4.434E+08   model 1251   iters    0   steps    1   retries    0   nzlo   62   nzhi  934   n  873   nz  934   diffusion_call_number   52
+log_dt 2.451   age 4.434E+08   model 1252   iters    0   steps    1   retries    0   nzlo   62   nzhi  933   n  872   nz  933   diffusion_call_number   53
+log_dt 2.446   age 4.434E+08   model 1253   iters    0   steps    1   retries    0   nzlo   62   nzhi  933   n  872   nz  933   diffusion_call_number   54
+log_dt 2.440   age 4.434E+08   model 1254   iters    0   steps    1   retries    0   nzlo   62   nzhi  936   n  875   nz  936   diffusion_call_number   55
+log_dt 2.436   age 4.434E+08   model 1255   iters    0   steps    1   retries    0   nzlo   62   nzhi  944   n  883   nz  944   diffusion_call_number   56
+log_dt 2.429   age 4.434E+08   model 1256   iters    0   steps    1   retries    0   nzlo   62   nzhi  941   n  880   nz  941   diffusion_call_number   57
+log_dt 2.426   age 4.434E+08   model 1257   iters    0   steps    1   retries    0   nzlo   62   nzhi  956   n  895   nz  956   diffusion_call_number   58
+log_dt 2.424   age 4.434E+08   model 1258   iters    0   steps    1   retries    0   nzlo   62   nzhi  947   n  886   nz  947   diffusion_call_number   59
+log_dt 2.420   age 4.434E+08   model 1259   iters    0   steps    1   retries    0   nzlo   62   nzhi  951   n  890   nz  951   diffusion_call_number   60
+log_dt 2.418   age 4.434E+08   model 1260   iters    0   steps    1   retries    0   nzlo   62   nzhi  947   n  886   nz  947   diffusion_call_number   61
+       1260   8.320772  1.025E+05   3.427620   3.467719   0.602526   0.000594   0.000000   0.000000   0.291093  23.887272    947      9
+ 2.4176E+00   8.035454  -0.741262   2.210307   2.371601 -99.000000   0.601932   0.000000   0.604065   0.014189   5.744680      5
+ 4.4340E+08   6.333270   3.514511   1.985110 -99.000000  -7.507461   0.581740   0.377311   0.001373   0.002333  0.000E+00       dX/X h1
+                               rel_E_err    9.8352887982342115D-14
+                       log_rel_run_E_err       -9.9692060432992911
+
+log_dt 2.416   age 4.434E+08   model 1261   iters    0   steps    1   retries    0   nzlo   63   nzhi  950   n  888   nz  950   diffusion_call_number   62
+log_dt 2.495   age 4.434E+08   model 1262   iters    0   steps    1   retries    0   nzlo   63   nzhi  951   n  889   nz  951   diffusion_call_number   63
+log_dt 2.574   age 4.434E+08   model 1263   iters    0   steps    1   retries    0   nzlo   68   nzhi  957   n  890   nz  957   diffusion_call_number   64
+log_dt 2.490   age 4.434E+08   model 1264   iters    0   steps    1   retries    0   nzlo   68   nzhi  963   n  896   nz  963   diffusion_call_number   65
+log_dt 2.447   age 4.434E+08   model 1265   iters    0   steps    1   retries    0   nzlo   68   nzhi  962   n  895   nz  962   diffusion_call_number   66
+log_dt 2.425   age 4.434E+08   model 1266   iters    0   steps    1   retries    0   nzlo   68   nzhi  950   n  883   nz  950   diffusion_call_number   67
+log_dt 2.416   age 4.434E+08   model 1267   iters    0   steps    1   retries    0   nzlo   71   nzhi  947   n  877   nz  947   diffusion_call_number   68
+log_dt 2.414   age 4.434E+08   model 1268   iters    0   steps    1   retries    0   nzlo   71   nzhi  945   n  875   nz  945   diffusion_call_number   69
+log_dt 2.413   age 4.434E+08   model 1269   iters    0   steps    1   retries    0   nzlo   72   nzhi  948   n  877   nz  948   diffusion_call_number   70
+log_dt 2.492   age 4.434E+08   model 1270   iters    0   steps    1   retries    0   nzlo   73   nzhi  961   n  889   nz  961   diffusion_call_number   71
+       1270   8.321866  1.167E+05   3.382596   3.415290   0.602526   0.000483   0.000000   0.000000   0.289842  23.964313    961      9
+ 2.4924E+00   8.035557  -0.879588   2.052483   2.338706 -99.000000   0.602043   0.000000   0.604132   0.014146   5.755183      5
+ 4.4340E+08   6.335917   3.463964   1.879885 -99.000000  -7.329216   0.581740   0.377244   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    3.6655515478296740D-14
+                       log_rel_run_E_err       -9.9679072386176397
+
+log_dt 2.572   age 4.434E+08   model 1271   iters    0   steps    1   retries    0   nzlo   73   nzhi  957   n  885   nz  957   diffusion_call_number   72
+log_dt 2.503   age 4.434E+08   model 1272   iters    0   steps    1   retries    0   nzlo   74   nzhi  958   n  885   nz  958   diffusion_call_number   73
+log_dt 2.471   age 4.434E+08   model 1273   iters    0   steps    1   retries    0   nzlo   74   nzhi  949   n  876   nz  949   diffusion_call_number   74
+log_dt 2.458   age 4.434E+08   model 1274   iters    0   steps    1   retries    0   nzlo   74   nzhi  950   n  877   nz  950   diffusion_call_number   75
+log_dt 2.537   age 4.434E+08   model 1275   iters    0   steps    1   retries    0   nzlo   74   nzhi  945   n  872   nz  945   diffusion_call_number   76
+log_dt 2.616   age 4.434E+08   model 1276   iters    0   steps    1   retries    0   nzlo   78   nzhi  949   n  872   nz  949   diffusion_call_number   77
+log_dt 2.549   age 4.434E+08   model 1277   iters    0   steps    1   retries    0   nzlo   83   nzhi  952   n  870   nz  952   diffusion_call_number   78
+log_dt 2.522   age 4.434E+08   model 1278   iters    0   steps    1   retries    0   nzlo   81   nzhi  945   n  865   nz  945   diffusion_call_number   79
+log_dt 2.517   age 4.434E+08   model 1279   iters    0   steps    1   retries    0   nzlo   84   nzhi  952   n  869   nz  952   diffusion_call_number   80
+log_dt 2.596   age 4.434E+08   model 1280   iters    0   steps    1   retries    0   nzlo   84   nzhi  947   n  864   nz  947   diffusion_call_number   81
+       1280   8.323008  1.325E+05   3.205736   3.240455   0.602526   0.000379   0.000000   0.000000   0.287442  24.056758    947      9
+ 2.5961E+00   8.035569  -1.069678   1.877460   2.214801 -99.000000   0.602147   0.000000   0.604210   0.014063   5.768373      5
+ 4.4341E+08   6.338887   3.304577   1.765250 -99.000000  -7.131852   0.581905   0.377166   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    2.3112093796083862D-13
+                       log_rel_run_E_err       -9.9648730779656951
+
+log_dt 2.675   age 4.434E+08   model 1281   iters    0   steps    1   retries    0   nzlo   84   nzhi  937   n  854   nz  937   diffusion_call_number   82
+log_dt 2.634   age 4.434E+08   model 1282   iters    0   steps    1   retries    0   nzlo   87   nzhi  939   n  853   nz  939   diffusion_call_number   83
+log_dt 2.713   age 4.434E+08   model 1283   iters    0   steps    1   retries    0   nzlo   87   nzhi  927   n  841   nz  927   diffusion_call_number   84
+log_dt 2.793   age 4.434E+08   model 1284   iters    0   steps    1   retries    0   nzlo   89   nzhi  942   n  854   nz  942   diffusion_call_number   85
+log_dt 2.756   age 4.434E+08   model 1285   iters    0   steps    1   retries    0   nzlo   93   nzhi  938   n  846   nz  938   diffusion_call_number   86
+log_dt 2.835   age 4.434E+08   model 1286   iters    0   steps    1   retries    0   nzlo   93   nzhi  931   n  839   nz  931   diffusion_call_number   87
+log_dt 2.915   age 4.434E+08   model 1287   iters    0   steps    1   retries    0   nzlo   93   nzhi  926   n  834   nz  926   diffusion_call_number   88
+log_dt 2.994   age 4.434E+08   model 1288   iters    0   steps    1   retries    0   nzlo   97   nzhi  915   n  819   nz  915   diffusion_call_number   89
+log_dt 3.073   age 4.434E+08   model 1289   iters    0   steps    1   retries    0   nzlo   98   nzhi  910   n  813   nz  910   diffusion_call_number   90
+log_dt 3.152   age 4.434E+08   model 1290   iters    0   steps    1   retries    0   nzlo  101   nzhi  918   n  818   nz  918   diffusion_call_number   91
+       1290   8.324905  1.314E+05   2.555713   2.628913   0.602526   0.000290   0.000000   0.000000   0.275640  24.264750    918      9
+ 3.1522E+00   8.035163  -1.313828   1.501597   1.905657 -99.000000   0.602236   0.000000   0.604380   0.013654   5.800349      7
+ 4.4341E+08   6.344764   2.801123   1.534811 -99.000000  -6.835242   0.581905   0.376996   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.7033665560605797D-13
+                       log_rel_run_E_err       -9.9621348263976977
+
+log_dt 3.231   age 4.434E+08   model 1291   iters    0   steps    1   retries    0   nzlo  101   nzhi  909   n  809   nz  909   diffusion_call_number   92
+log_dt 3.311   age 4.434E+08   model 1292   iters    0   steps    1   retries    0   nzlo  101   nzhi  901   n  801   nz  901   diffusion_call_number   93
+log_dt 3.390   age 4.434E+08   model 1293   iters    0   steps    1   retries    0   nzlo  104   nzhi  894   n  791   nz  894   diffusion_call_number   94
+log_dt 3.469   age 4.434E+08   model 1294   iters    0   steps    1   retries    0   nzlo  105   nzhi  884   n  780   nz  884   diffusion_call_number   95
+log_dt 3.445   age 4.434E+08   model 1295   iters    0   steps    1   retries    0   nzlo  106   nzhi  882   n  777   nz  882   diffusion_call_number   96
+log_dt 3.524   age 4.434E+08   model 1296   iters    0   steps    1   retries    0   nzlo  106   nzhi  875   n  770   nz  875   diffusion_call_number   97
+log_dt 3.604   age 4.434E+08   model 1297   iters    0   steps    2   retries    1   nzlo  106   nzhi  860   n  755   nz  860   diffusion_call_number   98
+log_dt 3.683   age 4.434E+08   model 1298   iters    0   steps    2   retries    1   nzlo  106   nzhi  855   n  750   nz  855   diffusion_call_number   99
+log_dt 3.762   age 4.434E+08   model 1299   iters    0   steps    2   retries    1   nzlo  106   nzhi  844   n  739   nz  844   diffusion_call_number  100
+log_dt 3.841   age 4.435E+08   model 1300   iters    0   steps    3   retries    1   nzlo  106   nzhi  846   n  741   nz  846   diffusion_call_number  101
+
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1300   8.327211  1.139E+05   1.754499   1.827840   0.602526   0.000221   0.000000   0.000000   0.179039  25.262136    846      9
+ 3.8412E+00   8.028926  -1.486218   0.405073   1.785531 -99.000000   0.602306   0.000000   0.605100   0.010180   5.976695      7
+ 4.4345E+08   6.364621   2.208307   0.898267 -99.000000  -6.593140   0.582067   0.376276   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.3134778947383328D-13
+                       log_rel_run_E_err       -9.9654423042643359
+
+save LOGS/profile27.data for model 1300
+save photos/x300 for model 1300
+log_dt 3.920   age 4.435E+08   model 1301   iters    0   steps    4   retries    1   nzlo  106   nzhi  834   n  729   nz  834   diffusion_call_number  102
+log_dt 4.000   age 4.435E+08   model 1302   iters    0   steps    4   retries    2   nzlo  106   nzhi  823   n  718   nz  823   diffusion_call_number  103
+log_dt 4.079   age 4.435E+08   model 1303   iters    0   steps    5   retries    2   nzlo  106   nzhi  808   n  703   nz  808   diffusion_call_number  104
+log_dt 4.158   age 4.435E+08   model 1304   iters    0   steps    6   retries    2   nzlo  106   nzhi  812   n  707   nz  812   diffusion_call_number  105
+log_dt 4.237   age 4.435E+08   model 1305   iters    0   steps    8   retries    2   nzlo  106   nzhi  798   n  693   nz  798   diffusion_call_number  106
+log_dt 4.316   age 4.435E+08   model 1306   iters    0   steps    9   retries    2   nzlo  106   nzhi  801   n  696   nz  801   diffusion_call_number  107
+log_dt 4.395   age 4.436E+08   model 1307   iters    0   steps    9   retries    2   nzlo  106   nzhi  800   n  695   nz  800   diffusion_call_number  108
+log_dt 4.333   age 4.436E+08   model 1308   iters    0   steps    7   retries    2   nzlo  108   nzhi  805   n  698   nz  805   diffusion_call_number  109
+log_dt 4.278   age 4.436E+08   model 1309   iters    0   steps    6   retries    2   nzlo  108   nzhi  796   n  689   nz  796   diffusion_call_number  110
+log_dt 4.241   age 4.436E+08   model 1310   iters    0   steps    5   retries    2   nzlo  108   nzhi  797   n  690   nz  797   diffusion_call_number  111
+       1310   8.296174  9.490E+04   0.983827   1.047133   0.602526   0.000163   0.000000   0.000000   0.002113  29.561834    797      9
+ 4.2406E+00   7.989797  -1.617091  -0.901975   1.647828 -99.000000   0.602364   0.000000   0.607212   0.000680   6.811272      5
+ 4.4362E+08   6.416203   1.629538   0.141949 -99.000000  -6.214269   0.582067   0.374164   0.001373   0.002333  0.000E+00      dX/X he4
+                               rel_E_err    2.6878416227945410D-13
+                       log_rel_run_E_err       -9.9780855927794843
+
+log_dt 4.214   age 4.436E+08   model 1311   iters    0   steps    4   retries    2   nzlo  108   nzhi  790   n  683   nz  790   diffusion_call_number  112
+log_dt 4.198   age 4.436E+08   model 1312   iters    0   steps    4   retries    2   nzlo  108   nzhi  785   n  678   nz  785   diffusion_call_number  113
+log_dt 4.190   age 4.437E+08   model 1313   iters    0   steps    3   retries    2   nzlo  108   nzhi  782   n  675   nz  782   diffusion_call_number  114
+log_dt 4.269   age 4.437E+08   model 1314   iters    0   steps    4   retries    2   nzlo  108   nzhi  781   n  674   nz  781   diffusion_call_number  115
+log_dt 4.348   age 4.437E+08   model 1315   iters    0   steps    4   retries    2   nzlo  108   nzhi  781   n  674   nz  781   diffusion_call_number  116
+log_dt 4.285   age 4.437E+08   model 1316   iters    0   steps    3   retries    2   nzlo  108   nzhi  771   n  664   nz  771   diffusion_call_number  117
+log_dt 4.365   age 4.437E+08   model 1317   iters    0   steps    4   retries    2   nzlo  108   nzhi  767   n  660   nz  767   diffusion_call_number  118
+log_dt 4.444   age 4.438E+08   model 1318   iters    0   steps    4   retries    2   nzlo  108   nzhi  766   n  659   nz  766   diffusion_call_number  119
+log_dt 4.523   age 4.438E+08   model 1319   iters    0   steps    5   retries    2   nzlo  108   nzhi  762   n  655   nz  762   diffusion_call_number  120
+log_dt 4.483   age 4.438E+08   model 1320   iters    0   steps    4   retries    2   nzlo  109   nzhi  760   n  652   nz  760   diffusion_call_number  121
+       1320   8.244042  8.428E+04   0.576643   0.620537   0.602526   0.000147   0.000000   0.000000   0.000000  34.596855    760      9
+ 4.4834E+00   7.943598  -1.681277  -1.908599   1.444379 -99.000000   0.602379   0.000000   0.608766   0.000000   7.814511      5
+ 4.4384E+08   6.455648   1.295098  -0.410178 -99.000000  -6.026104   0.582067   0.372610   0.001373   0.002333  0.000E+00      dX/X he4
+                               rel_E_err    3.2590621227141228D-12
+                       log_rel_run_E_err       -9.9111601871706334
+
+log_dt 4.563   age 4.439E+08   model 1321   iters    0   steps    5   retries    2   nzlo  109   nzhi  753   n  645   nz  753   diffusion_call_number  122
+log_dt 4.642   age 4.439E+08   model 1322   iters    0   steps    5   retries    2   nzlo  109   nzhi  751   n  643   nz  751   diffusion_call_number  123
+log_dt 4.721   age 4.440E+08   model 1323   iters    0   steps    5   retries    2   nzlo  109   nzhi  746   n  638   nz  746   diffusion_call_number  124
+log_dt 4.681   age 4.440E+08   model 1324   iters    0   steps    5   retries    2   nzlo  109   nzhi  738   n  630   nz  738   diffusion_call_number  125
+log_dt 4.761   age 4.441E+08   model 1325   iters    0   steps    5   retries    2   nzlo  109   nzhi  729   n  621   nz  729   diffusion_call_number  126
+log_dt 4.840   age 4.441E+08   model 1326   iters    0   steps    6   retries    2   nzlo  109   nzhi  720   n  612   nz  720   diffusion_call_number  127
+log_dt 4.919   age 4.442E+08   model 1327   iters    0   steps    6   retries    2   nzlo  109   nzhi  712   n  604   nz  712   diffusion_call_number  128
+log_dt 4.864   age 4.443E+08   model 1328   iters    0   steps    5   retries    2   nzlo  109   nzhi  702   n  594   nz  702   diffusion_call_number  129
+log_dt 4.848   age 4.444E+08   model 1329   iters    0   steps    5   retries    2   nzlo  109   nzhi  695   n  587   nz  695   diffusion_call_number  130
+log_dt 4.927   age 4.445E+08   model 1330   iters    0   steps    5   retries    2   nzlo  109   nzhi  688   n  580   nz  688   diffusion_call_number  131
+       1330   8.126678  6.722E+04  -0.022894  -0.014212   0.602526   0.000129   0.000000   0.000000   0.000000  43.820687    688      9
+ 4.9268E+00   7.867072  -1.753096  -4.521189   0.991009 -99.000000   0.602398   0.000000   0.610418   0.000000   9.670303      9
+ 4.4446E+08   6.502642   0.758608  -1.718395 -99.000000  -5.816946   0.581905   0.370958   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.5410882190397867D-13
+                       log_rel_run_E_err       -9.8697333912582952
+
+log_dt 5.006   age 4.446E+08   model 1331   iters    0   steps    6   retries    2   nzlo  109   nzhi  685   n  577   nz  685   diffusion_call_number  132
+log_dt 4.953   age 4.446E+08   model 1332   iters    0   steps    5   retries    2   nzlo  109   nzhi  671   n  563   nz  671   diffusion_call_number  133
+log_dt 4.938   age 4.447E+08   model 1333   iters    0   steps    4   retries    2   nzlo  109   nzhi  664   n  556   nz  664   diffusion_call_number  134
+log_dt 5.017   age 4.448E+08   model 1334   iters    0   steps    5   retries    2   nzlo  109   nzhi  655   n  547   nz  655   diffusion_call_number  135
+log_dt 5.096   age 4.450E+08   model 1335   iters    0   steps    5   retries    2   nzlo  109   nzhi  647   n  539   nz  647   diffusion_call_number  136
+log_dt 5.046   age 4.451E+08   model 1336   iters    0   steps    4   retries    2   nzlo  109   nzhi  638   n  530   nz  638   diffusion_call_number  137
+log_dt 5.033   age 4.452E+08   model 1337   iters    0   steps    4   retries    2   nzlo  109   nzhi  630   n  522   nz  630   diffusion_call_number  138
+log_dt 5.112   age 4.453E+08   model 1338   iters    0   steps    4   retries    2   nzlo  109   nzhi  624   n  516   nz  624   diffusion_call_number  139
+log_dt 5.191   age 4.455E+08   model 1339   iters    0   steps    6   retries    0   nzlo  109   nzhi  616   n  508   nz  616   diffusion_call_number  140
+log_dt 5.145   age 4.456E+08   model 1340   iters    0   steps    5   retries    0   nzlo  109   nzhi  607   n  499   nz  607   diffusion_call_number  141
+       1340   7.986956  5.240E+04  -0.545873  -0.545554   0.602526   0.000122   0.000000   0.000000   0.000000  52.746097    607      9
+ 5.1451E+00   7.801614  -1.799120  -8.324825   0.485312 -99.000000   0.602405   0.000000   0.611148   0.000000  11.485388      8
+ 4.4561E+08   6.529923   0.233662  -3.678830 -99.000000  -5.635350   0.581905   0.370227   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.3051256708529643D-13
+                       log_rel_run_E_err       -9.8760644979465511
+
+log_dt 5.136   age 4.457E+08   model 1341   iters    0   steps    4   retries    1   nzlo  109   nzhi  595   n  487   nz  595   diffusion_call_number  142
+log_dt 5.215   age 4.459E+08   model 1342   iters    0   steps    5   retries    0   nzlo  109   nzhi  578   n  470   nz  578   diffusion_call_number  143
+log_dt 5.294   age 4.461E+08   model 1343   iters    0   steps    6   retries    0   nzlo  109   nzhi  561   n  453   nz  561   diffusion_call_number  144
+log_dt 5.253   age 4.463E+08   model 1344   iters    0   steps    5   retries    0   nzlo  109   nzhi  561   n  453   nz  561   diffusion_call_number  145
+log_dt 5.332   age 4.465E+08   model 1345   iters    0   steps    6   retries    0   nzlo  109   nzhi  555   n  447   nz  555   diffusion_call_number  146
+
+stop because log_surface_luminosity <= log_L_lower_limit
+   -0.8692402732E-02    0.0000000000E+00
+
+       1345   7.913873  4.643E+04  -0.776487  -0.776454   0.602526   0.000122   0.000000   0.000000   0.000000  56.837604    555      9
+ 5.3319E+00   7.773988  -1.815243 -10.012646   0.231758 -99.000000   0.602405   0.000000   0.611321   0.000000  12.323361      4
+ 4.4650E+08   6.538687  -0.008692  -4.901200 -99.000000  -5.533002   0.581737   0.370055   0.001373   0.002333  0.000E+00  max increase
+                               rel_E_err    1.4934202518220855D-13
+                       log_rel_run_E_err       -9.8776113612450374
+
+save LOGS/profile28.data for model 1345
+                                         solver retries           8
+                                     diff steps retries           1
+
+                                    varcontrol dt limit           2
+                                  max increase dt limit         134
+                                    diff steps dt limit           1
+                                          dX/X dt limit          60
+                                       Lnuc_He dt limit          76
+                                        lgTeff dt limit         126
+
+ model saved to final.mod
+save photos/x345 for model 1345
+termination code: log_L_lower_limit
+
+                 runtime (minutes), retries, steps        9.88         9      1345
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+       1345   7.913873  4.643E+04  -0.776487  -0.776454   0.602526   0.000122   0.000000   0.000000   0.000000  56.837604    555      9
+ 5.3319E+00   7.773988  -1.815243 -10.012646   0.231758 -99.000000   0.602405   0.000000   0.611321   0.000000  12.323361      4
+ 4.4650E+08   6.538687  -0.008692  -4.901200 -99.000000  -5.533002   0.581737   0.370055   0.001373   0.002333  0.000E+00        lgTeff
+                               rel_E_err    1.4934202518220855D-13
+                       log_rel_run_E_err       -9.8776113612450374
+

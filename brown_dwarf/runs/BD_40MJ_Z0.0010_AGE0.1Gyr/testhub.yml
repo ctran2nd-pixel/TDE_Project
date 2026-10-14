@@ -1,0 +1,11 @@
+      runtime_minutes:   0.61
+      model_number:          162
+      star_age:     1.0000000000000000E+08
+      num_retries:            0
+      log_rel_run_E_err:       -10.8879276298859331
+      steps:          172
+      retries:            0
+      redos:            0
+      solver_calls_made:          172
+      solver_calls_failed:            0
+      solver_iterations:          642
