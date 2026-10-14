@@ -23,7 +23,8 @@
    initial_mass = 5.1
    initial_y = 0.2703  ! Helium mass fraction
    initial_z = 0.0142  ! Metal mass fraction, hydrogen = 1 - metal - helium
-
+   log_Rsurf_upper_limit = 1.0
+    history_interval = 1
 
    ! Convection
 

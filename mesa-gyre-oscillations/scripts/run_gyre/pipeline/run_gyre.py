@@ -122,7 +122,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         freq_units=args.freq_units,
         output_freq_units=args.output_freq_units,
         grid_type=args.grid_type,
+        w_osc=args.w_osc,
+        w_exp=args.w_exp,
+        w_ctr=args.w_ctr,
         threads=args.threads,
+        n_iter_max=N_ITER_MAX,
     )
 
     try:

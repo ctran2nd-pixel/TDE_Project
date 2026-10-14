@@ -11,6 +11,22 @@ from .gyre_pipeline import (
     run_pipeline,
     validate_model_file,
 )
+from .rgb_cases import (
+    RGB_CASES,
+    RGBCase,
+    build_run_configs,
+    case_paths,
+    configure_plot_style,
+    find_repo_root,
+    get_case,
+    load_case_summaries,
+    mode_quality_report,
+    plot_eigenfunctions,
+    plot_mode_spectrum,
+    preflight_case,
+    run_case_plan,
+    stellar_parameter_report,
+)
 
 __all__ = [
     "RunConfig",
@@ -22,4 +38,18 @@ __all__ = [
     "resolve_gyre_executable",
     "run_pipeline",
     "validate_model_file",
+    "RGB_CASES",
+    "RGBCase",
+    "build_run_configs",
+    "case_paths",
+    "configure_plot_style",
+    "find_repo_root",
+    "get_case",
+    "load_case_summaries",
+    "mode_quality_report",
+    "plot_eigenfunctions",
+    "plot_mode_spectrum",
+    "preflight_case",
+    "run_case_plan",
+    "stellar_parameter_report",
 ]

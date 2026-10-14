@@ -3,7 +3,8 @@
 This repository turns a MESA pulsation model into a reproducible adiabatic
 GYRE calculation. It creates the GYRE input file, runs the solver, records the
 settings, and exports a plain-text mode table alongside the native HDF5
-summary and eigenfunction files.
+summary and eigenfunction files. The clean RGB workflows target GYRE 9.1.x so
+they can record the `chi` and `n_iter` root-convergence diagnostics.
 
 The default calculation matches the quadrupolar modes used in the TDE
 project:
@@ -109,7 +110,7 @@ input_model.mesa       copied input model
 gyre.in                complete generated GYRE namelist
 gyre.log               solver output
 summary.h5             one row per mode
-detail.l*.n*.h5        radial eigenfunctions for individual modes
+detail.id*.l*.n*.h5   radial eigenfunctions with collision-free mode IDs
 modes.csv              easy-to-read mode catalogue
 run_metadata.json      paths, settings, checksum, and run status
 ```
@@ -132,6 +133,40 @@ runs GYRE, loads the mode catalogue, and plots the radial and horizontal
 eigenfunctions of a selected mode. Its `RUN_GYRE` switch is `False` by
 default, so opening the notebook does not launch a calculation unexpectedly.
 
+### Clean RGB notebooks
+
+The clean notebooks contain no saved results or personal absolute paths. Each
+one imports the shared case definitions in `pipeline/rgb_cases.py`, performs a
+read-only preflight, and keeps the real GYRE run opt-in:
+
+| Case | Notebook | Expected pulse model in `models/` |
+|---|---|---|
+| 1 M_sun, log(R/R_sun)=0.5 | `GYRE_RGB1Msun_Z0p0142_3p16R_clean.ipynb` | `RGB1Msun_Z0p0142_logR0p5.mesa` |
+| 1 M_sun, 10 R_sun | `GYRE_RGB1Msun_Z0p0142_10R_clean.ipynb` | `RGB1Msun_Z0p0142_logR1p0.mesa` |
+| 1 M_sun, about 20 R_sun | `GYRE_RGB1Msun_Z0p0142_20R_clean.ipynb` | `RGB1Msun_Z0p0142_logR1p3.mesa` |
+| 1 M_sun, about 40 R_sun | `GYRE_RGB1Msun_Z0p0142_40R_clean.ipynb` | `RGB1Msun_Z0p0142_logR1p6.mesa` |
+| 3 M_sun, 10 R_sun | `GYRE_RGB3Msun_Z0p0142_10R_clean.ipynb` | `RGB3Msun_Z0p0142_logR1p0.mesa` |
+
+The legacy file called `3.61R` is mislabeled: `log(R/R_sun)=0.5` and its
+saved `R_star` both correspond to about 3.16 R_sun. The legacy 3-M_sun
+notebook also contains stale saved arrays from a 1-M_sun model. The clean
+notebooks preserve neither set of embedded results and verify the mass and
+radius from each new GYRE summary.
+
+The required `.mesa` pulse files are deliberately not committed. Obtain them
+from the collaborator or export them from MESA, place them under `models/`,
+and then open a clean notebook, for example:
+
+```bash
+export GYRE_DIR=/path/to/gyre-9.1.1
+jupyter lab scripts/run_gyre/notebook/GYRE_RGB1Msun_Z0p0142_10R_clean.ipynb
+```
+
+The starting scan bands are case-specific estimates. Production work still
+requires increasing `n_freq`, `w_osc`, and `w_ctr`, widening the frequency
+and radial-order bounds, and checking that the selected frequencies remain
+stable.
+
 ## Repository layout
 
 ```text
@@ -139,8 +174,11 @@ examples/mesa_export_snippet.inlist
 models/                              collaborator inputs (ignored)
 results/run_gyre/                    generated runs (ignored)
 scripts/run_gyre/
-  pipeline/                          reusable Python implementation
+  pipeline/gyre_pipeline.py         reusable GYRE runner
+  pipeline/rgb_cases.py             shared RGB cases, diagnostics, and plots
+  pipeline/build_rgb_notebooks.py   deterministic notebook generator
   notebook/run_gyre.ipynb            guided interactive workflow
+  notebook/*_clean.ipynb             clean RGB workflows
 ```
 
 ## Common issues
@@ -158,6 +196,7 @@ scripts/run_gyre/
   adiabatic, nonrotating baseline. Extend the generated `&rot` or
   `&nad_output` configuration only after choosing the intended physics.
 
-This workflow is tested locally with GYRE 7.2.1 and Python 3.9. The generated
-namelist uses long-standing GYRE options and is intended to remain readable
-without the Python wrapper.
+The clean RGB workflow is prepared for GYRE 9.1.x and Python 3.9. Configuration
+generation, dry runs, diagnostics, and notebook execution can be tested
+without launching GYRE; a physical oscillation run still requires a compiled
+GYRE executable and the matching MESA pulse model.

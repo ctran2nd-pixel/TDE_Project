@@ -49,7 +49,9 @@ class MAMSConfig:
     initial_y: float = 0.2703
     initial_z: float = 0.0142
     central_h1_limit: float = 0.35
+    stage: str = "MAMS"
     partition: str = "typhon"
+    rgb_radius_limit: float = 1.0
     walltime: str = "7-00:00:00"
     cpus_per_task: int = 1
 
@@ -116,10 +118,10 @@ def mass_to_token(mass_msun: float | str | Decimal) -> str:
     return normalized.replace("-", "m").replace(".", "p")
 
 
-def model_label(mass_msun: float | str | Decimal) -> str:
-    """Return the mass-specific basename, such as ``MAMS1p5Msun``."""
-
-    return f"MAMS{mass_to_token(mass_msun)}Msun"
+def model_label(stage, mass_msun, initial_z):
+    mass_label = f"{mass_msun:g}".replace(".", "p")
+    z_label = f"Z{initial_z:.4f}".replace(".", "p")
+    return f"{stage}{mass_label}Msun_{z_label}"
 
 
 def _replace_assignment(
@@ -149,25 +151,59 @@ def _replace_assignment(
     return updated
 
 
+def _remove_assignment(text: str, key: str) -> str:
+    """Remove one Fortran-namelist assignment."""
+
+    pattern = re.compile(
+        rf"(?m)^[ \t]*{re.escape(key)}[ \t]*=[^\n]*\n?"
+    )
+
+    return pattern.sub("", text, count=1)
+
+
 def render_inlist_project(template_text: str, config: MAMSConfig) -> str:
     """Render the authoritative project inlist for a single mass."""
 
     config.validate()
-    label = model_label(config.mass_msun)
-    replacements = (
-        ("filename_for_profile_when_terminate", f"'{label}.profile'"),
-        ("save_pulse_data_filename", f"'{label}.mesa'"),
-        ("initial_mass", f"{config.mass_msun:.12g}"),
-        ("initial_y", f"{config.initial_y:.12g}"),
-        ("initial_z", f"{config.initial_z:.12g}"),
-        ("xa_central_lower_limit(1)", f"{config.central_h1_limit:.12g}"),
-        ("Zbase", f"{config.initial_z:.12g}"),
-    )
+    label = model_label(config.stage, config.mass_msun, config.initial_z)
+
+    if config.stage == "RGB":
+        replacements = (
+            ("filename_for_profile_when_terminate", f"'{label}.profile'"),
+            ("save_pulse_data_filename", f"'{label}.mesa'"),
+            ("initial_mass", f"{config.mass_msun:.12g}"),
+            ("initial_y", f"{config.initial_y:.12g}"),
+            ("initial_z", f"{config.initial_z:.12g}"),
+            ("Zbase", f"{config.initial_z:.12g}"),
+
+            # RGB stopping condition
+            ("xa_central_lower_limit(1)", "0.0"),
+            ("log_Rsurf_upper_limit", f"{config.rgb_radius_limit:.12g}"),
+        )
+    else:
+        replacements = (
+            ("filename_for_profile_when_terminate", f"'{label}.profile'"),
+            ("save_pulse_data_filename", f"'{label}.mesa'"),
+            ("initial_mass", f"{config.mass_msun:.12g}"),
+            ("initial_y", f"{config.initial_y:.12g}"),
+            ("initial_z", f"{config.initial_z:.12g}"),
+            ("xa_central_lower_limit(1)", f"{config.central_h1_limit:.12g}"),
+            ("Zbase", f"{config.initial_z:.12g}"),
+        )
+
     rendered = template_text
+
     for key, value in replacements:
         rendered = _replace_assignment(rendered, key, value)
-    return rendered
 
+    # RGB-only setting: remove it from ZAMS/MAMS/TAMS.
+    if config.stage != "RGB":
+        rendered = _remove_assignment(
+            rendered,
+            "log_Rsurf_upper_limit",
+        )
+
+    return rendered
 
 def _validate_template_dir(template_dir: Path) -> None:
     """Ensure the source MESA work directory has all required inputs."""
@@ -192,12 +228,14 @@ def _write_executable(path: Path, text: str) -> None:
 def _metadata(config: MAMSConfig, template_dir: Path) -> dict[str, object]:
     """Build the deterministic metadata used for idempotency checks."""
 
+    label = model_label(config.stage, config.mass_msun, config.initial_z)
+
     return {
         "config": asdict(config),
         "template_dir": str(template_dir.resolve()),
-        "label": model_label(config.mass_msun),
-        "profile_filename": f"{model_label(config.mass_msun)}.profile",
-        "gyre_filename": f"{model_label(config.mass_msun)}.mesa",
+        "label": label,
+        "profile_filename": f"{label}.profile",
+        "gyre_filename": f"{label}.mesa",
     }
 
 
@@ -221,7 +259,7 @@ def prepare_run(
     output = Path(output_root).expanduser().resolve()
     _validate_template_dir(template)
 
-    label = model_label(config.mass_msun)
+    label = model_label(config.stage, config.mass_msun, config.initial_z)
     run_dir = output / label
     metadata = _metadata(config, template)
     metadata_path = run_dir / "metadata.json"
@@ -292,6 +330,83 @@ def prepare_run(
         metadata_path=metadata_path,
     )
 
+def prepare_custom_run(
+    label,
+    rendered_inlist,
+    template_dir,
+    output_root,
+    *,
+    overwrite=False,
+    copy_executable=False,
+):
+    """
+    Prepare an isolated MESA run using a custom rendered inlist_project.
+    """
+
+    template = Path(template_dir).expanduser().resolve()
+    output = Path(output_root).expanduser().resolve()
+
+    _validate_template_dir(template)
+
+    run_dir = output / label
+
+    if run_dir.exists():
+
+        if not overwrite:
+            raise FileExistsError(
+                f"Run directory already exists: {run_dir}"
+            )
+
+        shutil.rmtree(run_dir)
+
+    run_dir.mkdir(parents=True)
+
+    # Copy standard MESA files.
+    shutil.copy2(
+        template / "inlist",
+        run_dir / "inlist"
+    )
+
+    shutil.copy2(
+        template / "inlist_pgstar",
+        run_dir / "inlist_pgstar"
+    )
+
+    # Write custom project inlist.
+    (run_dir / "inlist_project").write_text(
+        rendered_inlist,
+        encoding="utf-8",
+    )
+
+    # MESA executable.
+    star_target = run_dir / "star"
+
+    if copy_executable:
+
+        shutil.copy2(
+            template / "star",
+            star_target
+        )
+
+    else:
+
+        relative_star = os.path.relpath(
+            template / "star",
+            start=run_dir
+        )
+
+        star_target.symlink_to(relative_star)
+
+    # Local launcher.
+    _write_executable(
+        run_dir / "run.sh",
+        "#!/usr/bin/env bash\n"
+        "set -euo pipefail\n"
+        'cd "$(dirname "$0")"\n'
+        "./star > mesa.out 2> mesa.err\n",
+    )
+
+    return run_dir
 
 def prepare_grid(
     configs: Iterable[MAMSConfig],
@@ -304,7 +419,7 @@ def prepare_grid(
     """Prepare a mass grid and save a machine-readable grid manifest."""
 
     config_list = list(configs)
-    labels = [model_label(config.mass_msun) for config in config_list]
+    labels = [model_label(config.stage, config.mass_msun, config.initial_z) for config in config_list]
     if len(set(labels)) != len(labels):
         raise ValueError("The mass grid contains duplicate output labels")
 
@@ -382,6 +497,8 @@ def build_configs(
     initial_y: float = 0.2703,
     initial_z: float = 0.0142,
     central_h1_limit: float = 0.35,
+    stage: str = "MAMS",
+    rgb_radius_limit: float = 1.0,
     partition: str = "typhon",
     walltime: str = "7-00:00:00",
     cpus_per_task: int = 1,
@@ -394,6 +511,8 @@ def build_configs(
             initial_y=initial_y,
             initial_z=initial_z,
             central_h1_limit=central_h1_limit,
+            stage=stage,
+            rgb_radius_limit=rgb_radius_limit,
             partition=partition,
             walltime=walltime,
             cpus_per_task=cpus_per_task,
@@ -436,6 +555,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         initial_y=args.initial_y,
         initial_z=args.initial_z,
         central_h1_limit=args.central_h1_limit,
+        stage = STAGE,
         partition=args.partition,
         walltime=args.walltime,
         cpus_per_task=args.cpus_per_task,

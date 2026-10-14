@@ -66,6 +66,9 @@ class RunConfig:
     freq_units: str = "NONE"
     output_freq_units: str = "CYC_PER_DAY"
     grid_type: str = "INVERSE"
+    w_osc: float = 10.0
+    w_exp: float = 2.0
+    w_ctr: float = 10.0
     threads: int = 1
 
     def validated(self) -> "RunConfig":
@@ -91,6 +94,11 @@ class RunConfig:
             )
         if self.grid_type.upper() not in {"LINEAR", "INVERSE"}:
             raise ValueError("grid_type must be LINEAR or INVERSE.")
+        grid_weights = (self.w_osc, self.w_exp, self.w_ctr)
+        if any(not np.isfinite(weight) or weight <= 0 for weight in grid_weights):
+            raise ValueError(
+                "w_osc, w_exp, and w_ctr must all be finite and positive."
+            )
         if self.threads < 1:
             raise ValueError("threads must be at least 1.")
         return self
@@ -217,7 +225,7 @@ def resolve_gyre_executable(explicit_path: Optional[Path | str] = None) -> Path:
 
 
 def render_gyre_input(config: RunConfig, model_filename: str = "input_model.mesa") -> str:
-    """Render a complete GYRE v7-compatible adiabatic namelist."""
+    """Render a complete GYRE 9.1 adiabatic namelist with root diagnostics."""
 
     cfg = config.validated()
     if "'" in model_filename or "\n" in model_filename:
@@ -268,16 +276,16 @@ def render_gyre_input(config: RunConfig, model_filename: str = "input_model.mesa
 /
 
 &grid
-  w_osc = 10
-  w_exp = 2
-  w_ctr = 10
+  w_osc = {cfg.w_osc:.16g}
+  w_exp = {cfg.w_exp:.16g}
+  w_ctr = {cfg.w_ctr:.16g}
 /
 
 &ad_output
   summary_file = 'summary.h5'
-  summary_item_list = 'l,n_pg,n_p,n_g,omega,freq,E_norm,R_star,M_star'
+  summary_item_list = 'id,l,n_pg,n_p,n_g,omega,freq,freq_units,E_norm,R_star,M_star,chi,n_iter'
   detail_template = 'detail.l%l.n%n.h5'
-  detail_item_list = 'l,n_pg,omega,x,xi_r,xi_h,c_1,As,V_2,Gamma_1,rho,M_r'
+  detail_item_list = 'id,l,n_pg,omega,freq,x,xi_r,xi_h,c_1,As,V_2,Gamma_1,rho,M_r'
   freq_units = '{cfg.output_freq_units.upper()}'
 /
 
@@ -364,6 +372,7 @@ def export_modes_csv(summary_path: Path | str, csv_path: Path | str) -> Path:
         raise ValueError("GYRE summary contains no mode datasets.")
 
     preferred = [
+        "id",
         "l",
         "n_pg",
         "n_p",
@@ -373,6 +382,8 @@ def export_modes_csv(summary_path: Path | str, csv_path: Path | str) -> Path:
         "E_norm",
         "R_star",
         "M_star",
+        "chi",
+        "n_iter",
     ]
     names = [name for name in preferred if name in arrays]
     names.extend(sorted(set(arrays) - set(names)))
@@ -462,7 +473,7 @@ def run_pipeline(
     config: RunConfig = RunConfig(),
     *,
     gyre_executable: Optional[Path | str] = None,
-    overwrite: bool = False,
+    overwrite: bool = True,
     dry_run: bool = False,
 ) -> RunResult:
     """Prepare, optionally execute, validate, and summarize one GYRE run."""
@@ -536,6 +547,7 @@ def run_pipeline(
         mode_count = len(summary.get("l", []))
         modes_csv = export_modes_csv(summary_file, run_dir / "modes.csv")
         details = sorted(path.name for path in run_dir.glob("detail.l*.n*.h5"))
+        #details = sorted(path.name for path in run_dir.glob("detail.id*.l*.n*.h5"))
         metadata.update(
             {
                 "status": "complete",
